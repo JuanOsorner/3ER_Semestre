@@ -10,11 +10,11 @@
 
     <?php 
         // Incluimos los componentes reutilizables para que JS pueda acceder a las plantillas
-        include '../../src/view/library/contenidoHTML.php'; 
+        include '../../src/view/templates/contenidoHTML.php'; 
     ?>
 
     <div class="main-layout">
-        <?php include '../../src/view/library/siderbarW.php'; ?>
+        <?php include '../../src/view/templates/siderbarW.php'; ?>
 
         <main id="content">
             <header class="content-header">

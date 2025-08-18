@@ -11,14 +11,20 @@
     <div class="auth-container">
         <div class="auth-wrapper">
             <div class="logo-container">
-                <img src="../public/assets/img/logoKrip.png" alt="Logo Krypton Inventory">
+                <img src="../public/assets/img/logoKrip.png" alt="Logo Krypton Inventory" method="POST">
             </div>
-
-            <form id="login-form" action="controller/login_controller.php" method="POST">
+            <!--
+            
+            action: esto le dice al formulario donde debe enviar los datos
+            
+            method: Le dice al formulario que los envie de forma oculta y segura.
+            
+            -->
+            <form id="login-form" action="../src/controller/loginController.php" method="POST">
                 <h2>Iniciar Sesión</h2>
                 
                 <div class="input-group">
-                    <input type="text" id="username" name="username" required>
+                    <input type="text" id="username" name="email" required>
                     <label for="username">Usuario o Email</label>
                 </div>
                 
@@ -43,6 +49,6 @@
             </form>
         </div>
     </div>
-
+    <script src="../public/assets//js/main.js" type="module"></script>
 </body>
 </html>
