@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panel de Trabajador - Krypton Inventory</title>
-    <link rel="stylesheet" href="../model/css/style.css">
+    <link rel="stylesheet" href="../../public/assets/css/style.css">
 </head>
 <body class="dashboard-body">
 
     <?php 
         // Incluimos los componentes reutilizables para que JS pueda acceder a las plantillas
-        include '../library/contenidoHTML.php'; 
+        include '../../src/view/library/contenidoHTML.php'; 
     ?>
 
     <div class="main-layout">
-        <?php include '../library/siderbarW.php'; ?>
+        <?php include '../../src/view/library/siderbarW.php'; ?>
 
         <main id="content">
             <header class="content-header">
@@ -40,9 +40,7 @@
 
                 <div class="kanban-column">
                     <h3 class="column-header">En Progreso</h3>
-                    <div class="tasks-list" id="progress-tasks">
-                         </div>
-                    <button class="btn-add-task" data-column="progress">+ Nueva Tarea</button>
+                    <div class="tasks-list" id="progress-tasks"></div>
                 </div>
 
                 <div class="kanban-column">
