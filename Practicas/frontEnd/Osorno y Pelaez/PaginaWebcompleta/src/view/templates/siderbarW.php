@@ -8,13 +8,13 @@
 
     <ul class="sidebar-menu">
         <li>
-            <a href="../../view/worker.php">
+            <a href="../worker.php">
                 <span class="icon">&#128187;</span> 
                 <span class="text">Tareas</span>
             </a>
         </li>
         <li>
-            <a href="../../view/perfil.php">
+            <a href="../perfil.php">
                 <span class="icon">&#128247;</span>
                 <span class="text">Perfil</span>
             </a>
@@ -22,7 +22,7 @@
     </ul>
 
     <div class="sidebar-footer">
-        <a href="../../view/auth/login.php">
+        <a href="../login.php">
             <span class="icon">&#128682;</span>
             <span class="text">Cerrar Sesión</span>
         </a>

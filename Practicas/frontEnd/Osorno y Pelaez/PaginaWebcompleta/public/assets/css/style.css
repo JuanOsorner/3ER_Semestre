@@ -670,6 +670,7 @@ body {
     transform: translateX(0);
 }
 
+
 .toast.success { border-color: var(--color-primary-green); }
 .toast.error { border-color: #e74c3c; }
 .toast.warning { border-color: #f39c12; }

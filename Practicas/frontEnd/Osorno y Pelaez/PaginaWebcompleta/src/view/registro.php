@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro - Krypton Inventory</title>
-    <link rel="stylesheet" href="../../../public/assets/css/style.css"> 
+    <link rel="stylesheet" href="../../public/assets/css/style.css"> 
 </head>
 <body>
 
     <div class="auth-container">
         <div class="auth-wrapper">
             <div class="logo-container">
-                <img src="../../../public/assets/img/logoKrip.png" alt="Logo Krypton Inventory">
+                <img src="../../public/assets/img/logoKrip.png" alt="Logo Krypton Inventory">
             </div>
-
+            <!--
+            
+            action: esto le dice al formulario donde debe enviar los datos
+            
+            method: Le dice al formulario que los envie de forma oculta y segura.
+            
+            -->
             <form id="register-form" action="controller/register_controller.php" method="POST">
                 <h2>Crear Cuenta</h2>
                 
@@ -40,7 +46,7 @@
                 <button type="submit" class="btn">Registrarse</button>
                 
                 <div class="switch-form">
-                    <p>¿Ya tienes una cuenta? <a href="../../view/auth/login.php">Inicia sesión</a></p>
+                    <p>¿Ya tienes una cuenta? <a href="../view/login.php">Inicia sesión</a></p>
                 </div>
             </form>
         </div>

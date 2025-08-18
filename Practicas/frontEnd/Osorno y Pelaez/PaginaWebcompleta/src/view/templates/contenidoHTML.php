@@ -1,7 +1,7 @@
 <div id="toast-container"></div>
 
 <template id="toast-template">
-    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast toast-hide" role="alert" aria-live="assertive" aria-atomic="true">
         <div class="toast-icon"></div>
         <p class="toast-message"></p>
         <button type="button" class="toast-close-btn">&times;</button>

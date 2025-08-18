@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../../public/assets/css/style.css">
 </head>
 <body class="dashboard-body"> <div class="main-layout">
-        <?php include '../../src/view/library/siderbar.php'; ?>
+        <?php include '../view/templates/siderbar.php'; ?>
 
         <main id="content">
             <header class="content-header">

@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Krypton Inventory</title>
-    <link rel="stylesheet" href="../public/assets/css/style.css"> 
+    <link rel="stylesheet" href="../../public/assets/css/style.css"> 
 </head>
 <body>
 
     <div class="auth-container">
         <div class="auth-wrapper">
             <div class="logo-container">
-                <img src="../public/assets/img/logoKrip.png" alt="Logo Krypton Inventory" method="POST">
+                <img src="../../public/assets/img/logoKrip.png" alt="Logo Krypton Inventory" method="POST">
             </div>
             <!--
             
@@ -20,7 +20,7 @@
             method: Le dice al formulario que los envie de forma oculta y segura.
             
             -->
-            <form id="login-form" action="../src/controller/loginController.php" method="POST">
+            <form id="login-form" action="../../src/controller/loginController.php" method="POST">
                 <h2>Iniciar Sesión</h2>
                 
                 <div class="input-group">
@@ -44,11 +44,11 @@
                 <button type="submit" class="btn">Ingresar</button>
                 
                 <div class="switch-form">
-                    <p>¿No tienes una cuenta? <a href="../../view/auth/registro.php">Regístrate</a></p>
+                    <p>¿No tienes una cuenta? <a href="../view/registro.php">Regístrate</a></p>
                 </div>
             </form>
         </div>
     </div>
-    <script src="../public/assets//js/main.js" type="module"></script>
+    <script src="../../public/assets/js/main.js" type="module"></script>
 </body>
 </html>

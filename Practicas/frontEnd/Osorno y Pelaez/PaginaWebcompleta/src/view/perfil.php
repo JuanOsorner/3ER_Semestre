@@ -9,7 +9,7 @@
 <body class="dashboard-body">
 
     <div class="main-layout">
-        <?php include '../../src/view/library/siderbar.php'; ?>
+        <?php include '../view/templates/siderbarW.php'; ?>
 
         <main id="content">
             <header class="content-header">
