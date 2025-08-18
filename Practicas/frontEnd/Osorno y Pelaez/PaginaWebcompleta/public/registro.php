@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro - Krypton Inventory</title>
-    <link rel="stylesheet" href="../model/css/style.css"> 
+    <link rel="stylesheet" href="../../../public/assets/css/style.css"> 
 </head>
 <body>
 
     <div class="auth-container">
         <div class="auth-wrapper">
             <div class="logo-container">
-                <img src="../model/src/logoKrip.png" alt="Logo Krypton Inventory">
+                <img src="../../../public/assets/img/logoKrip.png" alt="Logo Krypton Inventory">
             </div>
 
             <form id="register-form" action="controller/register_controller.php" method="POST">
@@ -40,7 +40,7 @@
                 <button type="submit" class="btn">Registrarse</button>
                 
                 <div class="switch-form">
-                    <p>¿Ya tienes una cuenta? <a href="../login.php">Inicia sesión</a></p>
+                    <p>¿Ya tienes una cuenta? <a href="../../view/auth/login.php">Inicia sesión</a></p>
                 </div>
             </form>
         </div>
