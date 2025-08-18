@@ -1,3 +1,7 @@
 export class messageController{
-    //Aquí va toda la logica de la dinamica para mostrar los mensajes. 
+    //Aquí vamos a manipular los modales, toast etc...
+
+    static mostrarToast(){
+        
+    }
 }
