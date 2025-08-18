@@ -1,20 +1,20 @@
 # main.py
 from datetime import datetime, timedelta
 
-# =========================
+
 # Estructuras de datos
-# =========================
-parqueadero = []         # Cada item: {"datos": (placa, tipo), "hora_entrada": "HH:MM"}
-historial = []           # Registros de salida con tarifa
+
+parqueadero = []         
+historial = []           
 
 # Capacidad por tipo (ajusta a tu gusto)
 CAPACIDAD_CARROS = 20
 CAPACIDAD_MOTOS = 80
 
 
-# =========================
+
 # Utilidades de tiempo
-# =========================
+
 def _validar_hora(hora_str: str) -> bool:
     try:
         datetime.strptime(hora_str, "%H:%M")
@@ -50,9 +50,9 @@ def _ceil_horas(h: float) -> int:
     return h_int if h == h_int else h_int + 1
 
 
-# =========================
-# Tus funciones de HISTORIAL / INFORME
-# =========================
+
+# Funciones de HISTORIAL / INFORME
+
 def agregar_a_historial(historial, placa, tipo, hora_entrada, hora_salida, tarifa):
     registro = {
         "placa": placa,
@@ -94,9 +94,9 @@ def exportar_informe(historial, nombre_archivo="informe.txt"):
     print(f"Informe exportado correctamente como '{nombre_archivo}'")
 
 
-# =========================
-# Tu función de TARIFAS
-# =========================
+
+# Función de TARIFAS
+
 def calcularTarifas(horas, tipo):
     """
     tipo: '0' -> Carro | '1' -> Moto
@@ -137,9 +137,9 @@ def calcularTarifas(horas, tipo):
     return total
 
 
-# =========================
-# Tus helpers de registro/espacio (ajustados a la estructura actual)
-# =========================
+
+# Registro/espacio 
+
 def esta_registrado(parqueadero, placa):
     return any(v["datos"][0] == placa for v in parqueadero)
 
@@ -148,9 +148,9 @@ def hay_espacio(parqueadero, capacidad_maxima):
     return len(parqueadero) < capacidad_maxima
 
 
-# =========================
+
 # Lógica del sistema
-# =========================
+
 def registrar_entrada(parqueadero, capacidad_carros, capacidad_motos):
     placa = input("Ingrese la placa del vehículo: ").strip().upper()
     if not placa:
