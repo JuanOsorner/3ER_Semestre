@@ -1,0 +1,834 @@
+﻿record_id,period,student_id,student_name,subject,teacher_name,evaluation_type,activity_name,activity_weight_pct,score,is_critical_low,activity_date
+EVAL-0559,2025-02,S022,Ricardo Sánchez,Lengua,Carlos Pérez,Quiz,Lengua - Actividad 8,15.0,4.78,False,2025-04-28
+EVAL-0822,2025-02,S060,Sofía Vargas,Tecnología,Daniel Herrera,Quiz,Tecnología - Actividad 6,25.0,4.41,False,2025-04-11
+EVAL-0395,2025-02,S041,Camila Castro,Educación Física,Pedro Castillo,Proyecto,Educación Física - Actividad 7,10.0,3.53,False,2025-02-10
+EVAL-0235,2025-02,S054,Luisa Sánchez,Historia,Jorge Ramírez,Proyecto,Historia - Actividad 8,10.0,2.33,True,2025-02-24
+EVAL-0408,2025-02,S020,Sofía Ramírez,Educación Física,Pedro Castillo,Proyecto,Educación Física - Actividad 2,30.0,5.0,False,2025-03-03
+EVAL-0384,2025-02,S047,María Sánchez,Historia,Jorge Ramírez,Quiz,Historia - Actividad 3,20.0,3.29,False,2025-02-25
+EVAL-0530,2025-02,S056,Jorge Mendoza,Música,Camila Díaz,Quiz,Música - Actividad 2,15.0,3.12,False,2025-06-02
+EVAL-0553,2025-02,S038,Luisa Vargas,Historia,Jorge Ramírez,Parcial,Historia - Actividad 2,30.0,3.76,False,2025-04-14
+EVAL-0206,2025-02,S055,Valentina García,Arte,Sofía Medina,Proyecto,Arte - Actividad 4,25.0,3.96,False,2025-03-20
+EVAL-0107,2025-02,S049,Ana López,Inglés,María Rodríguez,Quiz,Inglés - Actividad 10,10.0,4.35,False,2025-04-08
+EVAL-0717,2025-02,S026,Daniela Ramírez,Educación Física,Pedro Castillo,Parcial,Educación Física - Actividad 3,25.0,4.26,False,2025-03-24
+EVAL-0467,2025-02,S008,Paula Ramírez,Educación Física,Pedro Castillo,Taller,Educación Física - Actividad 10,20.0,2.88,False,2025-02-02
+EVAL-0126,2025-02,S030,Ricardo Vargas,Arte,Sofía Medina,Taller,Arte - Actividad 2,10.0,2.38,True,2025-05-19
+EVAL-0416,2025-02,S050,Ricardo González,Música,Camila Díaz,Parcial,Música - Actividad 3,10.0,4.24,False,2025-04-16
+EVAL-0309,2025-02,S009,Sebastián Flores,Educación Física,Pedro Castillo,Examen,Educación Física - Actividad 10,30.0,4.94,False,2025-04-24
+EVAL-0818,2025-02,S049,Ana López,Lengua,Carlos Pérez,Proyecto,Lengua - Actividad 7,25.0,3.38,False,2025-04-19
+EVAL-0720,2025-02,S034,Ana González,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 7,10.0,5.0,False,2025-03-16
+EVAL-0729,2025-02,S057,Pedro Rodríguez,Música,Camila Díaz,Taller,Música - Actividad 1,20.0,2.31,True,2025-02-10
+EVAL-0073,2025-02,S021,Pedro Cortés,Arte,Sofía Medina,Quiz,Arte - Actividad 9,30.0,4.0,False,2025-06-06
+EVAL-0704,2025-02,S009,Sebastián Flores,Ciencias,Ana Torres,Examen,Ciencias - Actividad 2,25.0,5.0,False,2025-03-07
+EVAL-0327,2025-02,S012,Nicolás Ramírez,Arte,Sofía Medina,Examen,Arte - Actividad 2,15.0,1.48,True,2025-04-30
+EVAL-0265,2025-02,S026,Daniela Ramírez,Lengua,Carlos Pérez,Proyecto,Lengua - Actividad 4,10.0,3.27,False,2025-04-04
+EVAL-0569,2025-02,S055,Valentina García,Tecnología,Daniel Herrera,Examen,Tecnología - Actividad 8,30.0,2.8,False,2025-04-12
+EVAL-0597,2025-02,S055,Valentina García,Matemáticas,Laura Gómez,Parcial,Matemáticas - Actividad 8,30.0,2.93,False,2025-02-14
+EVAL-0670,2025-02,S044,Carlos Vargas,Educación Física,Pedro Castillo,Proyecto,Educación Física - Actividad 5,25.0,4.41,False,2025-03-10
+EVAL-0750,2025-02,S059,Jorge Ramírez,Tecnología,Daniel Herrera,Parcial,Tecnología - Actividad 9,20.0,3.41,False,2025-04-22
+EVAL-0323,2025-02,S051,Nicolás Muñoz,Tecnología,Daniel Herrera,Quiz,Tecnología - Actividad 10,20.0,3.91,False,2025-03-30
+EVAL-0816,2025-02,S052,Sofía Torres,Ciencias,Ana Torres,Proyecto,Ciencias - Actividad 7,25.0,4.09,False,2025-04-02
+EVAL-0015,2025-02,S053,Felipe Rojas,Ciencias,Ana Torres,Proyecto,Ciencias - Actividad 3,15.0,4.8,False,2025-02-17
+EVAL-0538,2025-02,S037,Ricardo García,Música,Camila Díaz,Proyecto,Música - Actividad 10,20.0,3.9,False,2025-04-08
+EVAL-0731,2025-02,S022,Ricardo Sánchez,Lengua,Carlos Pérez,Proyecto,Lengua - Actividad 3,15.0,3.06,False,2025-04-14
+EVAL-0178,2025-02,S039,Valentina Hernández,Arte,Sofía Medina,Examen,Arte - Actividad 7,25.0,3.01,False,2025-02-22
+EVAL-0700,2025-02,S021,Pedro Cortés,Ciencias,Ana Torres,Proyecto,Ciencias - Actividad 7,20.0,4.31,False,2025-05-25
+EVAL-0653,2025-02,S036,Nicolás Rojas,Música,Camila Díaz,Quiz,Música - Actividad 7,30.0,4.52,False,2025-04-28
+EVAL-0524,2025-02,S009,Sebastián Flores,Música,Camila Díaz,Taller,Música - Actividad 1,15.0,4.79,False,2025-04-08
+EVAL-0390,2025-02,S031,Paula Muñoz,Historia,Jorge Ramírez,Parcial,Historia - Actividad 3,15.0,2.95,False,2025-03-24
+EVAL-0355,2025-02,S060,Sofía Vargas,Lengua,Carlos Pérez,Quiz,Lengua - Actividad 6,25.0,3.53,False,2025-04-09
+EVAL-0623,2025-02,S013,Sara Vargas,Tecnología,Daniel Herrera,Examen,Tecnología - Actividad 3,10.0,2.75,False,2025-06-14
+EVAL-0128,2025-02,S005,Sofía Sánchez,Lengua,Carlos Pérez,Quiz,Lengua - Actividad 1,15.0,2.67,False,2025-02-12
+EVAL-0662,2025-02,S037,Ricardo García,Historia,Jorge Ramírez,Examen,Historia - Actividad 8,15.0,5.0,False,2025-06-05
+EVAL-0606,2025-02,S019,Felipe González,Tecnología,Daniel Herrera,Proyecto,Tecnología - Actividad 8,20.0,3.02,False,2025-02-03
+EVAL-0359,2025-02,S004,Sebastián Rodríguez,Tecnología,Daniel Herrera,Parcial,Tecnología - Actividad 6,20.0,2.65,False,2025-04-21
+EVAL-0361,2025-02,S009,Sebastián Flores,Inglés,María Rodríguez,Examen,Inglés - Actividad 7,30.0,4.08,False,2025-02-23
+EVAL-0068,2025-02,S025,María Sánchez,Música,Camila Díaz,Examen,Música - Actividad 9,20.0,3.86,False,2025-03-09
+EVAL-0120,2025-02,S053,Felipe Rojas,Matemáticas,Laura Gómez,Proyecto,Matemáticas - Actividad 1,20.0,3.43,False,2025-05-16
+EVAL-0766,2025-02,S007,Ricardo Muñoz,Historia,Jorge Ramírez,Examen,Historia - Actividad 5,15.0,3.96,False,2025-04-14
+EVAL-0631,2025-02,S023,Daniela Ramírez,Ciencias,Ana Torres,Proyecto,Ciencias - Actividad 4,20.0,5.0,False,2025-04-30
+EVAL-0554,2025-02,S038,Luisa Vargas,Historia,Jorge Ramírez,Quiz,Historia - Actividad 10,20.0,4.13,False,2025-04-30
+EVAL-0368,2025-02,S039,Valentina Hernández,Tecnología,Daniel Herrera,Quiz,Tecnología - Actividad 9,20.0,2.96,False,2025-04-30
+EVAL-0779,2025-02,S019,Felipe González,Arte,Sofía Medina,Proyecto,Arte - Actividad 10,25.0,3.53,False,2025-04-03
+EVAL-0180,2025-02,S047,María Sánchez,Música,Camila Díaz,Taller,Música - Actividad 5,20.0,4.79,False,2025-04-10
+EVAL-0584,2025-02,S009,Sebastián Flores,Música,Camila Díaz,Proyecto,Música - Actividad 2,15.0,4.64,False,2025-02-16
+EVAL-0713,2025-02,S035,Nicolás Martínez,Educación Física,Pedro Castillo,Examen,Educación Física - Actividad 8,25.0,2.74,False,2025-04-19
+EVAL-0410,2025-02,S013,Sara Vargas,Historia,Jorge Ramírez,Taller,Historia - Actividad 6,25.0,2.95,False,2025-04-17
+EVAL-0159,2025-02,S001,Luisa García,Matemáticas,Laura Gómez,Taller,Matemáticas - Actividad 4,15.0,3.74,False,2025-06-15
+EVAL-0601,2025-02,S030,Ricardo Vargas,Música,Camila Díaz,Proyecto,Música - Actividad 3,30.0,4.95,False,2025-03-18
+EVAL-0439,2025-02,S053,Felipe Rojas,Lengua,Carlos Pérez,Examen,Lengua - Actividad 9,30.0,4.09,False,2025-06-02
+EVAL-0428,2025-02,S017,Andrés Martínez,Arte,Sofía Medina,Proyecto,Arte - Actividad 4,25.0,2.34,True,2025-04-30
+EVAL-0589,2025-02,S023,Daniela Ramírez,Historia,Jorge Ramírez,Proyecto,Historia - Actividad 2,25.0,2.24,True,2025-04-15
+EVAL-0760,2025-02,S008,Paula Ramírez,Matemáticas,Laura Gómez,Quiz,Matemáticas - Actividad 2,20.0,2.98,False,2025-05-31
+EVAL-0398,2025-02,S020,Sofía Ramírez,Ciencias,Ana Torres,Quiz,Ciencias - Actividad 10,20.0,3.97,False,2025-03-15
+EVAL-0686,2025-02,S049,Ana López,Inglés,María Rodríguez,Examen,Inglés - Actividad 4,30.0,3.02,False,2025-04-11
+EVAL-0374,2025-02,S046,Luisa Ruiz,Inglés,María Rodríguez,Examen,Inglés - Actividad 8,20.0,2.91,False,2025-03-28
+EVAL-0752,2025-02,S010,Sofía Flores,Inglés,María Rodríguez,Proyecto,Inglés - Actividad 9,15.0,3.89,False,2025-05-11
+EVAL-0053,2025-02,S040,Carlos Rojas,Matemáticas,Laura Gómez,Parcial,Matemáticas - Actividad 1,15.0,4.97,False,2025-05-24
+EVAL-0805,2025-02,S006,Juan Vargas,Música,Camila Díaz,Proyecto,Música - Actividad 2,30.0,3.55,False,2025-04-21
+EVAL-0132,2025-02,S049,Ana López,Matemáticas,Laura Gómez,Examen,Matemáticas - Actividad 3,30.0,3.0,False,2025-03-29
+EVAL-0753,2025-02,S010,Sofía Flores,Inglés,María Rodríguez,Taller,Inglés - Actividad 10,10.0,4.63,False,2025-04-20
+EVAL-0590,2025-02,S030,Ricardo Vargas,Ciencias,Ana Torres,Examen,Ciencias - Actividad 7,30.0,2.51,False,2025-05-15
+EVAL-0287,2025-02,S032,Felipe Sánchez,Matemáticas,Laura Gómez,Parcial,Matemáticas - Actividad 10,10.0,5.0,False,2025-06-10
+EVAL-0125,2025-02,S008,Paula Ramírez,Ciencias,Ana Torres,Quiz,Ciencias - Actividad 7,15.0,5.0,False,2025-04-05
+EVAL-0534,2025-02,S028,Manuel Moreno,Ciencias,Ana Torres,Taller,Ciencias - Actividad 2,20.0,3.8,False,2025-05-16
+EVAL-0031,2025-02,S005,Sofía Sánchez,Historia,Jorge Ramírez,Proyecto,Historia - Actividad 6,20.0,3.55,False,2025-05-25
+EVAL-0200,2025-02,S007,Ricardo Muñoz,Inglés,María Rodríguez,Parcial,Inglés - Actividad 3,20.0,1.18,True,2025-04-21
+EVAL-0179,2025-02,S047,María Sánchez,Música,Camila Díaz,Quiz,Música - Actividad 3,25.0,4.33,False,2025-03-16
+EVAL-0102,2025-02,S052,Sofía Torres,Lengua,Carlos Pérez,Proyecto,Lengua - Actividad 5,15.0,3.4,False,2025-02-04
+EVAL-0038,2025-02,S058,María Flores,Inglés,María Rodríguez,Taller,Inglés - Actividad 6,30.0,1.64,True,2025-03-30
+EVAL-0481,2025-02,S041,Camila Castro,Lengua,Carlos Pérez,Parcial,Lengua - Actividad 8,20.0,3.54,False,2025-02-10
+EVAL-0796,2025-02,S054,Luisa Sánchez,Arte,Sofía Medina,Examen,Arte - Actividad 3,15.0,3.69,False,2025-02-03
+EVAL-0298,2025-02,S009,Sebastián Flores,Historia,Jorge Ramírez,Parcial,Historia - Actividad 10,30.0,4.12,False,2025-04-08
+EVAL-0277,2025-02,S021,Pedro Cortés,Historia,Jorge Ramírez,Parcial,Historia - Actividad 9,10.0,1.9,True,2025-03-18
+EVAL-0299,2025-02,S009,Sebastián Flores,Historia,Jorge Ramírez,Parcial,Historia - Actividad 1,10.0,4.15,False,2025-03-23
+EVAL-0666,2025-02,S050,Ricardo González,Matemáticas,Laura Gómez,Quiz,Matemáticas - Actividad 1,25.0,2.55,False,2025-02-14
+EVAL-0681,2025-02,S044,Carlos Vargas,Arte,Sofía Medina,Quiz,Arte - Actividad 3,20.0,2.87,False,2025-02-04
+EVAL-0367,2025-02,S046,Luisa Ruiz,Historia,Jorge Ramírez,Parcial,Historia - Actividad 4,20.0,2.8,False,2025-06-06
+EVAL-0789,2025-02,S043,Nicolás Pérez,Ciencias,Ana Torres,Taller,Ciencias - Actividad 4,20.0,4.62,False,2025-04-18
+EVAL-0061,2025-02,S049,Ana López,Ciencias,Ana Torres,Proyecto,Ciencias - Actividad 4,15.0,4.04,False,2025-05-02
+EVAL-0563,2025-02,S027,Paula Flores,Arte,Sofía Medina,Proyecto,Arte - Actividad 6,10.0,1.72,True,2025-03-18
+EVAL-0642,2025-02,S040,Carlos Rojas,Inglés,María Rodríguez,Parcial,Inglés - Actividad 1,15.0,2.94,False,2025-03-18
+EVAL-0811,2025-02,S043,Nicolás Pérez,Inglés,María Rodríguez,Parcial,Inglés - Actividad 5,20.0,2.77,False,2025-03-06
+EVAL-0782,2025-02,S035,Nicolás Martínez,Historia,Jorge Ramírez,Parcial,Historia - Actividad 10,25.0,5.0,False,2025-03-02
+EVAL-0304,2025-02,S057,Pedro Rodríguez,Ciencias,Ana Torres,Quiz,Ciencias - Actividad 10,15.0,4.4,False,2025-04-17
+EVAL-0143,2025-02,S056,Jorge Mendoza,Lengua,Carlos Pérez,Taller,Lengua - Actividad 2,25.0,5.0,False,2025-04-04
+EVAL-0397,2025-02,S058,María Flores,Arte,Sofía Medina,Parcial,Arte - Actividad 4,15.0,5.0,False,2025-04-30
+EVAL-0116,2025-02,S009,Sebastián Flores,Música,Camila Díaz,Quiz,Música - Actividad 1,30.0,2.51,False,2025-05-30
+EVAL-0499,2025-02,S045,Nicolás Flores,Ciencias,Ana Torres,Proyecto,Ciencias - Actividad 3,10.0,3.01,False,2025-04-22
+EVAL-0325,2025-02,S043,Nicolás Pérez,Ciencias,Ana Torres,Quiz,Ciencias - Actividad 7,30.0,4.89,False,2025-02-09
+EVAL-0250,2025-02,S050,Ricardo González,Ciencias,Ana Torres,Quiz,Ciencias - Actividad 10,10.0,2.82,False,2025-03-15
+EVAL-0055,2025-02,S056,Jorge Mendoza,Arte,Sofía Medina,Taller,Arte - Actividad 6,30.0,4.23,False,2025-02-28
+EVAL-0694,2025-02,S015,Nicolás Ruiz,Ciencias,Ana Torres,Quiz,Ciencias - Actividad 4,25.0,3.09,False,2025-04-03
+EVAL-0685,2025-02,S049,Ana López,Inglés,María Rodríguez,Parcial,Inglés - Actividad 5,15.0,3.7,False,2025-02-16
+EVAL-0202,2025-02,S022,Ricardo Sánchez,Tecnología,Daniel Herrera,Proyecto,Tecnología - Actividad 8,20.0,3.52,False,2025-02-18
+EVAL-0275,2025-02,S024,Ricardo Sánchez,Educación Física,Pedro Castillo,Parcial,Educación Física - Actividad 9,25.0,2.39,True,2025-03-30
+EVAL-0781,2025-02,S040,Carlos Rojas,Historia,Jorge Ramírez,Quiz,Historia - Actividad 7,25.0,4.66,False,2025-04-29
+EVAL-0168,2025-02,S037,Ricardo García,Historia,Jorge Ramírez,Quiz,Historia - Actividad 6,25.0,3.05,False,2025-03-08
+EVAL-0546,2025-02,S006,Juan Vargas,Lengua,Carlos Pérez,Examen,Lengua - Actividad 2,30.0,4.15,False,2025-02-10
+EVAL-0485,2025-02,S042,Luisa Torres,Lengua,Carlos Pérez,Parcial,Lengua - Actividad 6,30.0,3.31,False,2025-02-28
+EVAL-0097,2025-02,S042,Luisa Torres,Tecnología,Daniel Herrera,Quiz,Tecnología - Actividad 1,15.0,5.0,False,2025-05-18
+EVAL-0817,2025-02,S043,Nicolás Pérez,Tecnología,Daniel Herrera,Quiz,Tecnología - Actividad 6,10.0,4.48,False,2025-04-09
+EVAL-0622,2025-02,S013,Sara Vargas,Tecnología,Daniel Herrera,Taller,Tecnología - Actividad 8,25.0,4.16,False,2025-04-21
+EVAL-0391,2025-02,S031,Paula Muñoz,Historia,Jorge Ramírez,Examen,Historia - Actividad 7,30.0,4.45,False,2025-05-29
+EVAL-0133,2025-02,S027,Paula Flores,Inglés,María Rodríguez,Quiz,Inglés - Actividad 10,15.0,3.63,False,2025-05-21
+EVAL-0354,2025-02,S051,Nicolás Muñoz,Música,Camila Díaz,Proyecto,Música - Actividad 3,15.0,2.39,True,2025-02-26
+EVAL-0821,2025-02,S060,Sofía Vargas,Tecnología,Daniel Herrera,Examen,Tecnología - Actividad 9,10.0,3.71,False,2025-02-25
+EVAL-0041,2025-02,S030,Ricardo Vargas,Música,Camila Díaz,Parcial,Música - Actividad 2,20.0,2.88,False,2025-05-13
+EVAL-0701,2025-02,S021,Pedro Cortés,Ciencias,Ana Torres,Examen,Ciencias - Actividad 3,15.0,3.11,False,2025-02-28
+EVAL-0610,2025-02,S027,Paula Flores,Música,Camila Díaz,Taller,Música - Actividad 5,10.0,4.43,False,2025-05-20
+EVAL-0683,2025-02,S031,Paula Muñoz,Matemáticas,Laura Gómez,Quiz,Matemáticas - Actividad 4,15.0,3.16,False,2025-06-14
+EVAL-0505,2025-02,S055,Valentina García,Ciencias,Ana Torres,Parcial,Ciencias - Actividad 10,30.0,5.0,False,2025-05-15
+EVAL-0195,2025-02,S035,Nicolás Martínez,Música,Camila Díaz,Parcial,Música - Actividad 4,20.0,4.62,False,2025-03-15
+EVAL-0807,2025-02,S040,Carlos Rojas,Matemáticas,Laura Gómez,Proyecto,Matemáticas - Actividad 10,20.0,3.13,False,2025-05-19
+EVAL-0697,2025-02,S056,Jorge Mendoza,Ciencias,Ana Torres,Quiz,Ciencias - Actividad 3,25.0,2.53,False,2025-03-10
+EVAL-0468,2025-02,S022,Ricardo Sánchez,Tecnología,Daniel Herrera,Taller,Tecnología - Actividad 6,30.0,2.31,True,2025-02-14
+EVAL-0266,2025-02,S026,Daniela Ramírez,Lengua,Carlos Pérez,Parcial,Lengua - Actividad 7,10.0,3.82,False,2025-05-28
+EVAL-0773,2025-02,S053,Felipe Rojas,Tecnología,Daniel Herrera,Examen,Tecnología - Actividad 8,25.0,1.92,True,2025-04-01
+EVAL-0529,2025-02,S015,Nicolás Ruiz,Educación Física,Pedro Castillo,Parcial,Educación Física - Actividad 1,15.0,3.03,False,2025-06-14
+EVAL-0719,2025-02,S045,Nicolás Flores,Ciencias,Ana Torres,Parcial,Ciencias - Actividad 8,20.0,4.59,False,2025-02-22
+EVAL-0571,2025-02,S055,Valentina García,Tecnología,Daniel Herrera,Proyecto,Tecnología - Actividad 4,30.0,4.15,False,2025-03-05
+EVAL-0639,2025-02,S047,María Sánchez,Ciencias,Ana Torres,Parcial,Ciencias - Actividad 9,25.0,4.54,False,2025-03-21
+EVAL-0149,2025-02,S019,Felipe González,Ciencias,Ana Torres,Taller,Ciencias - Actividad 7,30.0,3.8,False,2025-04-04
+EVAL-0088,2025-02,S058,María Flores,Educación Física,Pedro Castillo,Examen,Educación Física - Actividad 1,20.0,2.78,False,2025-02-21
+EVAL-0696,2025-02,S037,Ricardo García,Ciencias,Ana Torres,Taller,Ciencias - Actividad 3,30.0,5.0,False,2025-03-24
+EVAL-0329,2025-02,S029,Ana Ramírez,Matemáticas,Laura Gómez,Taller,Matemáticas - Actividad 2,20.0,4.76,False,2025-04-07
+EVAL-0665,2025-02,S050,Ricardo González,Matemáticas,Laura Gómez,Proyecto,Matemáticas - Actividad 7,10.0,3.35,False,2025-03-31
+EVAL-0039,2025-02,S058,María Flores,Inglés,María Rodríguez,Parcial,Inglés - Actividad 4,15.0,4.14,False,2025-04-02
+EVAL-0370,2025-02,S002,Jorge Sánchez,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 4,15.0,2.57,False,2025-03-30
+EVAL-0113,2025-02,S034,Ana González,Tecnología,Daniel Herrera,Quiz,Tecnología - Actividad 2,10.0,4.11,False,2025-06-10
+EVAL-0204,2025-02,S055,Valentina García,Arte,Sofía Medina,Taller,Arte - Actividad 4,30.0,4.56,False,2025-03-17
+EVAL-0542,2025-02,S017,Andrés Martínez,Inglés,María Rodríguez,Proyecto,Inglés - Actividad 3,10.0,5.0,False,2025-03-31
+EVAL-0633,2025-02,S058,María Flores,Matemáticas,Laura Gómez,Proyecto,Matemáticas - Actividad 9,20.0,3.07,False,2025-06-06
+EVAL-0562,2025-02,S027,Paula Flores,Arte,Sofía Medina,Examen,Arte - Actividad 4,20.0,2.32,True,2025-02-24
+EVAL-0197,2025-02,S049,Ana López,Arte,Sofía Medina,Parcial,Arte - Actividad 2,20.0,1.0,True,2025-03-29
+EVAL-0292,2025-02,S007,Ricardo Muñoz,Ciencias,Ana Torres,Examen,Ciencias - Actividad 7,10.0,3.88,False,2025-05-03
+EVAL-0723,2025-02,S056,Jorge Mendoza,Ciencias,Ana Torres,Proyecto,Ciencias - Actividad 5,15.0,3.94,False,2025-03-03
+EVAL-0220,2025-02,S056,Jorge Mendoza,Arte,Sofía Medina,Proyecto,Arte - Actividad 7,25.0,4.5,False,2025-05-18
+EVAL-0608,2025-02,S019,Felipe González,Tecnología,Daniel Herrera,Parcial,Tecnología - Actividad 9,20.0,2.94,False,2025-03-21
+EVAL-0071,2025-02,S013,Sara Vargas,Música,Camila Díaz,Taller,Música - Actividad 10,30.0,2.5,True,2025-03-08
+EVAL-0825,2025-02,S017,Andrés Martínez,Educación Física,Pedro Castillo,Examen,Educación Física - Actividad 3,20.0,3.31,False,2025-02-03
+EVAL-0276,2025-02,S021,Pedro Cortés,Historia,Jorge Ramírez,Examen,Historia - Actividad 5,10.0,1.0,True,2025-05-07
+EVAL-0526,2025-02,S009,Sebastián Flores,Música,Camila Díaz,Examen,Música - Actividad 2,15.0,4.73,False,2025-05-26
+EVAL-0185,2025-02,S030,Ricardo Vargas,Lengua,Carlos Pérez,Examen,Lengua - Actividad 8,20.0,3.98,False,2025-05-22
+EVAL-0565,2025-02,S058,María Flores,Inglés,María Rodríguez,Taller,Inglés - Actividad 8,15.0,2.3,True,2025-04-02
+EVAL-0310,2025-02,S025,María Sánchez,Inglés,María Rodríguez,Examen,Inglés - Actividad 10,15.0,2.65,False,2025-02-08
+EVAL-0083,2025-02,S056,Jorge Mendoza,Matemáticas,Laura Gómez,Proyecto,Matemáticas - Actividad 9,20.0,4.69,False,2025-05-02
+EVAL-0440,2025-02,S046,Luisa Ruiz,Arte,Sofía Medina,Parcial,Arte - Actividad 4,10.0,2.47,True,2025-04-29
+EVAL-0705,2025-02,S033,Manuel Martínez,Tecnología,Daniel Herrera,Proyecto,Tecnología - Actividad 8,25.0,3.68,False,2025-03-08
+EVAL-0160,2025-02,S017,Andrés Martínez,Arte,Sofía Medina,Parcial,Arte - Actividad 6,25.0,3.46,False,2025-05-29
+EVAL-0193,2025-02,S046,Luisa Ruiz,Educación Física,Pedro Castillo,Proyecto,Educación Física - Actividad 10,25.0,4.2,False,2025-05-14
+EVAL-0754,2025-02,S046,Luisa Ruiz,Arte,Sofía Medina,Proyecto,Arte - Actividad 2,25.0,1.98,True,2025-04-02
+EVAL-0586,2025-02,S014,Pedro Vargas,Inglés,María Rodríguez,Examen,Inglés - Actividad 6,30.0,4.37,False,2025-04-07
+EVAL-0829,2025-02,S007,Ricardo Muñoz,Música,Camila Díaz,Quiz,Música - Actividad 2,10.0,5.0,False,2025-03-28
+EVAL-0035,2025-02,S017,Andrés Martínez,Inglés,María Rodríguez,Quiz,Inglés - Actividad 5,25.0,2.73,False,2025-03-24
+EVAL-0630,2025-02,S001,Luisa García,Matemáticas,Laura Gómez,Quiz,Matemáticas - Actividad 6,10.0,4.12,False,2025-02-16
+EVAL-0703,2025-02,S009,Sebastián Flores,Ciencias,Ana Torres,Quiz,Ciencias - Actividad 4,15.0,3.74,False,2025-02-07
+EVAL-0262,2025-02,S050,Ricardo González,Educación Física,Pedro Castillo,Proyecto,Educación Física - Actividad 2,30.0,3.15,False,2025-03-12
+EVAL-0106,2025-02,S031,Paula Muñoz,Arte,Sofía Medina,Examen,Arte - Actividad 7,15.0,3.76,False,2025-05-26
+EVAL-0270,2025-02,S050,Ricardo González,Matemáticas,Laura Gómez,Examen,Matemáticas - Actividad 9,10.0,3.34,False,2025-04-09
+EVAL-0335,2025-02,S011,Daniela Hernández,Lengua,Carlos Pérez,Quiz,Lengua - Actividad 10,25.0,1.51,True,2025-02-08
+EVAL-0712,2025-02,S035,Nicolás Martínez,Educación Física,Pedro Castillo,Proyecto,Educación Física - Actividad 9,10.0,2.2,True,2025-03-21
+EVAL-0436,2025-02,S029,Ana Ramírez,Arte,Sofía Medina,Parcial,Arte - Actividad 9,30.0,2.39,True,2025-02-01
+EVAL-0253,2025-02,S029,Ana Ramírez,Arte,Sofía Medina,Parcial,Arte - Actividad 10,25.0,2.45,True,2025-05-01
+EVAL-0709,2025-02,S047,María Sánchez,Arte,Sofía Medina,Quiz,Arte - Actividad 10,30.0,3.35,False,2025-06-15
+EVAL-0282,2025-02,S037,Ricardo García,Inglés,María Rodríguez,Quiz,Inglés - Actividad 4,15.0,3.0,False,2025-02-02
+EVAL-0104,2025-02,S048,Pedro Guerrero,Arte,Sofía Medina,Proyecto,Arte - Actividad 9,20.0,5.0,False,2025-02-23
+EVAL-0171,2025-02,S022,Ricardo Sánchez,Educación Física,Pedro Castillo,Examen,Educación Física - Actividad 8,25.0,4.75,False,2025-03-31
+EVAL-0286,2025-02,S032,Felipe Sánchez,Matemáticas,Laura Gómez,Quiz,Matemáticas - Actividad 7,20.0,4.58,False,2025-05-29
+EVAL-0115,2025-02,S044,Carlos Vargas,Historia,Jorge Ramírez,Quiz,Historia - Actividad 8,10.0,3.19,False,2025-05-28
+EVAL-0647,2025-02,S030,Ricardo Vargas,Matemáticas,Laura Gómez,Proyecto,Matemáticas - Actividad 6,10.0,3.47,False,2025-04-10
+EVAL-0234,2025-02,S054,Luisa Sánchez,Historia,Jorge Ramírez,Taller,Historia - Actividad 10,20.0,2.73,False,2025-05-18
+EVAL-0780,2025-02,S040,Carlos Rojas,Historia,Jorge Ramírez,Proyecto,Historia - Actividad 2,20.0,5.0,False,2025-03-26
+EVAL-0163,2025-02,S004,Sebastián Rodríguez,Matemáticas,Laura Gómez,Proyecto,Matemáticas - Actividad 7,20.0,2.64,False,2025-02-25
+EVAL-0146,2025-02,S030,Ricardo Vargas,Música,Camila Díaz,Proyecto,Música - Actividad 2,25.0,2.75,False,2025-04-23
+EVAL-0419,2025-02,S024,Ricardo Sánchez,Arte,Sofía Medina,Proyecto,Arte - Actividad 10,20.0,4.87,False,2025-02-24
+EVAL-0138,2025-02,S059,Jorge Ramírez,Matemáticas,Laura Gómez,Taller,Matemáticas - Actividad 5,15.0,4.35,False,2025-04-26
+EVAL-0494,2025-02,S015,Nicolás Ruiz,Inglés,María Rodríguez,Taller,Inglés - Actividad 10,10.0,5.0,False,2025-05-30
+EVAL-0230,2025-02,S056,Jorge Mendoza,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 9,15.0,4.08,False,2025-04-24
+EVAL-0387,2025-02,S051,Nicolás Muñoz,Arte,Sofía Medina,Quiz,Arte - Actividad 5,25.0,5.0,False,2025-03-03
+EVAL-0581,2025-02,S052,Sofía Torres,Historia,Jorge Ramírez,Taller,Historia - Actividad 3,15.0,3.84,False,2025-06-02
+EVAL-0293,2025-02,S007,Ricardo Muñoz,Ciencias,Ana Torres,Taller,Ciencias - Actividad 8,20.0,2.58,False,2025-05-30
+EVAL-0540,2025-02,S055,Valentina García,Música,Camila Díaz,Taller,Música - Actividad 7,30.0,5.0,False,2025-06-04
+EVAL-0718,2025-02,S026,Daniela Ramírez,Educación Física,Pedro Castillo,Proyecto,Educación Física - Actividad 2,20.0,3.05,False,2025-04-24
+EVAL-0572,2025-02,S004,Sebastián Rodríguez,Música,Camila Díaz,Quiz,Música - Actividad 1,30.0,1.79,True,2025-04-30
+EVAL-0030,2025-02,S005,Sofía Sánchez,Historia,Jorge Ramírez,Proyecto,Historia - Actividad 10,10.0,3.94,False,2025-03-12
+EVAL-0671,2025-02,S044,Carlos Vargas,Educación Física,Pedro Castillo,Taller,Educación Física - Actividad 6,10.0,4.22,False,2025-06-02
+EVAL-0004,2025-02,S002,Jorge Sánchez,Arte,Sofía Medina,Proyecto,Arte - Actividad 10,10.0,3.99,False,2025-02-21
+EVAL-0268,2025-02,S043,Nicolás Pérez,Ciencias,Ana Torres,Taller,Ciencias - Actividad 1,15.0,4.58,False,2025-06-08
+EVAL-0264,2025-02,S050,Ricardo González,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 4,15.0,3.06,False,2025-04-25
+EVAL-0169,2025-02,S037,Ricardo García,Historia,Jorge Ramírez,Parcial,Historia - Actividad 9,20.0,2.21,True,2025-02-14
+EVAL-0651,2025-02,S036,Nicolás Rojas,Música,Camila Díaz,Parcial,Música - Actividad 10,20.0,3.65,False,2025-05-29
+EVAL-0531,2025-02,S058,María Flores,Matemáticas,Laura Gómez,Proyecto,Matemáticas - Actividad 3,30.0,3.85,False,2025-02-01
+EVAL-0575,2025-02,S045,Nicolás Flores,Música,Camila Díaz,Quiz,Música - Actividad 2,20.0,3.0,False,2025-05-04
+EVAL-0518,2025-02,S034,Ana González,Educación Física,Pedro Castillo,Proyecto,Educación Física - Actividad 8,30.0,4.2,False,2025-02-02
+EVAL-0307,2025-02,S009,Sebastián Flores,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 4,30.0,5.0,False,2025-02-05
+EVAL-0684,2025-02,S049,Ana López,Inglés,María Rodríguez,Taller,Inglés - Actividad 1,25.0,4.96,False,2025-06-15
+EVAL-0379,2025-02,S017,Andrés Martínez,Inglés,María Rodríguez,Quiz,Inglés - Actividad 4,10.0,3.9,False,2025-05-15
+EVAL-0548,2025-02,S047,María Sánchez,Educación Física,Pedro Castillo,Taller,Educación Física - Actividad 8,25.0,4.17,False,2025-02-03
+EVAL-0457,2025-02,S046,Luisa Ruiz,Lengua,Carlos Pérez,Quiz,Lengua - Actividad 2,10.0,2.76,False,2025-05-09
+EVAL-0142,2025-02,S056,Jorge Mendoza,Lengua,Carlos Pérez,Examen,Lengua - Actividad 5,10.0,4.64,False,2025-03-27
+EVAL-0345,2025-02,S054,Luisa Sánchez,Inglés,María Rodríguez,Parcial,Inglés - Actividad 2,20.0,2.7,False,2025-05-17
+EVAL-0267,2025-02,S026,Daniela Ramírez,Lengua,Carlos Pérez,Quiz,Lengua - Actividad 10,10.0,3.08,False,2025-04-21
+EVAL-0366,2025-02,S046,Luisa Ruiz,Historia,Jorge Ramírez,Proyecto,Historia - Actividad 9,25.0,4.21,False,2025-03-04
+EVAL-0199,2025-02,S033,Manuel Martínez,Música,Camila Díaz,Taller,Música - Actividad 6,10.0,5.0,False,2025-06-04
+EVAL-0040,2025-02,S058,María Flores,Inglés,María Rodríguez,Proyecto,Inglés - Actividad 1,20.0,2.65,False,2025-05-06
+EVAL-0831,2025-02,S058,María Flores,Lengua,Carlos Pérez,Examen,Lengua - Actividad 8,10.0,1.13,True,2025-05-28
+EVAL-0216,2025-02,S028,Manuel Moreno,Ciencias,Ana Torres,Quiz,Ciencias - Actividad 3,30.0,4.57,False,2025-03-15
+EVAL-0801,2025-02,S028,Manuel Moreno,Música,Camila Díaz,Quiz,Música - Actividad 1,30.0,3.64,False,2025-06-08
+EVAL-0455,2025-02,S046,Luisa Ruiz,Lengua,Carlos Pérez,Proyecto,Lengua - Actividad 10,30.0,4.01,False,2025-05-18
+EVAL-0118,2025-02,S053,Felipe Rojas,Matemáticas,Laura Gómez,Parcial,Matemáticas - Actividad 1,25.0,3.13,False,2025-04-30
+EVAL-0832,2025-02,S058,María Flores,Lengua,Carlos Pérez,Examen,Lengua - Actividad 7,20.0,2.2,True,2025-04-07
+EVAL-0249,2025-02,S031,Paula Muñoz,Lengua,Carlos Pérez,Examen,Lengua - Actividad 5,15.0,4.15,False,2025-05-09
+EVAL-0619,2025-02,S018,Daniela Ramírez,Educación Física,Pedro Castillo,Proyecto,Educación Física - Actividad 3,15.0,4.36,False,2025-04-06
+EVAL-0797,2025-02,S005,Sofía Sánchez,Matemáticas,Laura Gómez,Proyecto,Matemáticas - Actividad 7,15.0,3.76,False,2025-02-22
+EVAL-0660,2025-02,S036,Nicolás Rojas,Ciencias,Ana Torres,Proyecto,Ciencias - Actividad 6,15.0,4.28,False,2025-03-08
+EVAL-0062,2025-02,S004,Sebastián Rodríguez,Matemáticas,Laura Gómez,Quiz,Matemáticas - Actividad 8,20.0,4.1,False,2025-02-03
+EVAL-0324,2025-02,S043,Nicolás Pérez,Ciencias,Ana Torres,Examen,Ciencias - Actividad 3,15.0,4.4,False,2025-02-01
+EVAL-0094,2025-02,S004,Sebastián Rodríguez,Música,Camila Díaz,Parcial,Música - Actividad 9,15.0,4.98,False,2025-05-16
+EVAL-0082,2025-02,S056,Jorge Mendoza,Matemáticas,Laura Gómez,Quiz,Matemáticas - Actividad 7,20.0,2.55,False,2025-03-17
+EVAL-0284,2025-02,S001,Luisa García,Educación Física,Pedro Castillo,Taller,Educación Física - Actividad 9,15.0,2.72,False,2025-05-19
+EVAL-0657,2025-02,S037,Ricardo García,Música,Camila Díaz,Proyecto,Música - Actividad 7,10.0,3.92,False,2025-02-09
+EVAL-0444,2025-02,S060,Sofía Vargas,Educación Física,Pedro Castillo,Taller,Educación Física - Actividad 6,10.0,2.39,True,2025-05-18
+EVAL-0450,2025-02,S033,Manuel Martínez,Educación Física,Pedro Castillo,Examen,Educación Física - Actividad 8,15.0,3.76,False,2025-03-08
+EVAL-0012,2025-02,S036,Nicolás Rojas,Matemáticas,Laura Gómez,Parcial,Matemáticas - Actividad 7,20.0,2.93,False,2025-04-06
+EVAL-0066,2025-02,S025,María Sánchez,Música,Camila Díaz,Examen,Música - Actividad 10,30.0,3.69,False,2025-03-03
+EVAL-0297,2025-02,S007,Ricardo Muñoz,Tecnología,Daniel Herrera,Parcial,Tecnología - Actividad 1,10.0,5.0,False,2025-03-29
+EVAL-0170,2025-02,S037,Ricardo García,Historia,Jorge Ramírez,Parcial,Historia - Actividad 7,15.0,2.21,True,2025-02-20
+EVAL-0302,2025-02,S004,Sebastián Rodríguez,Ciencias,Ana Torres,Proyecto,Ciencias - Actividad 3,20.0,3.25,False,2025-03-27
+EVAL-0472,2025-02,S035,Nicolás Martínez,Música,Camila Díaz,Examen,Música - Actividad 4,15.0,4.77,False,2025-04-26
+EVAL-0303,2025-02,S004,Sebastián Rodríguez,Ciencias,Ana Torres,Taller,Ciencias - Actividad 5,20.0,3.66,False,2025-05-26
+EVAL-0692,2025-02,S016,Pedro Rodríguez,Música,Camila Díaz,Examen,Música - Actividad 7,10.0,2.41,True,2025-04-13
+EVAL-0247,2025-02,S034,Ana González,Tecnología,Daniel Herrera,Examen,Tecnología - Actividad 2,25.0,4.98,False,2025-03-06
+EVAL-0596,2025-02,S055,Valentina García,Matemáticas,Laura Gómez,Taller,Matemáticas - Actividad 7,10.0,3.43,False,2025-02-25
+EVAL-0687,2025-02,S004,Sebastián Rodríguez,Tecnología,Daniel Herrera,Proyecto,Tecnología - Actividad 5,20.0,2.81,False,2025-02-28
+EVAL-0827,2025-02,S007,Ricardo Muñoz,Música,Camila Díaz,Proyecto,Música - Actividad 6,15.0,4.77,False,2025-04-14
+EVAL-0411,2025-02,S013,Sara Vargas,Historia,Jorge Ramírez,Taller,Historia - Actividad 1,30.0,1.51,True,2025-06-08
+EVAL-0503,2025-02,S054,Luisa Sánchez,Arte,Sofía Medina,Taller,Arte - Actividad 10,10.0,4.93,False,2025-04-13
+EVAL-0222,2025-02,S019,Felipe González,Matemáticas,Laura Gómez,Quiz,Matemáticas - Actividad 5,15.0,4.24,False,2025-05-29
+EVAL-0081,2025-02,S056,Jorge Mendoza,Matemáticas,Laura Gómez,Taller,Matemáticas - Actividad 9,20.0,3.75,False,2025-06-03
+EVAL-0521,2025-02,S039,Valentina Hernández,Lengua,Carlos Pérez,Examen,Lengua - Actividad 2,25.0,3.39,False,2025-06-03
+EVAL-0254,2025-02,S028,Manuel Moreno,Arte,Sofía Medina,Examen,Arte - Actividad 2,15.0,3.4,False,2025-04-14
+EVAL-0339,2025-02,S004,Sebastián Rodríguez,Educación Física,Pedro Castillo,Parcial,Educación Física - Actividad 6,10.0,3.95,False,2025-05-21
+EVAL-0595,2025-02,S055,Valentina García,Matemáticas,Laura Gómez,Taller,Matemáticas - Actividad 5,10.0,2.31,True,2025-03-26
+EVAL-0525,2025-02,S009,Sebastián Flores,Música,Camila Díaz,Taller,Música - Actividad 9,25.0,3.98,False,2025-02-05
+EVAL-0167,2025-02,S003,Luisa Vargas,Lengua,Carlos Pérez,Proyecto,Lengua - Actividad 2,20.0,3.46,False,2025-03-14
+EVAL-0451,2025-02,S033,Manuel Martínez,Educación Física,Pedro Castillo,Proyecto,Educación Física - Actividad 10,30.0,3.2,False,2025-04-18
+EVAL-0768,2025-02,S007,Ricardo Muñoz,Historia,Jorge Ramírez,Examen,Historia - Actividad 10,20.0,4.32,False,2025-05-25
+EVAL-0641,2025-02,S040,Carlos Rojas,Inglés,María Rodríguez,Examen,Inglés - Actividad 2,10.0,2.64,False,2025-06-14
+EVAL-0271,2025-02,S050,Ricardo González,Matemáticas,Laura Gómez,Quiz,Matemáticas - Actividad 2,25.0,3.23,False,2025-05-28
+EVAL-0067,2025-02,S025,María Sánchez,Música,Camila Díaz,Taller,Música - Actividad 2,25.0,3.77,False,2025-05-07
+EVAL-0065,2025-02,S047,María Sánchez,Arte,Sofía Medina,Examen,Arte - Actividad 9,20.0,3.73,False,2025-02-19
+EVAL-0512,2025-02,S029,Ana Ramírez,Ciencias,Ana Torres,Parcial,Ciencias - Actividad 4,25.0,2.75,False,2025-04-01
+EVAL-0741,2025-02,S060,Sofía Vargas,Ciencias,Ana Torres,Examen,Ciencias - Actividad 4,10.0,3.24,False,2025-03-03
+EVAL-0424,2025-02,S052,Sofía Torres,Tecnología,Daniel Herrera,Taller,Tecnología - Actividad 8,25.0,5.0,False,2025-03-01
+EVAL-0362,2025-02,S009,Sebastián Flores,Inglés,María Rodríguez,Taller,Inglés - Actividad 8,15.0,4.27,False,2025-05-16
+EVAL-0174,2025-02,S006,Juan Vargas,Inglés,María Rodríguez,Taller,Inglés - Actividad 7,20.0,4.45,False,2025-05-04
+EVAL-0135,2025-02,S036,Nicolás Rojas,Tecnología,Daniel Herrera,Proyecto,Tecnología - Actividad 3,20.0,3.31,False,2025-05-08
+EVAL-0011,2025-02,S043,Nicolás Pérez,Lengua,Carlos Pérez,Quiz,Lengua - Actividad 9,30.0,4.41,False,2025-06-10
+EVAL-0076,2025-02,S038,Luisa Vargas,Inglés,María Rodríguez,Parcial,Inglés - Actividad 10,25.0,3.67,False,2025-03-16
+EVAL-0679,2025-02,S050,Ricardo González,Inglés,María Rodríguez,Proyecto,Inglés - Actividad 1,15.0,1.85,True,2025-03-24
+EVAL-0815,2025-02,S052,Sofía Torres,Ciencias,Ana Torres,Examen,Ciencias - Actividad 2,15.0,4.36,False,2025-03-12
+EVAL-0725,2025-02,S001,Luisa García,Tecnología,Daniel Herrera,Quiz,Tecnología - Actividad 1,30.0,5.0,False,2025-06-07
+EVAL-0826,2025-02,S017,Andrés Martínez,Educación Física,Pedro Castillo,Parcial,Educación Física - Actividad 2,10.0,2.3,True,2025-05-17
+EVAL-0624,2025-02,S013,Sara Vargas,Tecnología,Daniel Herrera,Parcial,Tecnología - Actividad 5,25.0,1.86,True,2025-04-18
+EVAL-0778,2025-02,S019,Felipe González,Arte,Sofía Medina,Quiz,Arte - Actividad 2,20.0,2.96,False,2025-05-30
+EVAL-0634,2025-02,S058,María Flores,Matemáticas,Laura Gómez,Taller,Matemáticas - Actividad 10,15.0,4.08,False,2025-05-01
+EVAL-0473,2025-02,S022,Ricardo Sánchez,Arte,Sofía Medina,Quiz,Arte - Actividad 9,25.0,4.1,False,2025-02-03
+EVAL-0402,2025-02,S015,Nicolás Ruiz,Historia,Jorge Ramírez,Parcial,Historia - Actividad 10,30.0,3.31,False,2025-03-16
+EVAL-0091,2025-02,S023,Daniela Ramírez,Tecnología,Daniel Herrera,Quiz,Tecnología - Actividad 10,15.0,3.38,False,2025-04-04
+EVAL-0477,2025-02,S002,Jorge Sánchez,Música,Camila Díaz,Examen,Música - Actividad 4,20.0,3.58,False,2025-06-12
+EVAL-0813,2025-02,S040,Carlos Rojas,Inglés,María Rodríguez,Quiz,Inglés - Actividad 3,25.0,5.0,False,2025-05-06
+EVAL-0702,2025-02,S009,Sebastián Flores,Ciencias,Ana Torres,Quiz,Ciencias - Actividad 5,30.0,4.78,False,2025-04-01
+EVAL-0802,2025-02,S055,Valentina García,Historia,Jorge Ramírez,Quiz,Historia - Actividad 10,20.0,3.1,False,2025-02-09
+EVAL-0054,2025-02,S027,Paula Flores,Tecnología,Daniel Herrera,Examen,Tecnología - Actividad 10,15.0,3.1,False,2025-04-22
+EVAL-0764,2025-02,S050,Ricardo González,Tecnología,Daniel Herrera,Taller,Tecnología - Actividad 3,20.0,4.92,False,2025-03-02
+EVAL-0659,2025-02,S019,Felipe González,Matemáticas,Laura Gómez,Examen,Matemáticas - Actividad 1,20.0,5.0,False,2025-06-11
+EVAL-0463,2025-02,S001,Luisa García,Inglés,María Rodríguez,Proyecto,Inglés - Actividad 4,20.0,4.34,False,2025-03-23
+EVAL-0346,2025-02,S049,Ana López,Historia,Jorge Ramírez,Quiz,Historia - Actividad 7,30.0,4.7,False,2025-06-02
+EVAL-0248,2025-02,S031,Paula Muñoz,Lengua,Carlos Pérez,Parcial,Lengua - Actividad 2,10.0,3.98,False,2025-04-22
+EVAL-0225,2025-02,S037,Ricardo García,Tecnología,Daniel Herrera,Proyecto,Tecnología - Actividad 2,15.0,4.46,False,2025-04-18
+EVAL-0414,2025-02,S050,Ricardo González,Música,Camila Díaz,Parcial,Música - Actividad 5,15.0,3.63,False,2025-05-28
+EVAL-0744,2025-02,S001,Luisa García,Historia,Jorge Ramírez,Parcial,Historia - Actividad 5,20.0,5.0,False,2025-06-10
+EVAL-0181,2025-02,S047,María Sánchez,Música,Camila Díaz,Proyecto,Música - Actividad 3,10.0,4.53,False,2025-03-15
+EVAL-0021,2025-02,S057,Pedro Rodríguez,Educación Física,Pedro Castillo,Examen,Educación Física - Actividad 3,25.0,3.96,False,2025-06-08
+EVAL-0218,2025-02,S028,Manuel Moreno,Ciencias,Ana Torres,Examen,Ciencias - Actividad 8,30.0,4.52,False,2025-02-14
+EVAL-0435,2025-02,S029,Ana Ramírez,Arte,Sofía Medina,Parcial,Arte - Actividad 2,25.0,4.04,False,2025-05-17
+EVAL-0736,2025-02,S053,Felipe Rojas,Lengua,Carlos Pérez,Proyecto,Lengua - Actividad 9,15.0,1.74,True,2025-03-26
+EVAL-0226,2025-02,S056,Jorge Mendoza,Matemáticas,Laura Gómez,Examen,Matemáticas - Actividad 2,25.0,3.32,False,2025-03-03
+EVAL-0486,2025-02,S042,Luisa Torres,Lengua,Carlos Pérez,Examen,Lengua - Actividad 5,30.0,3.0,False,2025-02-23
+EVAL-0746,2025-02,S044,Carlos Vargas,Arte,Sofía Medina,Quiz,Arte - Actividad 10,10.0,2.78,False,2025-03-17
+EVAL-0592,2025-02,S030,Ricardo Vargas,Ciencias,Ana Torres,Taller,Ciencias - Actividad 6,20.0,3.56,False,2025-04-16
+EVAL-0043,2025-02,S030,Ricardo Vargas,Música,Camila Díaz,Quiz,Música - Actividad 2,15.0,5.0,False,2025-04-23
+EVAL-0620,2025-02,S018,Daniela Ramírez,Educación Física,Pedro Castillo,Proyecto,Educación Física - Actividad 1,10.0,4.16,False,2025-04-05
+EVAL-0691,2025-02,S003,Luisa Vargas,Historia,Jorge Ramírez,Examen,Historia - Actividad 6,20.0,1.97,True,2025-04-19
+EVAL-0141,2025-02,S056,Jorge Mendoza,Lengua,Carlos Pérez,Quiz,Lengua - Actividad 4,25.0,5.0,False,2025-03-26
+EVAL-0613,2025-02,S008,Paula Ramírez,Tecnología,Daniel Herrera,Quiz,Tecnología - Actividad 8,15.0,3.72,False,2025-04-24
+EVAL-0334,2025-02,S029,Ana Ramírez,Lengua,Carlos Pérez,Parcial,Lengua - Actividad 6,15.0,4.71,False,2025-05-08
+EVAL-0148,2025-02,S059,Jorge Ramírez,Historia,Jorge Ramírez,Taller,Historia - Actividad 1,20.0,4.68,False,2025-05-18
+EVAL-0072,2025-02,S021,Pedro Cortés,Arte,Sofía Medina,Quiz,Arte - Actividad 5,30.0,3.88,False,2025-04-28
+EVAL-0598,2025-02,S002,Jorge Sánchez,Educación Física,Pedro Castillo,Examen,Educación Física - Actividad 10,15.0,3.85,False,2025-02-22
+EVAL-0117,2025-02,S009,Sebastián Flores,Música,Camila Díaz,Examen,Música - Actividad 1,25.0,2.17,True,2025-04-07
+EVAL-0413,2025-02,S001,Luisa García,Matemáticas,Laura Gómez,Quiz,Matemáticas - Actividad 8,15.0,3.37,False,2025-02-24
+EVAL-0587,2025-02,S014,Pedro Vargas,Inglés,María Rodríguez,Examen,Inglés - Actividad 1,25.0,5.0,False,2025-03-04
+EVAL-0401,2025-02,S030,Ricardo Vargas,Música,Camila Díaz,Taller,Música - Actividad 3,25.0,3.35,False,2025-02-05
+EVAL-0464,2025-02,S001,Luisa García,Inglés,María Rodríguez,Taller,Inglés - Actividad 5,25.0,3.71,False,2025-03-18
+EVAL-0495,2025-02,S042,Luisa Torres,Música,Camila Díaz,Parcial,Música - Actividad 5,10.0,2.45,True,2025-03-23
+EVAL-0105,2025-02,S048,Pedro Guerrero,Arte,Sofía Medina,Proyecto,Arte - Actividad 2,15.0,4.68,False,2025-03-08
+EVAL-0210,2025-02,S052,Sofía Torres,Música,Camila Díaz,Examen,Música - Actividad 8,30.0,2.01,True,2025-04-22
+EVAL-0445,2025-02,S060,Sofía Vargas,Educación Física,Pedro Castillo,Parcial,Educación Física - Actividad 10,10.0,3.14,False,2025-05-27
+EVAL-0056,2025-02,S056,Jorge Mendoza,Arte,Sofía Medina,Examen,Arte - Actividad 4,25.0,4.23,False,2025-03-04
+EVAL-0347,2025-02,S049,Ana López,Historia,Jorge Ramírez,Quiz,Historia - Actividad 4,25.0,3.67,False,2025-04-18
+EVAL-0300,2025-02,S058,María Flores,Tecnología,Daniel Herrera,Examen,Tecnología - Actividad 2,10.0,3.33,False,2025-05-30
+EVAL-0360,2025-02,S004,Sebastián Rodríguez,Tecnología,Daniel Herrera,Examen,Tecnología - Actividad 8,10.0,3.35,False,2025-03-31
+EVAL-0561,2025-02,S031,Paula Muñoz,Lengua,Carlos Pérez,Proyecto,Lengua - Actividad 4,15.0,3.62,False,2025-04-22
+EVAL-0678,2025-02,S050,Ricardo González,Inglés,María Rodríguez,Quiz,Inglés - Actividad 8,30.0,2.08,True,2025-03-10
+EVAL-0278,2025-02,S021,Pedro Cortés,Historia,Jorge Ramírez,Taller,Historia - Actividad 9,10.0,1.76,True,2025-05-14
+EVAL-0029,2025-02,S040,Carlos Rojas,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 8,10.0,3.64,False,2025-03-05
+EVAL-0756,2025-02,S034,Ana González,Inglés,María Rodríguez,Examen,Inglés - Actividad 1,15.0,2.83,False,2025-02-24
+EVAL-0326,2025-02,S012,Nicolás Ramírez,Arte,Sofía Medina,Quiz,Arte - Actividad 2,25.0,2.75,False,2025-03-09
+EVAL-0577,2025-02,S040,Carlos Rojas,Inglés,María Rodríguez,Quiz,Inglés - Actividad 6,20.0,3.16,False,2025-03-20
+EVAL-0291,2025-02,S018,Daniela Ramírez,Historia,Jorge Ramírez,Taller,Historia - Actividad 10,10.0,3.94,False,2025-03-12
+EVAL-0616,2025-02,S012,Nicolás Ramírez,Lengua,Carlos Pérez,Parcial,Lengua - Actividad 3,10.0,4.08,False,2025-06-07
+EVAL-0153,2025-02,S034,Ana González,Matemáticas,Laura Gómez,Parcial,Matemáticas - Actividad 1,25.0,4.01,False,2025-03-08
+EVAL-0708,2025-02,S045,Nicolás Flores,Arte,Sofía Medina,Proyecto,Arte - Actividad 7,10.0,3.5,False,2025-05-09
+EVAL-0223,2025-02,S037,Ricardo García,Tecnología,Daniel Herrera,Parcial,Tecnología - Actividad 5,30.0,4.39,False,2025-05-05
+EVAL-0311,2025-02,S058,María Flores,Inglés,María Rodríguez,Quiz,Inglés - Actividad 6,30.0,4.79,False,2025-04-01
+EVAL-0025,2025-02,S043,Nicolás Pérez,Inglés,María Rodríguez,Quiz,Inglés - Actividad 7,15.0,3.45,False,2025-05-25
+EVAL-0785,2025-02,S020,Sofía Ramírez,Educación Física,Pedro Castillo,Parcial,Educación Física - Actividad 10,25.0,3.6,False,2025-04-25
+EVAL-0699,2025-02,S056,Jorge Mendoza,Ciencias,Ana Torres,Quiz,Ciencias - Actividad 9,10.0,4.03,False,2025-03-20
+EVAL-0677,2025-02,S028,Manuel Moreno,Arte,Sofía Medina,Examen,Arte - Actividad 6,30.0,3.13,False,2025-02-07
+EVAL-0349,2025-02,S006,Juan Vargas,Educación Física,Pedro Castillo,Parcial,Educación Física - Actividad 8,15.0,4.02,False,2025-03-15
+EVAL-0803,2025-02,S055,Valentina García,Historia,Jorge Ramírez,Parcial,Historia - Actividad 10,25.0,2.77,False,2025-05-06
+EVAL-0240,2025-02,S014,Pedro Vargas,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 10,15.0,3.76,False,2025-06-05
+EVAL-0228,2025-02,S056,Jorge Mendoza,Educación Física,Pedro Castillo,Taller,Educación Física - Actividad 4,15.0,4.59,False,2025-02-16
+EVAL-0348,2025-02,S006,Juan Vargas,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 9,30.0,4.09,False,2025-03-10
+EVAL-0767,2025-02,S007,Ricardo Muñoz,Historia,Jorge Ramírez,Quiz,Historia - Actividad 4,15.0,4.74,False,2025-02-19
+EVAL-0085,2025-02,S015,Nicolás Ruiz,Inglés,María Rodríguez,Taller,Inglés - Actividad 8,20.0,4.01,False,2025-06-03
+EVAL-0557,2025-02,S030,Ricardo Vargas,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 2,30.0,4.46,False,2025-04-17
+EVAL-0139,2025-02,S042,Luisa Torres,Lengua,Carlos Pérez,Parcial,Lengua - Actividad 9,15.0,3.59,False,2025-02-14
+EVAL-0790,2025-02,S043,Nicolás Pérez,Ciencias,Ana Torres,Quiz,Ciencias - Actividad 5,25.0,5.0,False,2025-04-30
+EVAL-0593,2025-02,S046,Luisa Ruiz,Inglés,María Rodríguez,Proyecto,Inglés - Actividad 6,30.0,2.54,False,2025-06-14
+EVAL-0261,2025-02,S017,Andrés Martínez,Historia,Jorge Ramírez,Proyecto,Historia - Actividad 9,20.0,3.19,False,2025-06-09
+EVAL-0448,2025-02,S045,Nicolás Flores,Ciencias,Ana Torres,Proyecto,Ciencias - Actividad 10,30.0,2.79,False,2025-04-24
+EVAL-0727,2025-02,S030,Ricardo Vargas,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 10,10.0,3.67,False,2025-04-04
+EVAL-0177,2025-02,S029,Ana Ramírez,Música,Camila Díaz,Parcial,Música - Actividad 2,20.0,2.65,False,2025-02-24
+EVAL-0404,2025-02,S008,Paula Ramírez,Arte,Sofía Medina,Quiz,Arte - Actividad 1,10.0,2.75,False,2025-02-06
+EVAL-0242,2025-02,S060,Sofía Vargas,Ciencias,Ana Torres,Parcial,Ciencias - Actividad 7,15.0,4.03,False,2025-03-06
+EVAL-0415,2025-02,S050,Ricardo González,Música,Camila Díaz,Examen,Música - Actividad 5,25.0,4.33,False,2025-02-13
+EVAL-0742,2025-02,S060,Sofía Vargas,Ciencias,Ana Torres,Parcial,Ciencias - Actividad 8,10.0,3.96,False,2025-03-26
+EVAL-0632,2025-02,S052,Sofía Torres,Tecnología,Daniel Herrera,Proyecto,Tecnología - Actividad 6,15.0,3.08,False,2025-04-06
+EVAL-0010,2025-02,S054,Luisa Sánchez,Tecnología,Daniel Herrera,Taller,Tecnología - Actividad 10,25.0,3.87,False,2025-03-20
+EVAL-0680,2025-02,S044,Carlos Vargas,Arte,Sofía Medina,Parcial,Arte - Actividad 2,10.0,4.32,False,2025-04-04
+EVAL-0033,2025-02,S049,Ana López,Lengua,Carlos Pérez,Taller,Lengua - Actividad 2,10.0,2.96,False,2025-03-20
+EVAL-0205,2025-02,S055,Valentina García,Arte,Sofía Medina,Quiz,Arte - Actividad 3,20.0,4.45,False,2025-05-21
+EVAL-0482,2025-02,S006,Juan Vargas,Lengua,Carlos Pérez,Examen,Lengua - Actividad 9,10.0,2.73,False,2025-03-31
+EVAL-0507,2025-02,S050,Ricardo González,Historia,Jorge Ramírez,Taller,Historia - Actividad 6,25.0,3.57,False,2025-03-30
+EVAL-0520,2025-02,S015,Nicolás Ruiz,Lengua,Carlos Pérez,Taller,Lengua - Actividad 3,15.0,2.15,True,2025-05-04
+EVAL-0466,2025-02,S008,Paula Ramírez,Educación Física,Pedro Castillo,Examen,Educación Física - Actividad 9,20.0,2.82,False,2025-03-06
+EVAL-0084,2025-02,S044,Carlos Vargas,Inglés,María Rodríguez,Taller,Inglés - Actividad 5,30.0,4.57,False,2025-04-18
+EVAL-0147,2025-02,S059,Jorge Ramírez,Historia,Jorge Ramírez,Proyecto,Historia - Actividad 1,30.0,4.96,False,2025-03-29
+EVAL-0394,2025-02,S041,Camila Castro,Matemáticas,Laura Gómez,Proyecto,Matemáticas - Actividad 2,15.0,4.96,False,2025-05-23
+EVAL-0543,2025-02,S017,Andrés Martínez,Inglés,María Rodríguez,Proyecto,Inglés - Actividad 3,10.0,4.41,False,2025-03-27
+EVAL-0429,2025-02,S043,Nicolás Pérez,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 1,10.0,4.04,False,2025-03-13
+EVAL-0365,2025-02,S013,Sara Vargas,Historia,Jorge Ramírez,Parcial,Historia - Actividad 8,10.0,3.12,False,2025-05-04
+EVAL-0075,2025-02,S038,Luisa Vargas,Inglés,María Rodríguez,Proyecto,Inglés - Actividad 5,30.0,3.59,False,2025-03-31
+EVAL-0539,2025-02,S055,Valentina García,Música,Camila Díaz,Examen,Música - Actividad 10,20.0,4.66,False,2025-05-13
+EVAL-0461,2025-02,S007,Ricardo Muñoz,Música,Camila Díaz,Examen,Música - Actividad 1,25.0,3.85,False,2025-05-11
+EVAL-0452,2025-02,S054,Luisa Sánchez,Música,Camila Díaz,Quiz,Música - Actividad 4,15.0,2.08,True,2025-03-26
+EVAL-0207,2025-02,S012,Nicolás Ramírez,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 4,25.0,1.89,True,2025-05-21
+EVAL-0493,2025-02,S035,Nicolás Martínez,Música,Camila Díaz,Quiz,Música - Actividad 3,15.0,2.92,False,2025-03-20
+EVAL-0783,2025-02,S035,Nicolás Martínez,Historia,Jorge Ramírez,Quiz,Historia - Actividad 10,25.0,5.0,False,2025-04-25
+EVAL-0259,2025-02,S009,Sebastián Flores,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 3,25.0,5.0,False,2025-02-19
+EVAL-0422,2025-02,S054,Luisa Sánchez,Educación Física,Pedro Castillo,Taller,Educación Física - Actividad 2,25.0,3.94,False,2025-06-04
+EVAL-0479,2025-02,S041,Camila Castro,Lengua,Carlos Pérez,Taller,Lengua - Actividad 7,10.0,4.33,False,2025-03-25
+EVAL-0522,2025-02,S039,Valentina Hernández,Lengua,Carlos Pérez,Proyecto,Lengua - Actividad 4,30.0,4.21,False,2025-03-14
+EVAL-0190,2025-02,S044,Carlos Vargas,Música,Camila Díaz,Proyecto,Música - Actividad 4,25.0,3.08,False,2025-04-16
+EVAL-0203,2025-02,S022,Ricardo Sánchez,Tecnología,Daniel Herrera,Examen,Tecnología - Actividad 1,10.0,3.54,False,2025-02-06
+EVAL-0371,2025-02,S044,Carlos Vargas,Historia,Jorge Ramírez,Proyecto,Historia - Actividad 9,10.0,5.0,False,2025-02-03
+EVAL-0689,2025-02,S032,Felipe Sánchez,Música,Camila Díaz,Taller,Música - Actividad 9,25.0,3.72,False,2025-02-06
+EVAL-0022,2025-02,S057,Pedro Rodríguez,Educación Física,Pedro Castillo,Examen,Educación Física - Actividad 9,20.0,3.65,False,2025-02-22
+EVAL-0745,2025-02,S001,Luisa García,Historia,Jorge Ramírez,Quiz,Historia - Actividad 6,10.0,3.31,False,2025-03-02
+EVAL-0434,2025-02,S022,Ricardo Sánchez,Inglés,María Rodríguez,Quiz,Inglés - Actividad 8,10.0,5.0,False,2025-06-08
+EVAL-0358,2025-02,S003,Luisa Vargas,Ciencias,Ana Torres,Parcial,Ciencias - Actividad 7,20.0,2.97,False,2025-04-02
+EVAL-0478,2025-02,S002,Jorge Sánchez,Música,Camila Díaz,Parcial,Música - Actividad 2,15.0,3.51,False,2025-02-02
+EVAL-0663,2025-02,S037,Ricardo García,Historia,Jorge Ramírez,Quiz,Historia - Actividad 2,30.0,4.25,False,2025-04-18
+EVAL-0337,2025-02,S011,Daniela Hernández,Matemáticas,Laura Gómez,Taller,Matemáticas - Actividad 4,25.0,3.57,False,2025-04-09
+EVAL-0654,2025-02,S043,Nicolás Pérez,Ciencias,Ana Torres,Examen,Ciencias - Actividad 9,20.0,5.0,False,2025-05-07
+EVAL-0301,2025-02,S004,Sebastián Rodríguez,Ciencias,Ana Torres,Proyecto,Ciencias - Actividad 8,10.0,3.29,False,2025-05-09
+EVAL-0474,2025-02,S008,Paula Ramírez,Arte,Sofía Medina,Quiz,Arte - Actividad 10,15.0,4.24,False,2025-02-11
+EVAL-0492,2025-02,S035,Nicolás Martínez,Música,Camila Díaz,Taller,Música - Actividad 6,15.0,2.97,False,2025-05-17
+EVAL-0605,2025-02,S017,Andrés Martínez,Ciencias,Ana Torres,Parcial,Ciencias - Actividad 9,15.0,5.0,False,2025-04-30
+EVAL-0388,2025-02,S051,Nicolás Muñoz,Arte,Sofía Medina,Proyecto,Arte - Actividad 1,30.0,4.75,False,2025-02-19
+EVAL-0172,2025-02,S023,Daniela Ramírez,Música,Camila Díaz,Taller,Música - Actividad 10,25.0,4.2,False,2025-02-22
+EVAL-0612,2025-02,S041,Camila Castro,Historia,Jorge Ramírez,Parcial,Historia - Actividad 3,15.0,3.16,False,2025-04-16
+EVAL-0351,2025-02,S028,Manuel Moreno,Lengua,Carlos Pérez,Taller,Lengua - Actividad 10,20.0,3.63,False,2025-04-23
+EVAL-0313,2025-02,S018,Daniela Ramírez,Música,Camila Díaz,Quiz,Música - Actividad 7,20.0,3.77,False,2025-03-17
+EVAL-0603,2025-02,S030,Ricardo Vargas,Música,Camila Díaz,Quiz,Música - Actividad 9,20.0,3.61,False,2025-04-30
+EVAL-0471,2025-02,S050,Ricardo González,Inglés,María Rodríguez,Parcial,Inglés - Actividad 9,15.0,3.16,False,2025-05-18
+EVAL-0446,2025-02,S030,Ricardo Vargas,Música,Camila Díaz,Parcial,Música - Actividad 9,10.0,3.35,False,2025-05-22
+EVAL-0646,2025-02,S037,Ricardo García,Educación Física,Pedro Castillo,Parcial,Educación Física - Actividad 4,25.0,2.08,True,2025-02-21
+EVAL-0340,2025-02,S006,Juan Vargas,Inglés,María Rodríguez,Parcial,Inglés - Actividad 1,15.0,5.0,False,2025-03-16
+EVAL-0645,2025-02,S037,Ricardo García,Educación Física,Pedro Castillo,Examen,Educación Física - Actividad 4,30.0,3.61,False,2025-02-19
+EVAL-0594,2025-02,S046,Luisa Ruiz,Inglés,María Rodríguez,Proyecto,Inglés - Actividad 7,15.0,2.69,False,2025-03-20
+EVAL-0441,2025-02,S023,Daniela Ramírez,Inglés,María Rodríguez,Parcial,Inglés - Actividad 1,15.0,2.94,False,2025-06-07
+EVAL-0629,2025-02,S001,Luisa García,Matemáticas,Laura Gómez,Taller,Matemáticas - Actividad 3,25.0,4.53,False,2025-02-24
+EVAL-0762,2025-02,S057,Pedro Rodríguez,Matemáticas,Laura Gómez,Taller,Matemáticas - Actividad 6,15.0,4.42,False,2025-03-22
+EVAL-0026,2025-02,S043,Nicolás Pérez,Inglés,María Rodríguez,Examen,Inglés - Actividad 8,10.0,3.05,False,2025-05-02
+EVAL-0383,2025-02,S047,María Sánchez,Historia,Jorge Ramírez,Examen,Historia - Actividad 9,20.0,2.92,False,2025-03-16
+EVAL-0343,2025-02,S012,Nicolás Ramírez,Arte,Sofía Medina,Taller,Arte - Actividad 8,10.0,3.64,False,2025-04-09
+EVAL-0706,2025-02,S011,Daniela Hernández,Historia,Jorge Ramírez,Proyecto,Historia - Actividad 1,20.0,3.31,False,2025-05-17
+EVAL-0711,2025-02,S047,María Sánchez,Arte,Sofía Medina,Proyecto,Arte - Actividad 1,15.0,3.01,False,2025-06-13
+EVAL-0079,2025-02,S053,Felipe Rojas,Historia,Jorge Ramírez,Examen,Historia - Actividad 7,15.0,2.55,False,2025-05-17
+EVAL-0052,2025-02,S040,Carlos Rojas,Matemáticas,Laura Gómez,Taller,Matemáticas - Actividad 7,20.0,3.5,False,2025-05-28
+EVAL-0833,2025-02,S011,Daniela Hernández,Lengua,Carlos Pérez,Proyecto,Lengua - Actividad 7,20.0,4.03,False,2025-02-16
+EVAL-0635,2025-02,S058,María Flores,Matemáticas,Laura Gómez,Examen,Matemáticas - Actividad 8,20.0,3.21,False,2025-03-14
+EVAL-0164,2025-02,S058,María Flores,Música,Camila Díaz,Taller,Música - Actividad 10,25.0,3.65,False,2025-04-11
+EVAL-0748,2025-02,S059,Jorge Ramírez,Tecnología,Daniel Herrera,Taller,Tecnología - Actividad 8,15.0,3.04,False,2025-05-29
+EVAL-0536,2025-02,S037,Ricardo García,Música,Camila Díaz,Parcial,Música - Actividad 7,15.0,2.86,False,2025-04-22
+EVAL-0674,2025-02,S032,Felipe Sánchez,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 9,15.0,4.17,False,2025-04-04
+EVAL-0154,2025-02,S034,Ana González,Matemáticas,Laura Gómez,Taller,Matemáticas - Actividad 2,15.0,2.51,False,2025-02-03
+EVAL-0283,2025-02,S060,Sofía Vargas,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 6,10.0,4.97,False,2025-04-27
+EVAL-0173,2025-02,S023,Daniela Ramírez,Música,Camila Díaz,Quiz,Música - Actividad 5,15.0,4.29,False,2025-02-19
+EVAL-0305,2025-02,S057,Pedro Rodríguez,Ciencias,Ana Torres,Proyecto,Ciencias - Actividad 7,30.0,4.72,False,2025-06-03
+EVAL-0005,2025-02,S002,Jorge Sánchez,Inglés,María Rodríguez,Quiz,Inglés - Actividad 10,30.0,3.05,False,2025-05-20
+EVAL-0582,2025-02,S052,Sofía Torres,Historia,Jorge Ramírez,Parcial,Historia - Actividad 3,25.0,2.63,False,2025-06-08
+EVAL-0027,2025-02,S040,Carlos Rojas,Educación Física,Pedro Castillo,Parcial,Educación Física - Actividad 2,25.0,3.12,False,2025-05-05
+EVAL-0418,2025-02,S024,Ricardo Sánchez,Arte,Sofía Medina,Taller,Arte - Actividad 3,20.0,3.84,False,2025-05-03
+EVAL-0591,2025-02,S030,Ricardo Vargas,Ciencias,Ana Torres,Parcial,Ciencias - Actividad 2,15.0,3.05,False,2025-04-29
+EVAL-0208,2025-02,S025,María Sánchez,Matemáticas,Laura Gómez,Examen,Matemáticas - Actividad 2,30.0,3.67,False,2025-02-27
+EVAL-0650,2025-02,S007,Ricardo Muñoz,Historia,Jorge Ramírez,Taller,Historia - Actividad 9,15.0,4.37,False,2025-03-18
+EVAL-0814,2025-02,S052,Sofía Torres,Ciencias,Ana Torres,Taller,Ciencias - Actividad 8,15.0,4.44,False,2025-02-09
+EVAL-0260,2025-02,S009,Sebastián Flores,Educación Física,Pedro Castillo,Parcial,Educación Física - Actividad 10,10.0,5.0,False,2025-02-04
+EVAL-0157,2025-02,S001,Luisa García,Matemáticas,Laura Gómez,Examen,Matemáticas - Actividad 1,30.0,2.95,False,2025-05-22
+EVAL-0808,2025-02,S040,Carlos Rojas,Matemáticas,Laura Gómez,Examen,Matemáticas - Actividad 5,20.0,4.74,False,2025-03-15
+EVAL-0344,2025-02,S012,Nicolás Ramírez,Arte,Sofía Medina,Proyecto,Arte - Actividad 8,20.0,2.91,False,2025-03-30
+EVAL-0219,2025-02,S056,Jorge Mendoza,Arte,Sofía Medina,Taller,Arte - Actividad 4,25.0,2.29,True,2025-06-10
+EVAL-0498,2025-02,S009,Sebastián Flores,Historia,Jorge Ramírez,Proyecto,Historia - Actividad 8,20.0,2.51,False,2025-04-20
+EVAL-0098,2025-02,S057,Pedro Rodríguez,Ciencias,Ana Torres,Proyecto,Ciencias - Actividad 3,20.0,4.75,False,2025-02-10
+EVAL-0537,2025-02,S037,Ricardo García,Música,Camila Díaz,Proyecto,Música - Actividad 6,10.0,1.66,True,2025-03-12
+EVAL-0489,2025-02,S051,Nicolás Muñoz,Música,Camila Díaz,Taller,Música - Actividad 5,20.0,3.56,False,2025-02-03
+EVAL-0279,2025-02,S005,Sofía Sánchez,Tecnología,Daniel Herrera,Examen,Tecnología - Actividad 2,30.0,4.84,False,2025-05-28
+EVAL-0123,2025-02,S008,Paula Ramírez,Ciencias,Ana Torres,Taller,Ciencias - Actividad 4,10.0,5.0,False,2025-02-06
+EVAL-0350,2025-02,S006,Juan Vargas,Educación Física,Pedro Castillo,Taller,Educación Física - Actividad 4,15.0,3.55,False,2025-02-11
+EVAL-0775,2025-02,S059,Jorge Ramírez,Arte,Sofía Medina,Examen,Arte - Actividad 6,25.0,1.59,True,2025-06-05
+EVAL-0475,2025-02,S044,Carlos Vargas,Arte,Sofía Medina,Proyecto,Arte - Actividad 5,30.0,3.93,False,2025-04-14
+EVAL-0034,2025-02,S049,Ana López,Lengua,Carlos Pérez,Proyecto,Lengua - Actividad 9,25.0,3.35,False,2025-03-03
+EVAL-0722,2025-02,S056,Jorge Mendoza,Ciencias,Ana Torres,Parcial,Ciencias - Actividad 7,20.0,2.76,False,2025-04-21
+EVAL-0077,2025-02,S038,Luisa Vargas,Inglés,María Rodríguez,Quiz,Inglés - Actividad 10,25.0,3.6,False,2025-03-10
+EVAL-0830,2025-02,S039,Valentina Hernández,Lengua,Carlos Pérez,Quiz,Lengua - Actividad 3,25.0,4.47,False,2025-03-20
+EVAL-0786,2025-02,S020,Sofía Ramírez,Educación Física,Pedro Castillo,Proyecto,Educación Física - Actividad 1,10.0,3.68,False,2025-03-28
+EVAL-0648,2025-02,S030,Ricardo Vargas,Matemáticas,Laura Gómez,Quiz,Matemáticas - Actividad 1,10.0,4.11,False,2025-04-19
+EVAL-0462,2025-02,S007,Ricardo Muñoz,Música,Camila Díaz,Proyecto,Música - Actividad 6,30.0,3.94,False,2025-02-14
+EVAL-0469,2025-02,S050,Ricardo González,Inglés,María Rodríguez,Quiz,Inglés - Actividad 6,10.0,4.29,False,2025-04-23
+EVAL-0567,2025-02,S058,María Flores,Inglés,María Rodríguez,Taller,Inglés - Actividad 4,30.0,2.84,False,2025-05-03
+EVAL-0037,2025-02,S008,Paula Ramírez,Ciencias,Ana Torres,Examen,Ciencias - Actividad 2,30.0,2.69,False,2025-04-16
+EVAL-0721,2025-02,S034,Ana González,Educación Física,Pedro Castillo,Examen,Educación Física - Actividad 10,15.0,3.36,False,2025-03-14
+EVAL-0407,2025-02,S020,Sofía Ramírez,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 5,30.0,4.37,False,2025-03-08
+EVAL-0131,2025-02,S049,Ana López,Matemáticas,Laura Gómez,Quiz,Matemáticas - Actividad 10,20.0,2.35,True,2025-04-02
+EVAL-0735,2025-02,S053,Felipe Rojas,Lengua,Carlos Pérez,Parcial,Lengua - Actividad 5,20.0,3.56,False,2025-06-15
+EVAL-0810,2025-02,S043,Nicolás Pérez,Inglés,María Rodríguez,Proyecto,Inglés - Actividad 2,15.0,4.44,False,2025-06-10
+EVAL-0614,2025-02,S008,Paula Ramírez,Tecnología,Daniel Herrera,Parcial,Tecnología - Actividad 3,10.0,4.42,False,2025-02-06
+EVAL-0049,2025-02,S033,Manuel Martínez,Ciencias,Ana Torres,Quiz,Ciencias - Actividad 10,20.0,3.54,False,2025-02-11
+EVAL-0583,2025-02,S009,Sebastián Flores,Música,Camila Díaz,Examen,Música - Actividad 5,30.0,4.93,False,2025-02-13
+EVAL-0187,2025-02,S053,Felipe Rojas,Ciencias,Ana Torres,Taller,Ciencias - Actividad 7,20.0,3.96,False,2025-04-16
+EVAL-0213,2025-02,S039,Valentina Hernández,Educación Física,Pedro Castillo,Taller,Educación Física - Actividad 6,10.0,3.67,False,2025-04-03
+EVAL-0449,2025-02,S033,Manuel Martínez,Educación Física,Pedro Castillo,Taller,Educación Física - Actividad 5,25.0,4.21,False,2025-04-29
+EVAL-0690,2025-02,S003,Luisa Vargas,Historia,Jorge Ramírez,Proyecto,Historia - Actividad 7,15.0,1.57,True,2025-02-05
+EVAL-0763,2025-02,S057,Pedro Rodríguez,Matemáticas,Laura Gómez,Examen,Matemáticas - Actividad 5,30.0,4.09,False,2025-04-23
+EVAL-0551,2025-02,S003,Luisa Vargas,Música,Camila Díaz,Parcial,Música - Actividad 3,10.0,2.72,False,2025-04-12
+EVAL-0069,2025-02,S013,Sara Vargas,Música,Camila Díaz,Parcial,Música - Actividad 1,10.0,1.8,True,2025-03-08
+EVAL-0243,2025-02,S060,Sofía Vargas,Ciencias,Ana Torres,Examen,Ciencias - Actividad 3,20.0,2.93,False,2025-02-24
+EVAL-0269,2025-02,S023,Daniela Ramírez,Música,Camila Díaz,Examen,Música - Actividad 3,20.0,4.14,False,2025-03-03
+EVAL-0285,2025-02,S032,Felipe Sánchez,Matemáticas,Laura Gómez,Examen,Matemáticas - Actividad 2,10.0,5.0,False,2025-04-01
+EVAL-0550,2025-02,S003,Luisa Vargas,Música,Camila Díaz,Taller,Música - Actividad 1,20.0,2.48,True,2025-04-03
+EVAL-0319,2025-02,S034,Ana González,Tecnología,Daniel Herrera,Taller,Tecnología - Actividad 6,10.0,5.0,False,2025-02-06
+EVAL-0100,2025-02,S060,Sofía Vargas,Arte,Sofía Medina,Quiz,Arte - Actividad 9,25.0,4.52,False,2025-03-07
+EVAL-0229,2025-02,S056,Jorge Mendoza,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 6,30.0,5.0,False,2025-04-13
+EVAL-0092,2025-02,S004,Sebastián Rodríguez,Música,Camila Díaz,Taller,Música - Actividad 1,10.0,4.98,False,2025-05-17
+EVAL-0058,2025-02,S056,Jorge Mendoza,Educación Física,Pedro Castillo,Examen,Educación Física - Actividad 10,20.0,2.85,False,2025-03-21
+EVAL-0664,2025-02,S037,Ricardo García,Historia,Jorge Ramírez,Parcial,Historia - Actividad 10,25.0,4.72,False,2025-02-21
+EVAL-0649,2025-02,S030,Ricardo Vargas,Matemáticas,Laura Gómez,Parcial,Matemáticas - Actividad 4,30.0,4.34,False,2025-02-25
+EVAL-0506,2025-02,S050,Ricardo González,Historia,Jorge Ramírez,Examen,Historia - Actividad 9,30.0,4.0,False,2025-06-01
+EVAL-0392,2025-02,S010,Sofía Flores,Arte,Sofía Medina,Proyecto,Arte - Actividad 6,15.0,3.91,False,2025-04-22
+EVAL-0028,2025-02,S040,Carlos Rojas,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 3,10.0,2.95,False,2025-03-09
+EVAL-0794,2025-02,S045,Nicolás Flores,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 4,15.0,4.41,False,2025-06-02
+EVAL-0328,2025-02,S012,Nicolás Ramírez,Arte,Sofía Medina,Examen,Arte - Actividad 3,10.0,3.66,False,2025-04-27
+EVAL-0144,2025-02,S045,Nicolás Flores,Historia,Jorge Ramírez,Quiz,Historia - Actividad 6,20.0,3.6,False,2025-05-09
+EVAL-0096,2025-02,S042,Luisa Torres,Tecnología,Daniel Herrera,Parcial,Tecnología - Actividad 2,30.0,5.0,False,2025-04-01
+EVAL-0396,2025-02,S041,Camila Castro,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 4,20.0,3.16,False,2025-02-04
+EVAL-0331,2025-02,S057,Pedro Rodríguez,Educación Física,Pedro Castillo,Examen,Educación Física - Actividad 9,25.0,3.79,False,2025-02-26
+EVAL-0793,2025-02,S045,Nicolás Flores,Educación Física,Pedro Castillo,Proyecto,Educación Física - Actividad 7,25.0,4.05,False,2025-05-23
+EVAL-0755,2025-02,S046,Luisa Ruiz,Arte,Sofía Medina,Examen,Arte - Actividad 8,20.0,1.1,True,2025-03-28
+EVAL-0792,2025-02,S001,Luisa García,Música,Camila Díaz,Examen,Música - Actividad 1,15.0,2.95,False,2025-05-22
+EVAL-0246,2025-02,S041,Camila Castro,Inglés,María Rodríguez,Proyecto,Inglés - Actividad 2,15.0,5.0,False,2025-03-30
+EVAL-0533,2025-02,S058,María Flores,Educación Física,Pedro Castillo,Proyecto,Educación Física - Actividad 7,20.0,2.83,False,2025-02-26
+EVAL-0175,2025-02,S006,Juan Vargas,Inglés,María Rodríguez,Parcial,Inglés - Actividad 2,10.0,3.88,False,2025-04-20
+EVAL-0695,2025-02,S037,Ricardo García,Ciencias,Ana Torres,Quiz,Ciencias - Actividad 6,25.0,5.0,False,2025-03-06
+EVAL-0032,2025-02,S049,Ana López,Lengua,Carlos Pérez,Examen,Lengua - Actividad 7,20.0,4.96,False,2025-04-13
+EVAL-0501,2025-02,S054,Luisa Sánchez,Arte,Sofía Medina,Examen,Arte - Actividad 8,25.0,5.0,False,2025-05-26
+EVAL-0294,2025-02,S017,Andrés Martínez,Lengua,Carlos Pérez,Examen,Lengua - Actividad 10,10.0,3.74,False,2025-03-28
+EVAL-0184,2025-02,S030,Ricardo Vargas,Lengua,Carlos Pérez,Parcial,Lengua - Actividad 7,20.0,5.0,False,2025-05-09
+EVAL-0385,2025-02,S047,María Sánchez,Historia,Jorge Ramírez,Proyecto,Historia - Actividad 3,20.0,2.23,True,2025-03-19
+EVAL-0255,2025-02,S050,Ricardo González,Matemáticas,Laura Gómez,Quiz,Matemáticas - Actividad 10,30.0,4.62,False,2025-03-21
+EVAL-0189,2025-02,S048,Pedro Guerrero,Tecnología,Daniel Herrera,Parcial,Tecnología - Actividad 10,15.0,4.28,False,2025-03-19
+EVAL-0740,2025-02,S060,Sofía Vargas,Ciencias,Ana Torres,Proyecto,Ciencias - Actividad 8,15.0,3.68,False,2025-04-01
+EVAL-0668,2025-02,S020,Sofía Ramírez,Música,Camila Díaz,Quiz,Música - Actividad 4,15.0,3.2,False,2025-02-13
+EVAL-0013,2025-02,S036,Nicolás Rojas,Matemáticas,Laura Gómez,Parcial,Matemáticas - Actividad 6,10.0,4.12,False,2025-04-30
+EVAL-0510,2025-02,S033,Manuel Martínez,Música,Camila Díaz,Quiz,Música - Actividad 3,30.0,3.53,False,2025-03-08
+EVAL-0074,2025-02,S046,Luisa Ruiz,Inglés,María Rodríguez,Examen,Inglés - Actividad 6,10.0,3.56,False,2025-05-18
+EVAL-0566,2025-02,S058,María Flores,Inglés,María Rodríguez,Taller,Inglés - Actividad 5,15.0,3.63,False,2025-03-31
+EVAL-0236,2025-02,S026,Daniela Ramírez,Música,Camila Díaz,Examen,Música - Actividad 8,25.0,2.15,True,2025-04-25
+EVAL-0454,2025-02,S054,Luisa Sánchez,Música,Camila Díaz,Taller,Música - Actividad 9,30.0,2.35,True,2025-04-24
+EVAL-0516,2025-02,S054,Luisa Sánchez,Inglés,María Rodríguez,Proyecto,Inglés - Actividad 6,30.0,4.42,False,2025-02-20
+EVAL-0549,2025-02,S047,María Sánchez,Educación Física,Pedro Castillo,Taller,Educación Física - Actividad 9,20.0,2.99,False,2025-03-22
+EVAL-0578,2025-02,S040,Carlos Rojas,Inglés,María Rodríguez,Proyecto,Inglés - Actividad 7,15.0,3.36,False,2025-05-19
+EVAL-0600,2025-02,S009,Sebastián Flores,Música,Camila Díaz,Parcial,Música - Actividad 6,20.0,3.64,False,2025-06-02
+EVAL-0306,2025-02,S057,Pedro Rodríguez,Ciencias,Ana Torres,Parcial,Ciencias - Actividad 2,20.0,4.35,False,2025-05-10
+EVAL-0675,2025-02,S032,Felipe Sánchez,Educación Física,Pedro Castillo,Parcial,Educación Física - Actividad 5,25.0,3.86,False,2025-04-24
+EVAL-0558,2025-02,S022,Ricardo Sánchez,Lengua,Carlos Pérez,Quiz,Lengua - Actividad 5,25.0,4.7,False,2025-05-08
+EVAL-0273,2025-02,S033,Manuel Martínez,Arte,Sofía Medina,Examen,Arte - Actividad 2,30.0,2.67,False,2025-03-02
+EVAL-0314,2025-02,S012,Nicolás Ramírez,Historia,Jorge Ramírez,Examen,Historia - Actividad 10,10.0,4.71,False,2025-05-02
+EVAL-0458,2025-02,S010,Sofía Flores,Matemáticas,Laura Gómez,Examen,Matemáticas - Actividad 3,20.0,1.26,True,2025-04-06
+EVAL-0393,2025-02,S041,Camila Castro,Matemáticas,Laura Gómez,Examen,Matemáticas - Actividad 4,15.0,4.01,False,2025-03-13
+EVAL-0111,2025-02,S009,Sebastián Flores,Tecnología,Daniel Herrera,Quiz,Tecnología - Actividad 6,25.0,2.27,True,2025-06-01
+EVAL-0018,2025-02,S060,Sofía Vargas,Inglés,María Rodríguez,Proyecto,Inglés - Actividad 5,10.0,4.2,False,2025-03-21
+EVAL-0093,2025-02,S004,Sebastián Rodríguez,Música,Camila Díaz,Examen,Música - Actividad 8,10.0,4.32,False,2025-03-08
+EVAL-0517,2025-02,S054,Luisa Sánchez,Inglés,María Rodríguez,Quiz,Inglés - Actividad 5,25.0,4.09,False,2025-03-30
+EVAL-0739,2025-02,S040,Carlos Rojas,Matemáticas,Laura Gómez,Quiz,Matemáticas - Actividad 10,30.0,2.96,False,2025-05-02
+EVAL-0295,2025-02,S054,Luisa Sánchez,Arte,Sofía Medina,Taller,Arte - Actividad 6,25.0,4.87,False,2025-06-12
+EVAL-0570,2025-02,S055,Valentina García,Tecnología,Daniel Herrera,Proyecto,Tecnología - Actividad 3,30.0,4.46,False,2025-04-13
+EVAL-0426,2025-02,S017,Andrés Martínez,Arte,Sofía Medina,Quiz,Arte - Actividad 10,30.0,4.36,False,2025-03-30
+EVAL-0809,2025-02,S003,Luisa Vargas,Inglés,María Rodríguez,Proyecto,Inglés - Actividad 10,15.0,3.43,False,2025-02-14
+EVAL-0528,2025-02,S051,Nicolás Muñoz,Ciencias,Ana Torres,Examen,Ciencias - Actividad 8,30.0,3.73,False,2025-02-18
+EVAL-0535,2025-02,S028,Manuel Moreno,Ciencias,Ana Torres,Examen,Ciencias - Actividad 4,10.0,2.48,True,2025-02-02
+EVAL-0251,2025-02,S029,Ana Ramírez,Arte,Sofía Medina,Taller,Arte - Actividad 7,30.0,3.61,False,2025-05-25
+EVAL-0308,2025-02,S009,Sebastián Flores,Educación Física,Pedro Castillo,Proyecto,Educación Física - Actividad 6,25.0,5.0,False,2025-06-05
+EVAL-0409,2025-02,S020,Sofía Ramírez,Educación Física,Pedro Castillo,Examen,Educación Física - Actividad 2,10.0,5.0,False,2025-06-08
+EVAL-0626,2025-02,S013,Sara Vargas,Arte,Sofía Medina,Examen,Arte - Actividad 1,15.0,4.49,False,2025-04-12
+EVAL-0644,2025-02,S037,Ricardo García,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 10,20.0,3.75,False,2025-02-13
+EVAL-0716,2025-02,S019,Felipe González,Matemáticas,Laura Gómez,Taller,Matemáticas - Actividad 10,30.0,5.0,False,2025-03-07
+EVAL-0245,2025-02,S041,Camila Castro,Inglés,María Rodríguez,Parcial,Inglés - Actividad 2,10.0,4.34,False,2025-03-27
+EVAL-0211,2025-02,S039,Valentina Hernández,Educación Física,Pedro Castillo,Parcial,Educación Física - Actividad 6,20.0,2.51,False,2025-05-29
+EVAL-0095,2025-02,S042,Luisa Torres,Tecnología,Daniel Herrera,Taller,Tecnología - Actividad 5,20.0,5.0,False,2025-04-15
+EVAL-0078,2025-02,S053,Felipe Rojas,Historia,Jorge Ramírez,Parcial,Historia - Actividad 4,10.0,3.94,False,2025-05-24
+EVAL-0403,2025-02,S008,Paula Ramírez,Arte,Sofía Medina,Examen,Arte - Actividad 9,30.0,4.81,False,2025-02-13
+EVAL-0676,2025-02,S032,Felipe Sánchez,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 2,10.0,3.91,False,2025-05-17
+EVAL-0233,2025-02,S046,Luisa Ruiz,Inglés,María Rodríguez,Taller,Inglés - Actividad 4,15.0,4.73,False,2025-04-24
+EVAL-0784,2025-02,S035,Nicolás Martínez,Historia,Jorge Ramírez,Quiz,Historia - Actividad 2,25.0,4.34,False,2025-03-18
+EVAL-0023,2025-02,S047,María Sánchez,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 3,30.0,4.06,False,2025-04-17
+EVAL-0714,2025-02,S035,Nicolás Martínez,Educación Física,Pedro Castillo,Examen,Educación Física - Actividad 8,15.0,2.28,True,2025-05-20
+EVAL-0338,2025-02,S011,Daniela Hernández,Matemáticas,Laura Gómez,Examen,Matemáticas - Actividad 5,15.0,5.0,False,2025-02-25
+EVAL-0099,2025-02,S057,Pedro Rodríguez,Ciencias,Ana Torres,Parcial,Ciencias - Actividad 5,30.0,3.33,False,2025-02-28
+EVAL-0280,2025-02,S005,Sofía Sánchez,Tecnología,Daniel Herrera,Parcial,Tecnología - Actividad 6,15.0,3.9,False,2025-04-16
+EVAL-0036,2025-02,S008,Paula Ramírez,Ciencias,Ana Torres,Taller,Ciencias - Actividad 8,10.0,2.35,True,2025-04-23
+EVAL-0121,2025-02,S012,Nicolás Ramírez,Ciencias,Ana Torres,Proyecto,Ciencias - Actividad 8,25.0,4.61,False,2025-05-08
+EVAL-0089,2025-02,S023,Daniela Ramírez,Tecnología,Daniel Herrera,Proyecto,Tecnología - Actividad 4,15.0,5.0,False,2025-04-11
+EVAL-0459,2025-02,S010,Sofía Flores,Matemáticas,Laura Gómez,Quiz,Matemáticas - Actividad 1,20.0,3.1,False,2025-05-27
+EVAL-0186,2025-02,S053,Felipe Rojas,Ciencias,Ana Torres,Quiz,Ciencias - Actividad 4,25.0,3.48,False,2025-04-22
+EVAL-0765,2025-02,S050,Ricardo González,Tecnología,Daniel Herrera,Parcial,Tecnología - Actividad 10,30.0,4.61,False,2025-06-12
+EVAL-0330,2025-02,S051,Nicolás Muñoz,Lengua,Carlos Pérez,Proyecto,Lengua - Actividad 8,25.0,5.0,False,2025-03-15
+EVAL-0209,2025-02,S052,Sofía Torres,Música,Camila Díaz,Examen,Música - Actividad 4,25.0,1.48,True,2025-03-02
+EVAL-0788,2025-02,S043,Nicolás Pérez,Ciencias,Ana Torres,Examen,Ciencias - Actividad 7,30.0,3.62,False,2025-05-26
+EVAL-0114,2025-02,S013,Sara Vargas,Música,Camila Díaz,Examen,Música - Actividad 9,25.0,4.07,False,2025-03-02
+EVAL-0637,2025-02,S005,Sofía Sánchez,Música,Camila Díaz,Proyecto,Música - Actividad 1,30.0,4.4,False,2025-05-09
+EVAL-0427,2025-02,S017,Andrés Martínez,Arte,Sofía Medina,Examen,Arte - Actividad 9,30.0,4.93,False,2025-02-25
+EVAL-0552,2025-02,S003,Luisa Vargas,Música,Camila Díaz,Proyecto,Música - Actividad 6,25.0,3.67,False,2025-05-15
+EVAL-0051,2025-02,S040,Carlos Rojas,Matemáticas,Laura Gómez,Quiz,Matemáticas - Actividad 5,20.0,4.62,False,2025-06-04
+EVAL-0050,2025-02,S053,Felipe Rojas,Matemáticas,Laura Gómez,Quiz,Matemáticas - Actividad 5,15.0,3.38,False,2025-05-18
+EVAL-0212,2025-02,S039,Valentina Hernández,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 3,20.0,3.02,False,2025-02-22
+EVAL-0256,2025-02,S048,Pedro Guerrero,Educación Física,Pedro Castillo,Parcial,Educación Física - Actividad 4,25.0,2.49,True,2025-05-10
+EVAL-0400,2025-02,S030,Ricardo Vargas,Música,Camila Díaz,Taller,Música - Actividad 6,25.0,2.88,False,2025-05-03
+EVAL-0376,2025-02,S038,Luisa Vargas,Lengua,Carlos Pérez,Examen,Lengua - Actividad 9,30.0,3.82,False,2025-04-14
+EVAL-0129,2025-02,S005,Sofía Sánchez,Lengua,Carlos Pérez,Proyecto,Lengua - Actividad 8,15.0,1.29,True,2025-03-28
+EVAL-0122,2025-02,S012,Nicolás Ramírez,Ciencias,Ana Torres,Parcial,Ciencias - Actividad 9,15.0,5.0,False,2025-05-01
+EVAL-0607,2025-02,S019,Felipe González,Tecnología,Daniel Herrera,Proyecto,Tecnología - Actividad 5,30.0,1.49,True,2025-04-01
+EVAL-0564,2025-02,S027,Paula Flores,Arte,Sofía Medina,Proyecto,Arte - Actividad 6,20.0,2.94,False,2025-03-28
+EVAL-0737,2025-02,S040,Carlos Rojas,Matemáticas,Laura Gómez,Quiz,Matemáticas - Actividad 2,25.0,3.43,False,2025-04-15
+EVAL-0638,2025-02,S047,María Sánchez,Ciencias,Ana Torres,Examen,Ciencias - Actividad 10,15.0,3.31,False,2025-04-24
+EVAL-0673,2025-02,S037,Ricardo García,Matemáticas,Laura Gómez,Taller,Matemáticas - Actividad 3,25.0,3.3,False,2025-03-23
+EVAL-0272,2025-02,S033,Manuel Martínez,Arte,Sofía Medina,Quiz,Arte - Actividad 3,20.0,3.42,False,2025-03-13
+EVAL-0588,2025-02,S023,Daniela Ramírez,Historia,Jorge Ramírez,Examen,Historia - Actividad 6,30.0,2.16,True,2025-06-05
+EVAL-0372,2025-02,S044,Carlos Vargas,Historia,Jorge Ramírez,Proyecto,Historia - Actividad 3,15.0,4.3,False,2025-02-03
+EVAL-0369,2025-02,S039,Valentina Hernández,Tecnología,Daniel Herrera,Taller,Tecnología - Actividad 5,10.0,4.02,False,2025-04-14
+EVAL-0431,2025-02,S043,Nicolás Pérez,Educación Física,Pedro Castillo,Parcial,Educación Física - Actividad 8,20.0,3.58,False,2025-04-03
+EVAL-0453,2025-02,S054,Luisa Sánchez,Música,Camila Díaz,Quiz,Música - Actividad 5,20.0,1.0,True,2025-03-06
+EVAL-0669,2025-02,S044,Carlos Vargas,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 9,10.0,3.46,False,2025-03-29
+EVAL-0057,2025-02,S018,Daniela Ramírez,Tecnología,Daniel Herrera,Parcial,Tecnología - Actividad 1,20.0,3.58,False,2025-05-10
+EVAL-0357,2025-02,S003,Luisa Vargas,Ciencias,Ana Torres,Taller,Ciencias - Actividad 10,30.0,3.32,False,2025-05-14
+EVAL-0460,2025-02,S007,Ricardo Muñoz,Música,Camila Díaz,Quiz,Música - Actividad 7,15.0,4.91,False,2025-06-11
+EVAL-0150,2025-02,S019,Felipe González,Ciencias,Ana Torres,Proyecto,Ciencias - Actividad 9,20.0,2.81,False,2025-04-07
+EVAL-0064,2025-02,S047,María Sánchez,Arte,Sofía Medina,Parcial,Arte - Actividad 7,10.0,5.0,False,2025-03-22
+EVAL-0573,2025-02,S004,Sebastián Rodríguez,Música,Camila Díaz,Proyecto,Música - Actividad 3,25.0,3.77,False,2025-03-03
+EVAL-0656,2025-02,S037,Ricardo García,Música,Camila Díaz,Quiz,Música - Actividad 5,20.0,5.0,False,2025-05-27
+EVAL-0621,2025-02,S018,Daniela Ramírez,Educación Física,Pedro Castillo,Proyecto,Educación Física - Actividad 8,15.0,5.0,False,2025-02-09
+EVAL-0502,2025-02,S054,Luisa Sánchez,Arte,Sofía Medina,Examen,Arte - Actividad 5,25.0,4.67,False,2025-02-28
+EVAL-0480,2025-02,S041,Camila Castro,Lengua,Carlos Pérez,Quiz,Lengua - Actividad 7,10.0,4.58,False,2025-03-12
+EVAL-0162,2025-02,S044,Carlos Vargas,Lengua,Carlos Pérez,Proyecto,Lengua - Actividad 7,25.0,1.75,True,2025-06-02
+EVAL-0747,2025-02,S044,Carlos Vargas,Arte,Sofía Medina,Taller,Arte - Actividad 6,20.0,3.13,False,2025-06-03
+EVAL-0511,2025-02,S029,Ana Ramírez,Ciencias,Ana Torres,Quiz,Ciencias - Actividad 3,25.0,2.71,False,2025-05-03
+EVAL-0151,2025-02,S049,Ana López,Tecnología,Daniel Herrera,Taller,Tecnología - Actividad 6,15.0,5.0,False,2025-03-08
+EVAL-0101,2025-02,S060,Sofía Vargas,Arte,Sofía Medina,Quiz,Arte - Actividad 8,20.0,3.76,False,2025-03-22
+EVAL-0442,2025-02,S023,Daniela Ramírez,Inglés,María Rodríguez,Taller,Inglés - Actividad 7,10.0,1.94,True,2025-04-07
+EVAL-0191,2025-02,S044,Carlos Vargas,Música,Camila Díaz,Parcial,Música - Actividad 7,25.0,4.35,False,2025-03-08
+EVAL-0017,2025-02,S053,Felipe Rojas,Ciencias,Ana Torres,Parcial,Ciencias - Actividad 4,10.0,3.08,False,2025-04-22
+EVAL-0016,2025-02,S053,Felipe Rojas,Ciencias,Ana Torres,Proyecto,Ciencias - Actividad 1,20.0,3.57,False,2025-03-24
+EVAL-0296,2025-02,S004,Sebastián Rodríguez,Inglés,María Rodríguez,Parcial,Inglés - Actividad 7,25.0,3.67,False,2025-04-05
+EVAL-0183,2025-02,S028,Manuel Moreno,Inglés,María Rodríguez,Taller,Inglés - Actividad 8,30.0,4.01,False,2025-03-23
+EVAL-0227,2025-02,S056,Jorge Mendoza,Matemáticas,Laura Gómez,Taller,Matemáticas - Actividad 4,30.0,4.1,False,2025-05-01
+EVAL-0734,2025-02,S053,Felipe Rojas,Lengua,Carlos Pérez,Parcial,Lengua - Actividad 5,25.0,4.75,False,2025-03-07
+EVAL-0352,2025-02,S059,Jorge Ramírez,Lengua,Carlos Pérez,Quiz,Lengua - Actividad 7,30.0,3.85,False,2025-04-25
+EVAL-0237,2025-02,S026,Daniela Ramírez,Música,Camila Díaz,Quiz,Música - Actividad 1,10.0,3.47,False,2025-05-29
+EVAL-0134,2025-02,S036,Nicolás Rojas,Tecnología,Daniel Herrera,Proyecto,Tecnología - Actividad 9,20.0,2.05,True,2025-05-18
+EVAL-0580,2025-02,S045,Nicolás Flores,Arte,Sofía Medina,Quiz,Arte - Actividad 4,10.0,2.27,True,2025-04-11
+EVAL-0364,2025-02,S046,Luisa Ruiz,Música,Camila Díaz,Quiz,Música - Actividad 10,10.0,2.13,True,2025-03-17
+EVAL-0363,2025-02,S048,Pedro Guerrero,Tecnología,Daniel Herrera,Quiz,Tecnología - Actividad 3,10.0,3.58,False,2025-04-21
+EVAL-0438,2025-02,S053,Felipe Rojas,Lengua,Carlos Pérez,Examen,Lengua - Actividad 1,15.0,3.51,False,2025-05-28
+EVAL-0198,2025-02,S033,Manuel Martínez,Música,Camila Díaz,Examen,Música - Actividad 7,25.0,5.0,False,2025-06-09
+EVAL-0726,2025-02,S001,Luisa García,Tecnología,Daniel Herrera,Taller,Tecnología - Actividad 4,30.0,3.18,False,2025-06-02
+EVAL-0824,2025-02,S017,Andrés Martínez,Educación Física,Pedro Castillo,Taller,Educación Física - Actividad 10,15.0,4.09,False,2025-06-14
+EVAL-0509,2025-02,S033,Manuel Martínez,Música,Camila Díaz,Examen,Música - Actividad 9,10.0,4.36,False,2025-04-03
+EVAL-0574,2025-02,S045,Nicolás Flores,Música,Camila Díaz,Parcial,Música - Actividad 1,15.0,3.8,False,2025-05-09
+EVAL-0819,2025-02,S031,Paula Muñoz,Música,Camila Díaz,Proyecto,Música - Actividad 8,20.0,5.0,False,2025-03-10
+EVAL-0087,2025-02,S015,Nicolás Ruiz,Inglés,María Rodríguez,Parcial,Inglés - Actividad 10,30.0,3.16,False,2025-05-09
+EVAL-0194,2025-02,S035,Nicolás Martínez,Música,Camila Díaz,Parcial,Música - Actividad 6,30.0,2.5,True,2025-02-22
+EVAL-0738,2025-02,S040,Carlos Rojas,Matemáticas,Laura Gómez,Proyecto,Matemáticas - Actividad 10,20.0,2.87,False,2025-04-08
+EVAL-0476,2025-02,S002,Jorge Sánchez,Música,Camila Díaz,Quiz,Música - Actividad 8,25.0,2.96,False,2025-02-12
+EVAL-0527,2025-02,S039,Valentina Hernández,Tecnología,Daniel Herrera,Taller,Tecnología - Actividad 7,30.0,4.95,False,2025-03-09
+EVAL-0332,2025-02,S057,Pedro Rodríguez,Educación Física,Pedro Castillo,Proyecto,Educación Física - Actividad 10,15.0,3.67,False,2025-03-14
+EVAL-0014,2025-02,S016,Pedro Rodríguez,Lengua,Carlos Pérez,Parcial,Lengua - Actividad 6,30.0,2.93,False,2025-04-28
+EVAL-0045,2025-02,S042,Luisa Torres,Lengua,Carlos Pérez,Taller,Lengua - Actividad 7,30.0,5.0,False,2025-02-15
+EVAL-0263,2025-02,S050,Ricardo González,Educación Física,Pedro Castillo,Examen,Educación Física - Actividad 2,20.0,3.48,False,2025-02-21
+EVAL-0188,2025-02,S048,Pedro Guerrero,Tecnología,Daniel Herrera,Proyecto,Tecnología - Actividad 5,25.0,5.0,False,2025-05-05
+EVAL-0281,2025-02,S037,Ricardo García,Inglés,María Rodríguez,Examen,Inglés - Actividad 10,25.0,2.5,True,2025-03-23
+EVAL-0119,2025-02,S053,Felipe Rojas,Matemáticas,Laura Gómez,Parcial,Matemáticas - Actividad 9,10.0,3.97,False,2025-02-18
+EVAL-0423,2025-02,S052,Sofía Torres,Tecnología,Daniel Herrera,Proyecto,Tecnología - Actividad 6,30.0,4.62,False,2025-02-08
+EVAL-0560,2025-02,S022,Ricardo Sánchez,Lengua,Carlos Pérez,Proyecto,Lengua - Actividad 8,30.0,4.21,False,2025-02-08
+EVAL-0777,2025-02,S019,Felipe González,Arte,Sofía Medina,Parcial,Arte - Actividad 7,10.0,3.94,False,2025-04-25
+EVAL-0488,2025-02,S053,Felipe Rojas,Matemáticas,Laura Gómez,Quiz,Matemáticas - Actividad 4,15.0,4.48,False,2025-05-12
+EVAL-0145,2025-02,S030,Ricardo Vargas,Música,Camila Díaz,Examen,Música - Actividad 6,30.0,3.52,False,2025-06-08
+EVAL-0322,2025-02,S010,Sofía Flores,Ciencias,Ana Torres,Examen,Ciencias - Actividad 3,15.0,3.08,False,2025-05-23
+EVAL-0214,2025-02,S020,Sofía Ramírez,Lengua,Carlos Pérez,Taller,Lengua - Actividad 9,25.0,3.25,False,2025-05-19
+EVAL-0672,2025-02,S037,Ricardo García,Matemáticas,Laura Gómez,Parcial,Matemáticas - Actividad 7,30.0,4.4,False,2025-05-23
+EVAL-0046,2025-02,S054,Luisa Sánchez,Lengua,Carlos Pérez,Taller,Lengua - Actividad 3,20.0,3.74,False,2025-03-30
+EVAL-0828,2025-02,S007,Ricardo Muñoz,Música,Camila Díaz,Examen,Música - Actividad 4,10.0,5.0,False,2025-02-07
+EVAL-0707,2025-02,S015,Nicolás Ruiz,Historia,Jorge Ramírez,Taller,Historia - Actividad 8,30.0,4.13,False,2025-06-06
+EVAL-0640,2025-02,S047,María Sánchez,Ciencias,Ana Torres,Quiz,Ciencias - Actividad 8,30.0,4.9,False,2025-03-12
+EVAL-0288,2025-02,S009,Sebastián Flores,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 1,25.0,4.45,False,2025-03-06
+EVAL-0341,2025-02,S041,Camila Castro,Inglés,María Rodríguez,Parcial,Inglés - Actividad 5,25.0,1.51,True,2025-06-01
+EVAL-0500,2025-02,S045,Nicolás Flores,Ciencias,Ana Torres,Taller,Ciencias - Actividad 4,25.0,4.58,False,2025-04-12
+EVAL-0353,2025-02,S059,Jorge Ramírez,Lengua,Carlos Pérez,Examen,Lengua - Actividad 9,25.0,3.34,False,2025-02-04
+EVAL-0430,2025-02,S043,Nicolás Pérez,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 8,25.0,4.64,False,2025-03-15
+EVAL-0604,2025-02,S031,Paula Muñoz,Música,Camila Díaz,Proyecto,Música - Actividad 5,20.0,4.57,False,2025-05-17
+EVAL-0556,2025-02,S030,Ricardo Vargas,Educación Física,Pedro Castillo,Taller,Educación Física - Actividad 7,30.0,3.37,False,2025-02-28
+EVAL-0433,2025-02,S022,Ricardo Sánchez,Inglés,María Rodríguez,Taller,Inglés - Actividad 2,25.0,5.0,False,2025-05-25
+EVAL-0019,2025-02,S060,Sofía Vargas,Inglés,María Rodríguez,Examen,Inglés - Actividad 6,10.0,1.51,True,2025-04-26
+EVAL-0380,2025-02,S043,Nicolás Pérez,Arte,Sofía Medina,Parcial,Arte - Actividad 8,20.0,3.38,False,2025-04-08
+EVAL-0320,2025-02,S010,Sofía Flores,Ciencias,Ana Torres,Examen,Ciencias - Actividad 2,20.0,2.62,False,2025-05-13
+EVAL-0158,2025-02,S001,Luisa García,Matemáticas,Laura Gómez,Taller,Matemáticas - Actividad 2,10.0,3.67,False,2025-06-15
+EVAL-0749,2025-02,S059,Jorge Ramírez,Tecnología,Daniel Herrera,Quiz,Tecnología - Actividad 6,25.0,3.95,False,2025-05-17
+EVAL-0110,2025-02,S030,Ricardo Vargas,Inglés,María Rodríguez,Examen,Inglés - Actividad 10,15.0,4.65,False,2025-03-29
+EVAL-0406,2025-02,S004,Sebastián Rodríguez,Lengua,Carlos Pérez,Proyecto,Lengua - Actividad 3,15.0,3.79,False,2025-02-03
+EVAL-0759,2025-02,S010,Sofía Flores,Lengua,Carlos Pérez,Parcial,Lengua - Actividad 8,25.0,3.31,False,2025-06-14
+EVAL-0048,2025-02,S017,Andrés Martínez,Historia,Jorge Ramírez,Examen,Historia - Actividad 10,30.0,3.99,False,2025-02-24
+EVAL-0579,2025-02,S045,Nicolás Flores,Arte,Sofía Medina,Examen,Arte - Actividad 8,15.0,3.41,False,2025-03-06
+EVAL-0519,2025-02,S034,Ana González,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 3,25.0,3.82,False,2025-03-15
+EVAL-0776,2025-02,S002,Jorge Sánchez,Lengua,Carlos Pérez,Examen,Lengua - Actividad 8,25.0,3.98,False,2025-03-16
+EVAL-0661,2025-02,S017,Andrés Martínez,Arte,Sofía Medina,Examen,Arte - Actividad 5,10.0,3.02,False,2025-05-14
+EVAL-0161,2025-02,S017,Andrés Martínez,Arte,Sofía Medina,Quiz,Arte - Actividad 4,15.0,4.3,False,2025-04-18
+EVAL-0317,2025-02,S032,Felipe Sánchez,Matemáticas,Laura Gómez,Taller,Matemáticas - Actividad 10,15.0,3.46,False,2025-02-06
+EVAL-0547,2025-02,S047,María Sánchez,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 5,30.0,3.7,False,2025-02-15
+EVAL-0182,2025-02,S028,Manuel Moreno,Inglés,María Rodríguez,Proyecto,Inglés - Actividad 2,20.0,3.83,False,2025-04-06
+EVAL-0238,2025-02,S026,Daniela Ramírez,Música,Camila Díaz,Examen,Música - Actividad 2,30.0,3.82,False,2025-05-13
+EVAL-0274,2025-02,S015,Nicolás Ruiz,Música,Camila Díaz,Parcial,Música - Actividad 4,10.0,2.66,False,2025-06-01
+EVAL-0496,2025-02,S042,Luisa Torres,Música,Camila Díaz,Quiz,Música - Actividad 8,20.0,2.57,False,2025-05-03
+EVAL-0611,2025-02,S041,Camila Castro,Historia,Jorge Ramírez,Quiz,Historia - Actividad 5,25.0,4.55,False,2025-03-21
+EVAL-0806,2025-02,S040,Carlos Rojas,Matemáticas,Laura Gómez,Parcial,Matemáticas - Actividad 8,25.0,4.54,False,2025-06-12
+EVAL-0804,2025-02,S008,Paula Ramírez,Tecnología,Daniel Herrera,Quiz,Tecnología - Actividad 5,25.0,2.66,False,2025-06-13
+EVAL-0504,2025-02,S055,Valentina García,Ciencias,Ana Torres,Parcial,Ciencias - Actividad 2,10.0,4.58,False,2025-06-10
+EVAL-0483,2025-02,S059,Jorge Ramírez,Inglés,María Rodríguez,Proyecto,Inglés - Actividad 7,25.0,2.66,False,2025-04-22
+EVAL-0375,2025-02,S046,Luisa Ruiz,Inglés,María Rodríguez,Proyecto,Inglés - Actividad 5,30.0,4.56,False,2025-05-13
+EVAL-0421,2025-02,S054,Luisa Sánchez,Educación Física,Pedro Castillo,Taller,Educación Física - Actividad 2,15.0,2.52,False,2025-02-16
+EVAL-0688,2025-02,S002,Jorge Sánchez,Inglés,María Rodríguez,Proyecto,Inglés - Actividad 9,10.0,3.25,False,2025-04-22
+EVAL-0257,2025-02,S048,Pedro Guerrero,Educación Física,Pedro Castillo,Parcial,Educación Física - Actividad 4,25.0,3.14,False,2025-02-19
+EVAL-0241,2025-02,S051,Nicolás Muñoz,Arte,Sofía Medina,Parcial,Arte - Actividad 8,10.0,3.89,False,2025-03-04
+EVAL-0682,2025-02,S044,Carlos Vargas,Arte,Sofía Medina,Examen,Arte - Actividad 2,20.0,2.05,True,2025-05-27
+EVAL-0799,2025-02,S005,Sofía Sánchez,Matemáticas,Laura Gómez,Quiz,Matemáticas - Actividad 3,25.0,3.67,False,2025-06-11
+EVAL-0001,2025-02,S026,Daniela Ramírez,Música,Camila Díaz,Proyecto,Música - Actividad 2,20.0,2.6,False,2025-03-30
+EVAL-0289,2025-02,S009,Sebastián Flores,Educación Física,Pedro Castillo,Taller,Educación Física - Actividad 5,20.0,3.9,False,2025-04-22
+EVAL-0532,2025-02,S058,María Flores,Educación Física,Pedro Castillo,Parcial,Educación Física - Actividad 9,25.0,1.6,True,2025-03-31
+EVAL-0315,2025-02,S012,Nicolás Ramírez,Historia,Jorge Ramírez,Quiz,Historia - Actividad 10,15.0,4.15,False,2025-03-21
+EVAL-0020,2025-02,S060,Sofía Vargas,Inglés,María Rodríguez,Examen,Inglés - Actividad 2,20.0,4.16,False,2025-05-23
+EVAL-0733,2025-02,S040,Carlos Rojas,Música,Camila Díaz,Examen,Música - Actividad 6,20.0,4.01,False,2025-05-09
+EVAL-0710,2025-02,S047,María Sánchez,Arte,Sofía Medina,Parcial,Arte - Actividad 9,10.0,3.38,False,2025-05-27
+EVAL-0508,2025-02,S050,Ricardo González,Historia,Jorge Ramírez,Quiz,Historia - Actividad 5,15.0,4.25,False,2025-05-30
+EVAL-0585,2025-02,S014,Pedro Vargas,Inglés,María Rodríguez,Parcial,Inglés - Actividad 8,20.0,3.9,False,2025-04-08
+EVAL-0112,2025-02,S009,Sebastián Flores,Tecnología,Daniel Herrera,Quiz,Tecnología - Actividad 4,15.0,1.74,True,2025-02-21
+EVAL-0342,2025-02,S041,Camila Castro,Inglés,María Rodríguez,Proyecto,Inglés - Actividad 5,10.0,2.97,False,2025-05-11
+EVAL-0244,2025-02,S042,Luisa Torres,Arte,Sofía Medina,Examen,Arte - Actividad 3,10.0,3.95,False,2025-05-13
+EVAL-0568,2025-02,S010,Sofía Flores,Lengua,Carlos Pérez,Proyecto,Lengua - Actividad 10,10.0,4.82,False,2025-02-11
+EVAL-0823,2025-02,S060,Sofía Vargas,Tecnología,Daniel Herrera,Examen,Tecnología - Actividad 5,20.0,4.64,False,2025-02-26
+EVAL-0196,2025-02,S035,Nicolás Martínez,Música,Camila Díaz,Quiz,Música - Actividad 1,30.0,2.91,False,2025-05-14
+EVAL-0800,2025-02,S028,Manuel Moreno,Música,Camila Díaz,Examen,Música - Actividad 4,15.0,3.59,False,2025-05-20
+EVAL-0514,2025-02,S003,Luisa Vargas,Historia,Jorge Ramírez,Proyecto,Historia - Actividad 8,10.0,4.04,False,2025-02-11
+EVAL-0787,2025-02,S020,Sofía Ramírez,Educación Física,Pedro Castillo,Taller,Educación Física - Actividad 10,10.0,4.65,False,2025-03-10
+EVAL-0215,2025-02,S020,Sofía Ramírez,Lengua,Carlos Pérez,Quiz,Lengua - Actividad 3,30.0,3.02,False,2025-05-10
+EVAL-0002,2025-02,S002,Jorge Sánchez,Arte,Sofía Medina,Examen,Arte - Actividad 3,15.0,4.28,False,2025-02-10
+EVAL-0059,2025-02,S049,Ana López,Ciencias,Ana Torres,Proyecto,Ciencias - Actividad 8,20.0,3.6,False,2025-06-08
+EVAL-0312,2025-02,S058,María Flores,Inglés,María Rodríguez,Taller,Inglés - Actividad 2,15.0,5.0,False,2025-04-03
+EVAL-0771,2025-02,S046,Luisa Ruiz,Tecnología,Daniel Herrera,Examen,Tecnología - Actividad 4,30.0,3.13,False,2025-02-21
+EVAL-0770,2025-02,S004,Sebastián Rodríguez,Ciencias,Ana Torres,Parcial,Ciencias - Actividad 7,25.0,4.22,False,2025-03-18
+EVAL-0652,2025-02,S036,Nicolás Rojas,Música,Camila Díaz,Proyecto,Música - Actividad 2,15.0,4.6,False,2025-03-19
+EVAL-0497,2025-02,S009,Sebastián Flores,Historia,Jorge Ramírez,Quiz,Historia - Actividad 2,15.0,3.79,False,2025-04-23
+EVAL-0617,2025-02,S014,Pedro Vargas,Arte,Sofía Medina,Proyecto,Arte - Actividad 6,25.0,4.09,False,2025-02-09
+EVAL-0758,2025-02,S029,Ana Ramírez,Música,Camila Díaz,Proyecto,Música - Actividad 9,20.0,3.83,False,2025-04-25
+EVAL-0024,2025-02,S047,María Sánchez,Educación Física,Pedro Castillo,Examen,Educación Física - Actividad 2,10.0,4.28,False,2025-04-25
+EVAL-0618,2025-02,S014,Pedro Vargas,Arte,Sofía Medina,Examen,Arte - Actividad 2,15.0,3.6,False,2025-02-15
+EVAL-0009,2025-02,S054,Luisa Sánchez,Tecnología,Daniel Herrera,Examen,Tecnología - Actividad 7,10.0,5.0,False,2025-05-02
+EVAL-0795,2025-02,S045,Nicolás Flores,Educación Física,Pedro Castillo,Taller,Educación Física - Actividad 4,30.0,3.23,False,2025-05-10
+EVAL-0070,2025-02,S013,Sara Vargas,Música,Camila Díaz,Examen,Música - Actividad 8,30.0,2.31,True,2025-05-28
+EVAL-0743,2025-02,S052,Sofía Torres,Educación Física,Pedro Castillo,Examen,Educación Física - Actividad 6,30.0,5.0,False,2025-03-27
+EVAL-0643,2025-02,S056,Jorge Mendoza,Matemáticas,Laura Gómez,Proyecto,Matemáticas - Actividad 4,10.0,2.21,True,2025-02-09
+EVAL-0333,2025-02,S029,Ana Ramírez,Lengua,Carlos Pérez,Parcial,Lengua - Actividad 6,20.0,3.74,False,2025-02-27
+EVAL-0667,2025-02,S020,Sofía Ramírez,Música,Camila Díaz,Quiz,Música - Actividad 10,15.0,3.42,False,2025-04-25
+EVAL-0761,2025-02,S057,Pedro Rodríguez,Matemáticas,Laura Gómez,Examen,Matemáticas - Actividad 1,30.0,2.62,False,2025-04-21
+EVAL-0769,2025-02,S004,Sebastián Rodríguez,Ciencias,Ana Torres,Parcial,Ciencias - Actividad 2,25.0,4.15,False,2025-02-14
+EVAL-0609,2025-02,S027,Paula Flores,Música,Camila Díaz,Taller,Música - Actividad 3,25.0,3.67,False,2025-05-08
+EVAL-0615,2025-02,S012,Nicolás Ramírez,Lengua,Carlos Pérez,Taller,Lengua - Actividad 8,10.0,2.78,False,2025-04-01
+EVAL-0732,2025-02,S040,Carlos Rojas,Música,Camila Díaz,Quiz,Música - Actividad 6,10.0,4.92,False,2025-02-24
+EVAL-0715,2025-02,S019,Felipe González,Matemáticas,Laura Gómez,Proyecto,Matemáticas - Actividad 2,30.0,4.92,False,2025-03-01
+EVAL-0156,2025-02,S004,Sebastián Rodríguez,Tecnología,Daniel Herrera,Parcial,Tecnología - Actividad 9,30.0,3.95,False,2025-05-17
+EVAL-0006,2025-02,S008,Paula Ramírez,Inglés,María Rodríguez,Parcial,Inglés - Actividad 1,15.0,3.59,False,2025-05-19
+EVAL-0373,2025-02,S044,Carlos Vargas,Historia,Jorge Ramírez,Taller,Historia - Actividad 5,30.0,3.56,False,2025-04-20
+EVAL-0042,2025-02,S030,Ricardo Vargas,Música,Camila Díaz,Proyecto,Música - Actividad 9,25.0,3.37,False,2025-05-16
+EVAL-0470,2025-02,S050,Ricardo González,Inglés,María Rodríguez,Quiz,Inglés - Actividad 4,15.0,3.92,False,2025-06-14
+EVAL-0627,2025-02,S013,Sara Vargas,Arte,Sofía Medina,Quiz,Arte - Actividad 2,25.0,3.01,False,2025-04-04
+EVAL-0544,2025-02,S017,Andrés Martínez,Inglés,María Rodríguez,Quiz,Inglés - Actividad 7,20.0,3.78,False,2025-02-14
+EVAL-0420,2025-02,S024,Ricardo Sánchez,Arte,Sofía Medina,Proyecto,Arte - Actividad 7,25.0,3.08,False,2025-04-11
+EVAL-0555,2025-02,S038,Luisa Vargas,Historia,Jorge Ramírez,Examen,Historia - Actividad 4,30.0,3.78,False,2025-03-22
+EVAL-0109,2025-02,S030,Ricardo Vargas,Inglés,María Rodríguez,Quiz,Inglés - Actividad 5,10.0,3.82,False,2025-04-17
+EVAL-0791,2025-02,S006,Juan Vargas,Matemáticas,Laura Gómez,Examen,Matemáticas - Actividad 1,20.0,2.28,True,2025-02-14
+EVAL-0381,2025-02,S043,Nicolás Pérez,Arte,Sofía Medina,Proyecto,Arte - Actividad 7,25.0,4.35,False,2025-02-10
+EVAL-0625,2025-02,S013,Sara Vargas,Arte,Sofía Medina,Taller,Arte - Actividad 2,15.0,2.48,True,2025-05-23
+EVAL-0103,2025-02,S048,Pedro Guerrero,Arte,Sofía Medina,Taller,Arte - Actividad 3,30.0,4.92,False,2025-05-15
+EVAL-0224,2025-02,S037,Ricardo García,Tecnología,Daniel Herrera,Quiz,Tecnología - Actividad 1,25.0,4.62,False,2025-03-28
+EVAL-0252,2025-02,S029,Ana Ramírez,Arte,Sofía Medina,Taller,Arte - Actividad 2,10.0,1.86,True,2025-03-08
+EVAL-0399,2025-02,S020,Sofía Ramírez,Ciencias,Ana Torres,Parcial,Ciencias - Actividad 1,20.0,3.35,False,2025-04-16
+EVAL-0155,2025-02,S034,Ana González,Matemáticas,Laura Gómez,Taller,Matemáticas - Actividad 9,25.0,3.59,False,2025-05-07
+EVAL-0231,2025-02,S046,Luisa Ruiz,Inglés,María Rodríguez,Examen,Inglés - Actividad 9,10.0,5.0,False,2025-03-07
+EVAL-0127,2025-02,S030,Ricardo Vargas,Arte,Sofía Medina,Quiz,Arte - Actividad 1,15.0,3.45,False,2025-03-25
+EVAL-0602,2025-02,S030,Ricardo Vargas,Música,Camila Díaz,Quiz,Música - Actividad 10,25.0,2.36,True,2025-05-23
+EVAL-0389,2025-02,S031,Paula Muñoz,Historia,Jorge Ramírez,Proyecto,Historia - Actividad 9,20.0,4.58,False,2025-05-17
+EVAL-0003,2025-02,S002,Jorge Sánchez,Arte,Sofía Medina,Examen,Arte - Actividad 8,15.0,1.37,True,2025-06-01
+EVAL-0321,2025-02,S010,Sofía Flores,Ciencias,Ana Torres,Quiz,Ciencias - Actividad 2,20.0,3.62,False,2025-04-19
+EVAL-0086,2025-02,S015,Nicolás Ruiz,Inglés,María Rodríguez,Examen,Inglés - Actividad 9,20.0,3.57,False,2025-04-15
+EVAL-0044,2025-02,S042,Luisa Torres,Lengua,Carlos Pérez,Quiz,Lengua - Actividad 6,15.0,4.09,False,2025-03-19
+EVAL-0165,2025-02,S003,Luisa Vargas,Lengua,Carlos Pérez,Quiz,Lengua - Actividad 1,15.0,2.91,False,2025-04-22
+EVAL-0432,2025-02,S022,Ricardo Sánchez,Inglés,María Rodríguez,Taller,Inglés - Actividad 9,25.0,5.0,False,2025-05-15
+EVAL-0417,2025-02,S024,Ricardo Sánchez,Arte,Sofía Medina,Parcial,Arte - Actividad 2,10.0,4.15,False,2025-02-03
+EVAL-0290,2025-02,S009,Sebastián Flores,Educación Física,Pedro Castillo,Proyecto,Educación Física - Actividad 6,20.0,4.75,False,2025-05-27
+EVAL-0140,2025-02,S042,Luisa Torres,Lengua,Carlos Pérez,Examen,Lengua - Actividad 7,30.0,3.94,False,2025-02-11
+EVAL-0412,2025-02,S013,Sara Vargas,Historia,Jorge Ramírez,Taller,Historia - Actividad 8,20.0,3.63,False,2025-04-02
+EVAL-0378,2025-02,S038,Luisa Vargas,Lengua,Carlos Pérez,Examen,Lengua - Actividad 5,20.0,4.18,False,2025-04-12
+EVAL-0523,2025-02,S042,Luisa Torres,Educación Física,Pedro Castillo,Parcial,Educación Física - Actividad 3,30.0,2.93,False,2025-03-14
+EVAL-0447,2025-02,S030,Ricardo Vargas,Música,Camila Díaz,Quiz,Música - Actividad 8,30.0,3.94,False,2025-03-18
+EVAL-0008,2025-02,S054,Luisa Sánchez,Tecnología,Daniel Herrera,Quiz,Tecnología - Actividad 10,15.0,4.36,False,2025-03-09
+EVAL-0513,2025-02,S029,Ana Ramírez,Ciencias,Ana Torres,Parcial,Ciencias - Actividad 5,20.0,4.13,False,2025-04-01
+EVAL-0728,2025-02,S057,Pedro Rodríguez,Música,Camila Díaz,Quiz,Música - Actividad 4,10.0,2.17,True,2025-03-20
+EVAL-0541,2025-02,S055,Valentina García,Música,Camila Díaz,Taller,Música - Actividad 6,30.0,4.32,False,2025-06-04
+EVAL-0425,2025-02,S052,Sofía Torres,Tecnología,Daniel Herrera,Proyecto,Tecnología - Actividad 8,10.0,3.92,False,2025-02-17
+EVAL-0124,2025-02,S008,Paula Ramírez,Ciencias,Ana Torres,Examen,Ciencias - Actividad 8,30.0,3.6,False,2025-05-20
+EVAL-0152,2025-02,S049,Ana López,Tecnología,Daniel Herrera,Quiz,Tecnología - Actividad 8,15.0,3.31,False,2025-02-16
+EVAL-0437,2025-02,S053,Felipe Rojas,Lengua,Carlos Pérez,Quiz,Lengua - Actividad 4,25.0,5.0,False,2025-04-29
+EVAL-0239,2025-02,S014,Pedro Vargas,Educación Física,Pedro Castillo,Examen,Educación Física - Actividad 6,20.0,1.74,True,2025-04-28
+EVAL-0080,2025-02,S053,Felipe Rojas,Historia,Jorge Ramírez,Taller,Historia - Actividad 7,30.0,2.37,True,2025-06-01
+EVAL-0377,2025-02,S038,Luisa Vargas,Lengua,Carlos Pérez,Examen,Lengua - Actividad 2,25.0,5.0,False,2025-02-17
+EVAL-0636,2025-02,S005,Sofía Sánchez,Música,Camila Díaz,Examen,Música - Actividad 5,30.0,2.44,True,2025-05-05
+EVAL-0176,2025-02,S029,Ana Ramírez,Arte,Sofía Medina,Taller,Arte - Actividad 2,15.0,2.89,False,2025-05-22
+EVAL-0356,2025-02,S060,Sofía Vargas,Lengua,Carlos Pérez,Proyecto,Lengua - Actividad 8,30.0,4.45,False,2025-06-02
+EVAL-0090,2025-02,S023,Daniela Ramírez,Tecnología,Daniel Herrera,Quiz,Tecnología - Actividad 5,15.0,3.35,False,2025-02-28
+EVAL-0063,2025-02,S004,Sebastián Rodríguez,Matemáticas,Laura Gómez,Parcial,Matemáticas - Actividad 7,15.0,3.53,False,2025-04-09
+EVAL-0490,2025-02,S051,Nicolás Muñoz,Música,Camila Díaz,Quiz,Música - Actividad 9,15.0,4.61,False,2025-03-04
+EVAL-0774,2025-02,S053,Felipe Rojas,Tecnología,Daniel Herrera,Taller,Tecnología - Actividad 3,30.0,1.53,True,2025-04-08
+EVAL-0382,2025-02,S043,Nicolás Pérez,Arte,Sofía Medina,Quiz,Arte - Actividad 10,15.0,5.0,False,2025-04-29
+EVAL-0386,2025-02,S044,Carlos Vargas,Arte,Sofía Medina,Examen,Arte - Actividad 4,20.0,4.59,False,2025-05-19
+EVAL-0772,2025-02,S046,Luisa Ruiz,Tecnología,Daniel Herrera,Proyecto,Tecnología - Actividad 10,15.0,3.83,False,2025-02-24
+EVAL-0465,2025-02,S001,Luisa García,Inglés,María Rodríguez,Parcial,Inglés - Actividad 3,15.0,4.39,False,2025-06-12
+EVAL-0136,2025-02,S012,Nicolás Ramírez,Música,Camila Díaz,Taller,Música - Actividad 5,15.0,3.95,False,2025-05-30
+EVAL-0812,2025-02,S040,Carlos Rojas,Inglés,María Rodríguez,Parcial,Inglés - Actividad 2,30.0,5.0,False,2025-03-17
+EVAL-0751,2025-02,S036,Nicolás Rojas,Música,Camila Díaz,Quiz,Música - Actividad 6,20.0,4.44,False,2025-02-17
+EVAL-0724,2025-02,S056,Jorge Mendoza,Ciencias,Ana Torres,Taller,Ciencias - Actividad 4,10.0,1.99,True,2025-04-06
+EVAL-0258,2025-02,S048,Pedro Guerrero,Educación Física,Pedro Castillo,Quiz,Educación Física - Actividad 1,20.0,3.11,False,2025-04-23
+EVAL-0730,2025-02,S057,Pedro Rodríguez,Música,Camila Díaz,Taller,Música - Actividad 1,30.0,3.67,False,2025-04-18
+EVAL-0137,2025-02,S059,Jorge Ramírez,Matemáticas,Laura Gómez,Quiz,Matemáticas - Actividad 9,15.0,4.68,False,2025-05-11
+EVAL-0658,2025-02,S019,Felipe González,Matemáticas,Laura Gómez,Parcial,Matemáticas - Actividad 5,15.0,3.53,False,2025-03-27
+EVAL-0201,2025-02,S022,Ricardo Sánchez,Tecnología,Daniel Herrera,Proyecto,Tecnología - Actividad 6,25.0,4.09,False,2025-02-25
+EVAL-0007,2025-02,S008,Paula Ramírez,Inglés,María Rodríguez,Quiz,Inglés - Actividad 8,10.0,3.02,False,2025-03-01
+EVAL-0515,2025-02,S003,Luisa Vargas,Historia,Jorge Ramírez,Examen,Historia - Actividad 2,30.0,3.85,False,2025-04-12
+EVAL-0192,2025-02,S044,Carlos Vargas,Música,Camila Díaz,Examen,Música - Actividad 4,20.0,4.43,False,2025-03-12
+EVAL-0628,2025-02,S001,Luisa García,Matemáticas,Laura Gómez,Quiz,Matemáticas - Actividad 3,20.0,3.76,False,2025-02-23
+EVAL-0047,2025-02,S054,Luisa Sánchez,Lengua,Carlos Pérez,Examen,Lengua - Actividad 9,20.0,4.57,False,2025-02-21
+EVAL-0318,2025-02,S034,Ana González,Tecnología,Daniel Herrera,Quiz,Tecnología - Actividad 4,15.0,5.0,False,2025-04-29
+EVAL-0336,2025-02,S011,Daniela Hernández,Lengua,Carlos Pérez,Proyecto,Lengua - Actividad 3,30.0,2.76,False,2025-05-23
+EVAL-0060,2025-02,S049,Ana López,Ciencias,Ana Torres,Parcial,Ciencias - Actividad 2,25.0,4.92,False,2025-06-10
+EVAL-0443,2025-02,S023,Daniela Ramírez,Inglés,María Rodríguez,Quiz,Inglés - Actividad 4,15.0,3.53,False,2025-03-03
+EVAL-0217,2025-02,S028,Manuel Moreno,Ciencias,Ana Torres,Proyecto,Ciencias - Actividad 5,15.0,4.86,False,2025-03-20
+EVAL-0108,2025-02,S049,Ana López,Inglés,María Rodríguez,Examen,Inglés - Actividad 4,10.0,3.76,False,2025-03-03
+EVAL-0698,2025-02,S056,Jorge Mendoza,Ciencias,Ana Torres,Quiz,Ciencias - Actividad 3,20.0,2.68,False,2025-02-18
+EVAL-0545,2025-02,S011,Daniela Hernández,Educación Física,Pedro Castillo,Taller,Educación Física - Actividad 8,30.0,2.41,True,2025-05-23
+EVAL-0316,2025-02,S012,Nicolás Ramírez,Historia,Jorge Ramírez,Proyecto,Historia - Actividad 9,20.0,3.39,False,2025-03-17
+EVAL-0576,2025-02,S040,Carlos Rojas,Inglés,María Rodríguez,Examen,Inglés - Actividad 4,20.0,4.04,False,2025-06-01
+EVAL-0166,2025-02,S003,Luisa Vargas,Lengua,Carlos Pérez,Parcial,Lengua - Actividad 4,30.0,4.51,False,2025-03-09
+EVAL-0798,2025-02,S005,Sofía Sánchez,Matemáticas,Laura Gómez,Taller,Matemáticas - Actividad 7,25.0,2.68,False,2025-05-20
+EVAL-0130,2025-02,S049,Ana López,Matemáticas,Laura Gómez,Examen,Matemáticas - Actividad 4,30.0,3.33,False,2025-04-23
+EVAL-0693,2025-02,S015,Nicolás Ruiz,Ciencias,Ana Torres,Taller,Ciencias - Actividad 2,25.0,2.9,False,2025-06-14
+EVAL-0232,2025-02,S046,Luisa Ruiz,Inglés,María Rodríguez,Proyecto,Inglés - Actividad 1,20.0,5.0,False,2025-03-05
+EVAL-0484,2025-02,S059,Jorge Ramírez,Inglés,María Rodríguez,Parcial,Inglés - Actividad 7,10.0,3.53,False,2025-02-02
+EVAL-0757,2025-02,S029,Ana Ramírez,Música,Camila Díaz,Quiz,Música - Actividad 3,15.0,3.0,False,2025-04-29
+EVAL-0599,2025-02,S042,Luisa Torres,Educación Física,Pedro Castillo,Taller,Educación Física - Actividad 5,25.0,3.16,False,2025-03-05
+EVAL-0405,2025-02,S004,Sebastián Rodríguez,Lengua,Carlos Pérez,Proyecto,Lengua - Actividad 2,30.0,3.7,False,2025-04-06
+EVAL-0456,2025-02,S046,Luisa Ruiz,Lengua,Carlos Pérez,Quiz,Lengua - Actividad 5,25.0,3.2,False,2025-02-04
+EVAL-0491,2025-02,S051,Nicolás Muñoz,Música,Camila Díaz,Parcial,Música - Actividad 1,30.0,4.05,False,2025-05-12
+EVAL-0655,2025-02,S043,Nicolás Pérez,Ciencias,Ana Torres,Proyecto,Ciencias - Actividad 7,20.0,4.07,False,2025-04-03
+EVAL-0221,2025-02,S046,Luisa Ruiz,Tecnología,Daniel Herrera,Parcial,Tecnología - Actividad 10,10.0,3.13,False,2025-03-29
+EVAL-0820,2025-02,S031,Paula Muñoz,Música,Camila Díaz,Quiz,Música - Actividad 7,10.0,3.48,False,2025-04-15
+EVAL-0487,2025-02,S042,Luisa Torres,Lengua,Carlos Pérez,Examen,Lengua - Actividad 8,25.0,3.23,False,2025-05-13

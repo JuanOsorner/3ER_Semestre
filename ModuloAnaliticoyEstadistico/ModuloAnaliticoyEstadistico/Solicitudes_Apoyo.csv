@@ -1,0 +1,201 @@
+﻿record_id,student_id,student_name,grade_level,section,support_type,status,created_at,updated_at,responsible,description
+SUP-0032,S048,Pedro Guerrero,6.0,C,Acompañamiento familiar,Pendiente,2025-06-06,2025-06-15,Daniel Herrera,Solicitud de acompañamiento familiar creada por docente.
+SUP-0143,S045,Nicolás Flores,9.0,A,Asesoría de inglés,En proceso,2025-03-04,2025-03-12,María Rodríguez,Solicitud de asesoría de inglés creada por coordinación.
+SUP-0122,S003,Luisa Vargas,6.0,C,Asesoría de inglés,Abierta,2025-05-25,2025-06-11,Ana Torres,Solicitud de asesoría de inglés creada por familiar.
+SUP-0191,S054,Luisa Sánchez,7.0,A,Apoyo psicológico,Cerrada,2025-04-09,2025-04-15,Ana Torres,Solicitud de apoyo psicológico creada por coordinación.
+SUP-0005,S001,Luisa García,11.0,B,Refuerzo de lectura,Abierta,2025-05-12,2025-05-28,Jorge Ramírez,Solicitud de refuerzo de lectura creada por coordinación.
+SUP-0072,S005,Sofía Sánchez,10.0,C,Orientación académica,Abierta,2025-04-10,2025-05-06,Sofía Medina,Solicitud de orientación académica creada por coordinación.
+SUP-0176,S016,Pedro Rodríguez,11.0,A,Apoyo psicológico,Abierta,2025-03-08,2025-03-10,Pedro Castillo,Solicitud de apoyo psicológico creada por familiar.
+SUP-0142,S003,Luisa Vargas,6.0,C,Acompañamiento familiar,Abierta,2025-03-14,2025-04-17,Carlos Pérez,Solicitud de acompañamiento familiar creada por coordinación.
+SUP-0069,S055,Valentina García,10.0,C,Acompañamiento familiar,Cerrada,2025-06-07,2025-07-14,María Rodríguez,Solicitud de acompañamiento familiar creada por docente.
+SUP-0082,S050,Ricardo González,8.0,C,Refuerzo de lectura,Pendiente,2025-02-12,2025-03-19,Camila Díaz,Solicitud de refuerzo de lectura creada por familiar.
+SUP-0019,S032,Felipe Sánchez,7.0,C,Asesoría de inglés,Abierta,2025-03-03,2025-03-17,María Rodríguez,Solicitud de asesoría de inglés creada por coordinación.
+SUP-0058,S029,Ana Ramírez,7.0,A,Tutoría de matemáticas,Abierta,2025-04-09,2025-04-30,Carlos Pérez,Solicitud de tutoría de matemáticas creada por familiar.
+SUP-0182,S045,Nicolás Flores,9.0,A,Acompañamiento familiar,Pendiente,2025-04-26,2025-06-02,María Rodríguez,Solicitud de acompañamiento familiar creada por coordinación.
+SUP-0030,S032,Felipe Sánchez,7.0,C,Orientación académica,En proceso,2025-04-13,2025-05-06,María Rodríguez,Solicitud de orientación académica creada por familiar.
+SUP-0035,S029,Ana Ramírez,7.0,A,Orientación académica,En proceso,2025-05-03,2025-06-07,Carlos Pérez,Solicitud de orientación académica creada por familiar.
+SUP-0016,S042,Luisa Torres,11.0,C,Orientación académica,Abierta,2025-03-31,2025-04-05,Ana Torres,Solicitud de orientación académica creada por docente.
+SUP-0029,S021,Pedro Cortés,11.0,A,Refuerzo de lectura,Abierta,2025-05-22,2025-05-31,Laura Gómez,Solicitud de refuerzo de lectura creada por docente.
+SUP-0155,S056,Jorge Mendoza,7.0,A,Acompañamiento familiar,En proceso,2025-04-13,2025-05-19,Camila Díaz,Solicitud de acompañamiento familiar creada por docente.
+SUP-0141,S025,María Sánchez,6.0,B,Tutoría de matemáticas,En proceso,2025-05-01,2025-06-10,Camila Díaz,Solicitud de tutoría de matemáticas creada por coordinación.
+SUP-0135,S036,Nicolás Rojas,10.0,B,Orientación académica,Abierta,2025-05-16,2025-05-20,Jorge Ramírez,Solicitud de orientación académica creada por docente.
+SUP-0166,S054,Luisa Sánchez,7.0,A,Acompañamiento familiar,Cerrada,2025-02-14,2025-03-07,Carlos Pérez,Solicitud de acompañamiento familiar creada por familiar.
+SUP-0133,S025,María Sánchez,6.0,B,Tutoría de matemáticas,Abierta,2025-03-03,2025-03-06,Jorge Ramírez,Solicitud de tutoría de matemáticas creada por coordinación.
+SUP-0113,S003,Luisa Vargas,6.0,C,Refuerzo de lectura,Pendiente,2025-03-13,2025-04-17,Carlos Pérez,Solicitud de refuerzo de lectura creada por familiar.
+SUP-0109,S024,Ricardo Sánchez,11.0,B,Acompañamiento familiar,En proceso,2025-06-15,2025-07-10,Pedro Castillo,Solicitud de acompañamiento familiar creada por coordinación.
+SUP-0119,S029,Ana Ramírez,7.0,A,Orientación académica,Cerrada,2025-04-28,2025-05-22,Ana Torres,Solicitud de orientación académica creada por docente.
+SUP-0188,S029,Ana Ramírez,7.0,A,Acompañamiento familiar,Pendiente,2025-03-22,2025-05-01,Sofía Medina,Solicitud de acompañamiento familiar creada por docente.
+SUP-0127,S052,Sofía Torres,9.0,C,Acompañamiento familiar,Abierta,2025-04-24,2025-05-19,Laura Gómez,Solicitud de acompañamiento familiar creada por coordinación.
+SUP-0196,S049,Ana López,11.0,B,Refuerzo de lectura,Cerrada,2025-03-21,2025-04-24,Sofía Medina,Solicitud de refuerzo de lectura creada por docente.
+SUP-0163,S015,Nicolás Ruiz,10.0,A,Tutoría de matemáticas,Abierta,2025-05-20,2025-05-24,Sofía Medina,Solicitud de tutoría de matemáticas creada por coordinación.
+SUP-0055,S007,Ricardo Muñoz,7.0,B,Refuerzo de lectura,En proceso,2025-05-30,2025-07-05,Carlos Pérez,Solicitud de refuerzo de lectura creada por familiar.
+SUP-0137,S037,Ricardo García,11.0,C,Apoyo psicológico,Cerrada,2025-05-16,2025-06-13,Camila Díaz,Solicitud de apoyo psicológico creada por docente.
+SUP-0063,S008,Paula Ramírez,6.0,A,Apoyo psicológico,Abierta,2025-02-05,2025-02-17,Ana Torres,Solicitud de apoyo psicológico creada por familiar.
+SUP-0158,S002,Jorge Sánchez,7.0,C,Orientación académica,Abierta,2025-04-06,2025-05-11,Pedro Castillo,Solicitud de orientación académica creada por familiar.
+SUP-0042,S003,Luisa Vargas,6.0,C,Asesoría de inglés,Pendiente,2025-05-27,2025-06-16,Ana Torres,Solicitud de asesoría de inglés creada por docente.
+SUP-0091,S055,Valentina García,10.0,C,Apoyo psicológico,En proceso,2025-06-13,2025-07-06,Laura Gómez,Solicitud de apoyo psicológico creada por familiar.
+SUP-0129,S017,Andrés Martínez,7.0,A,Apoyo psicológico,En proceso,2025-02-24,2025-03-03,María Rodríguez,Solicitud de apoyo psicológico creada por docente.
+SUP-0031,S054,Luisa Sánchez,7.0,A,Refuerzo de lectura,En proceso,2025-04-09,2025-05-12,Ana Torres,Solicitud de refuerzo de lectura creada por coordinación.
+SUP-0061,S048,Pedro Guerrero,6.0,C,Acompañamiento familiar,Cerrada,2025-06-05,2025-06-24,Sofía Medina,Solicitud de acompañamiento familiar creada por familiar.
+SUP-0177,S042,Luisa Torres,11.0,C,Acompañamiento familiar,Pendiente,2025-05-03,2025-05-22,Ana Torres,Solicitud de acompañamiento familiar creada por docente.
+SUP-0097,S051,Nicolás Muñoz,7.0,C,Asesoría de inglés,En proceso,2025-05-25,2025-06-16,Jorge Ramírez,Solicitud de asesoría de inglés creada por coordinación.
+SUP-0117,S060,Sofía Vargas,7.0,C,Tutoría de matemáticas,Abierta,2025-04-20,2025-05-08,Daniel Herrera,Solicitud de tutoría de matemáticas creada por docente.
+SUP-0014,S012,Nicolás Ramírez,6.0,C,Tutoría de matemáticas,Abierta,2025-04-25,2025-05-13,Sofía Medina,Solicitud de tutoría de matemáticas creada por docente.
+SUP-0027,S026,Daniela Ramírez,6.0,A,Acompañamiento familiar,Abierta,2025-05-06,2025-05-14,Ana Torres,Solicitud de acompañamiento familiar creada por coordinación.
+SUP-0084,S051,Nicolás Muñoz,7.0,C,Apoyo psicológico,En proceso,2025-02-27,2025-04-03,Ana Torres,Solicitud de apoyo psicológico creada por familiar.
+SUP-0154,S046,Luisa Ruiz,8.0,A,Tutoría de matemáticas,Pendiente,2025-03-26,2025-03-26,Pedro Castillo,Solicitud de tutoría de matemáticas creada por docente.
+SUP-0002,S024,Ricardo Sánchez,11.0,B,Refuerzo de lectura,Abierta,2025-06-02,2025-06-25,Laura Gómez,Solicitud de refuerzo de lectura creada por familiar.
+SUP-0151,S024,Ricardo Sánchez,11.0,B,Apoyo psicológico,Abierta,2025-03-22,2025-04-19,Laura Gómez,Solicitud de apoyo psicológico creada por coordinación.
+SUP-0044,S039,Valentina Hernández,8.0,B,Orientación académica,En proceso,2025-05-09,2025-05-14,Jorge Ramírez,Solicitud de orientación académica creada por coordinación.
+SUP-0125,S058,María Flores,6.0,C,Asesoría de inglés,Pendiente,2025-02-05,2025-02-12,Ana Torres,Solicitud de asesoría de inglés creada por docente.
+SUP-0130,S012,Nicolás Ramírez,6.0,C,Tutoría de matemáticas,En proceso,2025-04-07,2025-04-12,Pedro Castillo,Solicitud de tutoría de matemáticas creada por familiar.
+SUP-0028,S011,Daniela Hernández,8.0,B,Refuerzo de lectura,Pendiente,2025-06-09,2025-07-10,Ana Torres,Solicitud de refuerzo de lectura creada por docente.
+SUP-0041,S043,Nicolás Pérez,7.0,B,Asesoría de inglés,Pendiente,2025-06-03,2025-07-02,Laura Gómez,Solicitud de asesoría de inglés creada por coordinación.
+SUP-0103,S004,Sebastián Rodríguez,6.0,A,Refuerzo de lectura,En proceso,2025-03-04,2025-04-01,Laura Gómez,Solicitud de refuerzo de lectura creada por coordinación.
+SUP-0181,S022,Ricardo Sánchez,7.0,B,Asesoría de inglés,Cerrada,2025-03-21,2025-04-20,Daniel Herrera,Solicitud de asesoría de inglés creada por familiar.
+SUP-0071,S046,Luisa Ruiz,8.0,A,Apoyo psicológico,En proceso,2025-02-16,2025-03-21,Sofía Medina,Solicitud de apoyo psicológico creada por familiar.
+SUP-0056,S002,Jorge Sánchez,7.0,C,Tutoría de matemáticas,Cerrada,2025-03-02,2025-03-31,Pedro Castillo,Solicitud de tutoría de matemáticas creada por docente.
+SUP-0190,S012,Nicolás Ramírez,6.0,C,Tutoría de matemáticas,Abierta,2025-04-28,2025-06-02,Laura Gómez,Solicitud de tutoría de matemáticas creada por docente.
+SUP-0094,S004,Sebastián Rodríguez,6.0,A,Orientación académica,En proceso,2025-06-14,2025-07-02,Camila Díaz,Solicitud de orientación académica creada por coordinación.
+SUP-0140,S011,Daniela Hernández,8.0,B,Orientación académica,En proceso,2025-02-01,2025-02-04,María Rodríguez,Solicitud de orientación académica creada por familiar.
+SUP-0092,S052,Sofía Torres,9.0,C,Apoyo psicológico,En proceso,2025-06-13,2025-06-17,Pedro Castillo,Solicitud de apoyo psicológico creada por docente.
+SUP-0057,S006,Juan Vargas,7.0,C,Refuerzo de lectura,En proceso,2025-05-18,2025-06-06,Daniel Herrera,Solicitud de refuerzo de lectura creada por familiar.
+SUP-0077,S048,Pedro Guerrero,6.0,C,Tutoría de matemáticas,Abierta,2025-02-23,2025-03-25,Ana Torres,Solicitud de tutoría de matemáticas creada por familiar.
+SUP-0138,S051,Nicolás Muñoz,7.0,C,Acompañamiento familiar,Pendiente,2025-03-09,2025-04-01,Jorge Ramírez,Solicitud de acompañamiento familiar creada por familiar.
+SUP-0025,S007,Ricardo Muñoz,7.0,B,Refuerzo de lectura,Pendiente,2025-02-16,2025-02-19,Daniel Herrera,Solicitud de refuerzo de lectura creada por coordinación.
+SUP-0080,S053,Felipe Rojas,10.0,B,Apoyo psicológico,En proceso,2025-06-09,2025-06-11,Carlos Pérez,Solicitud de apoyo psicológico creada por familiar.
+SUP-0186,S025,María Sánchez,6.0,B,Tutoría de matemáticas,Cerrada,2025-03-25,2025-04-19,Laura Gómez,Solicitud de tutoría de matemáticas creada por coordinación.
+SUP-0193,S052,Sofía Torres,9.0,C,Acompañamiento familiar,Pendiente,2025-05-07,2025-05-17,Pedro Castillo,Solicitud de acompañamiento familiar creada por familiar.
+SUP-0039,S050,Ricardo González,8.0,C,Refuerzo de lectura,Abierta,2025-06-08,2025-06-14,Carlos Pérez,Solicitud de refuerzo de lectura creada por coordinación.
+SUP-0105,S015,Nicolás Ruiz,10.0,A,Refuerzo de lectura,Cerrada,2025-05-01,2025-05-20,Ana Torres,Solicitud de refuerzo de lectura creada por familiar.
+SUP-0075,S055,Valentina García,10.0,C,Refuerzo de lectura,Cerrada,2025-05-31,2025-06-08,Pedro Castillo,Solicitud de refuerzo de lectura creada por coordinación.
+SUP-0100,S022,Ricardo Sánchez,7.0,B,Apoyo psicológico,Pendiente,2025-03-13,2025-03-14,Camila Díaz,Solicitud de apoyo psicológico creada por familiar.
+SUP-0126,S018,Daniela Ramírez,9.0,C,Asesoría de inglés,Cerrada,2025-03-25,2025-04-09,Daniel Herrera,Solicitud de asesoría de inglés creada por docente.
+SUP-0070,S032,Felipe Sánchez,7.0,C,Acompañamiento familiar,En proceso,2025-05-14,2025-06-14,Daniel Herrera,Solicitud de acompañamiento familiar creada por docente.
+SUP-0161,S015,Nicolás Ruiz,10.0,A,Orientación académica,En proceso,2025-02-13,2025-03-02,Sofía Medina,Solicitud de orientación académica creada por docente.
+SUP-0104,S022,Ricardo Sánchez,7.0,B,Acompañamiento familiar,Cerrada,2025-04-02,2025-05-09,Camila Díaz,Solicitud de acompañamiento familiar creada por familiar.
+SUP-0162,S026,Daniela Ramírez,6.0,A,Apoyo psicológico,Pendiente,2025-03-22,2025-04-12,Laura Gómez,Solicitud de apoyo psicológico creada por familiar.
+SUP-0051,S015,Nicolás Ruiz,10.0,A,Acompañamiento familiar,Cerrada,2025-03-12,2025-04-12,Camila Díaz,Solicitud de acompañamiento familiar creada por docente.
+SUP-0180,S028,Manuel Moreno,11.0,B,Tutoría de matemáticas,Cerrada,2025-04-30,2025-05-12,Jorge Ramírez,Solicitud de tutoría de matemáticas creada por docente.
+SUP-0115,S034,Ana González,11.0,B,Refuerzo de lectura,En proceso,2025-03-12,2025-03-19,Sofía Medina,Solicitud de refuerzo de lectura creada por coordinación.
+SUP-0179,S038,Luisa Vargas,8.0,C,Tutoría de matemáticas,En proceso,2025-03-10,2025-03-13,Camila Díaz,Solicitud de tutoría de matemáticas creada por docente.
+SUP-0074,S023,Daniela Ramírez,11.0,C,Acompañamiento familiar,Abierta,2025-05-24,2025-06-07,Sofía Medina,Solicitud de acompañamiento familiar creada por familiar.
+SUP-0178,S031,Paula Muñoz,10.0,B,Refuerzo de lectura,En proceso,2025-04-21,2025-05-29,Laura Gómez,Solicitud de refuerzo de lectura creada por familiar.
+SUP-0167,S040,Carlos Rojas,6.0,C,Asesoría de inglés,En proceso,2025-05-24,2025-05-30,Carlos Pérez,Solicitud de asesoría de inglés creada por docente.
+SUP-0146,S030,Ricardo Vargas,8.0,C,Asesoría de inglés,Abierta,2025-04-26,2025-04-27,Laura Gómez,Solicitud de asesoría de inglés creada por familiar.
+SUP-0108,S006,Juan Vargas,7.0,C,Tutoría de matemáticas,En proceso,2025-02-16,2025-03-15,Daniel Herrera,Solicitud de tutoría de matemáticas creada por docente.
+SUP-0017,S026,Daniela Ramírez,6.0,A,Refuerzo de lectura,Abierta,2025-05-21,2025-06-28,Sofía Medina,Solicitud de refuerzo de lectura creada por docente.
+SUP-0136,S018,Daniela Ramírez,9.0,C,Acompañamiento familiar,Cerrada,2025-02-26,2025-03-13,Ana Torres,Solicitud de acompañamiento familiar creada por coordinación.
+SUP-0064,S016,Pedro Rodríguez,11.0,A,Acompañamiento familiar,Abierta,2025-05-23,2025-07-02,María Rodríguez,Solicitud de acompañamiento familiar creada por coordinación.
+SUP-0102,S047,María Sánchez,10.0,A,Refuerzo de lectura,Cerrada,2025-02-16,2025-03-11,Sofía Medina,Solicitud de refuerzo de lectura creada por docente.
+SUP-0093,S028,Manuel Moreno,11.0,B,Apoyo psicológico,Cerrada,2025-02-16,2025-03-13,Ana Torres,Solicitud de apoyo psicológico creada por familiar.
+SUP-0066,S045,Nicolás Flores,9.0,A,Orientación académica,Abierta,2025-05-25,2025-06-25,Daniel Herrera,Solicitud de orientación académica creada por familiar.
+SUP-0132,S025,María Sánchez,6.0,B,Tutoría de matemáticas,En proceso,2025-02-26,2025-03-18,Sofía Medina,Solicitud de tutoría de matemáticas creada por coordinación.
+SUP-0175,S009,Sebastián Flores,8.0,A,Refuerzo de lectura,En proceso,2025-06-11,2025-06-27,Daniel Herrera,Solicitud de refuerzo de lectura creada por docente.
+SUP-0049,S037,Ricardo García,11.0,C,Orientación académica,Cerrada,2025-05-20,2025-05-25,Ana Torres,Solicitud de orientación académica creada por coordinación.
+SUP-0068,S022,Ricardo Sánchez,7.0,B,Asesoría de inglés,Cerrada,2025-02-03,2025-02-09,Pedro Castillo,Solicitud de asesoría de inglés creada por coordinación.
+SUP-0003,S043,Nicolás Pérez,7.0,B,Refuerzo de lectura,En proceso,2025-02-14,2025-03-01,María Rodríguez,Solicitud de refuerzo de lectura creada por familiar.
+SUP-0124,S013,Sara Vargas,6.0,B,Acompañamiento familiar,Abierta,2025-02-14,2025-03-22,Daniel Herrera,Solicitud de acompañamiento familiar creada por familiar.
+SUP-0160,S008,Paula Ramírez,6.0,A,Orientación académica,En proceso,2025-06-13,2025-07-12,Laura Gómez,Solicitud de orientación académica creada por familiar.
+SUP-0038,S001,Luisa García,11.0,B,Tutoría de matemáticas,En proceso,2025-06-15,2025-07-21,Carlos Pérez,Solicitud de tutoría de matemáticas creada por docente.
+SUP-0170,S007,Ricardo Muñoz,7.0,B,Apoyo psicológico,En proceso,2025-02-15,2025-03-22,Pedro Castillo,Solicitud de apoyo psicológico creada por coordinación.
+SUP-0065,S010,Sofía Flores,6.0,A,Apoyo psicológico,Abierta,2025-06-02,2025-06-29,Ana Torres,Solicitud de apoyo psicológico creada por familiar.
+SUP-0116,S019,Felipe González,8.0,B,Tutoría de matemáticas,Abierta,2025-06-05,2025-06-06,Pedro Castillo,Solicitud de tutoría de matemáticas creada por docente.
+SUP-0164,S005,Sofía Sánchez,10.0,C,Orientación académica,En proceso,2025-02-25,2025-02-26,Laura Gómez,Solicitud de orientación académica creada por familiar.
+SUP-0018,S037,Ricardo García,11.0,C,Asesoría de inglés,En proceso,2025-03-03,2025-03-03,Daniel Herrera,Solicitud de asesoría de inglés creada por familiar.
+SUP-0020,S048,Pedro Guerrero,6.0,C,Tutoría de matemáticas,En proceso,2025-06-07,2025-07-01,Jorge Ramírez,Solicitud de tutoría de matemáticas creada por familiar.
+SUP-0079,S004,Sebastián Rodríguez,6.0,A,Refuerzo de lectura,En proceso,2025-02-05,2025-02-27,Ana Torres,Solicitud de refuerzo de lectura creada por docente.
+SUP-0173,S044,Carlos Vargas,10.0,A,Acompañamiento familiar,En proceso,2025-02-07,2025-03-08,Jorge Ramírez,Solicitud de acompañamiento familiar creada por docente.
+SUP-0046,S042,Luisa Torres,11.0,C,Refuerzo de lectura,En proceso,2025-03-12,2025-03-19,Pedro Castillo,Solicitud de refuerzo de lectura creada por familiar.
+SUP-0001,S021,Pedro Cortés,11.0,A,Asesoría de inglés,Abierta,2025-05-20,2025-06-19,María Rodríguez,Solicitud de asesoría de inglés creada por docente.
+SUP-0123,S002,Jorge Sánchez,7.0,C,Asesoría de inglés,Abierta,2025-04-21,2025-05-26,Camila Díaz,Solicitud de asesoría de inglés creada por docente.
+SUP-0147,S031,Paula Muñoz,10.0,B,Asesoría de inglés,Abierta,2025-02-02,2025-02-02,Camila Díaz,Solicitud de asesoría de inglés creada por familiar.
+SUP-0081,S015,Nicolás Ruiz,10.0,A,Tutoría de matemáticas,En proceso,2025-03-03,2025-04-07,Sofía Medina,Solicitud de tutoría de matemáticas creada por coordinación.
+SUP-0157,S017,Andrés Martínez,7.0,A,Asesoría de inglés,Cerrada,2025-03-31,2025-05-03,Jorge Ramírez,Solicitud de asesoría de inglés creada por familiar.
+SUP-0174,S007,Ricardo Muñoz,7.0,B,Asesoría de inglés,Abierta,2025-02-04,2025-03-14,Jorge Ramírez,Solicitud de asesoría de inglés creada por familiar.
+SUP-0008,S028,Manuel Moreno,11.0,B,Asesoría de inglés,En proceso,2025-02-26,2025-03-08,Carlos Pérez,Solicitud de asesoría de inglés creada por coordinación.
+SUP-0045,S006,Juan Vargas,7.0,C,Tutoría de matemáticas,En proceso,2025-02-06,2025-02-19,Pedro Castillo,Solicitud de tutoría de matemáticas creada por coordinación.
+SUP-0195,S025,María Sánchez,6.0,B,Acompañamiento familiar,En proceso,2025-05-07,2025-05-27,Jorge Ramírez,Solicitud de acompañamiento familiar creada por docente.
+SUP-0187,S001,Luisa García,11.0,B,Apoyo psicológico,En proceso,2025-02-19,2025-03-13,Ana Torres,Solicitud de apoyo psicológico creada por coordinación.
+SUP-0010,S042,Luisa Torres,11.0,C,Orientación académica,Cerrada,2025-03-20,2025-04-29,Ana Torres,Solicitud de orientación académica creada por docente.
+SUP-0040,S024,Ricardo Sánchez,11.0,B,Tutoría de matemáticas,Abierta,2025-02-28,2025-03-20,Daniel Herrera,Solicitud de tutoría de matemáticas creada por familiar.
+SUP-0189,S002,Jorge Sánchez,7.0,C,Refuerzo de lectura,Abierta,2025-03-23,2025-04-04,María Rodríguez,Solicitud de refuerzo de lectura creada por familiar.
+SUP-0060,S008,Paula Ramírez,6.0,A,Asesoría de inglés,En proceso,2025-02-04,2025-02-14,Pedro Castillo,Solicitud de asesoría de inglés creada por familiar.
+SUP-0099,S035,Nicolás Martínez,9.0,B,Apoyo psicológico,En proceso,2025-04-14,2025-04-27,María Rodríguez,Solicitud de apoyo psicológico creada por familiar.
+SUP-0139,S028,Manuel Moreno,11.0,B,Apoyo psicológico,Cerrada,2025-05-27,2025-05-29,María Rodríguez,Solicitud de apoyo psicológico creada por familiar.
+SUP-0024,S026,Daniela Ramírez,6.0,A,Asesoría de inglés,En proceso,2025-03-27,2025-04-20,María Rodríguez,Solicitud de asesoría de inglés creada por docente.
+SUP-0096,S059,Jorge Ramírez,11.0,B,Orientación académica,Cerrada,2025-03-10,2025-04-04,Camila Díaz,Solicitud de orientación académica creada por familiar.
+SUP-0159,S044,Carlos Vargas,10.0,A,Orientación académica,Cerrada,2025-02-14,2025-03-06,Pedro Castillo,Solicitud de orientación académica creada por coordinación.
+SUP-0034,S011,Daniela Hernández,8.0,B,Apoyo psicológico,Pendiente,2025-05-31,2025-06-27,Daniel Herrera,Solicitud de apoyo psicológico creada por docente.
+SUP-0199,S025,María Sánchez,6.0,B,Orientación académica,En proceso,2025-06-11,2025-07-04,Ana Torres,Solicitud de orientación académica creada por coordinación.
+SUP-0086,S032,Felipe Sánchez,7.0,C,Asesoría de inglés,En proceso,2025-02-26,2025-03-07,Ana Torres,Solicitud de asesoría de inglés creada por docente.
+SUP-0021,S014,Pedro Vargas,8.0,C,Orientación académica,Abierta,2025-04-14,2025-04-26,Ana Torres,Solicitud de orientación académica creada por docente.
+SUP-0022,S019,Felipe González,8.0,B,Acompañamiento familiar,En proceso,2025-04-09,2025-04-24,Jorge Ramírez,Solicitud de acompañamiento familiar creada por coordinación.
+SUP-0114,S055,Valentina García,10.0,C,Apoyo psicológico,En proceso,2025-05-16,2025-05-23,María Rodríguez,Solicitud de apoyo psicológico creada por docente.
+SUP-0121,S052,Sofía Torres,9.0,C,Tutoría de matemáticas,Pendiente,2025-05-16,2025-06-09,Sofía Medina,Solicitud de tutoría de matemáticas creada por familiar.
+SUP-0120,S033,Manuel Martínez,6.0,A,Asesoría de inglés,En proceso,2025-05-29,2025-06-26,Sofía Medina,Solicitud de asesoría de inglés creada por docente.
+SUP-0083,S043,Nicolás Pérez,7.0,B,Orientación académica,Cerrada,2025-02-27,2025-03-02,Carlos Pérez,Solicitud de orientación académica creada por docente.
+SUP-0087,S055,Valentina García,10.0,C,Orientación académica,Cerrada,2025-03-24,2025-04-21,Laura Gómez,Solicitud de orientación académica creada por docente.
+SUP-0192,S042,Luisa Torres,11.0,C,Tutoría de matemáticas,En proceso,2025-03-01,2025-03-22,Jorge Ramírez,Solicitud de tutoría de matemáticas creada por coordinación.
+SUP-0184,S015,Nicolás Ruiz,10.0,A,Tutoría de matemáticas,Cerrada,2025-02-01,2025-03-13,Daniel Herrera,Solicitud de tutoría de matemáticas creada por familiar.
+SUP-0110,S038,Luisa Vargas,8.0,C,Orientación académica,Pendiente,2025-06-08,2025-07-18,Daniel Herrera,Solicitud de orientación académica creada por familiar.
+SUP-0150,S023,Daniela Ramírez,11.0,C,Asesoría de inglés,Pendiente,2025-05-11,2025-05-22,Carlos Pérez,Solicitud de asesoría de inglés creada por coordinación.
+SUP-0009,S027,Paula Flores,7.0,C,Asesoría de inglés,Abierta,2025-04-25,2025-05-24,Laura Gómez,Solicitud de asesoría de inglés creada por familiar.
+SUP-0198,S047,María Sánchez,10.0,A,Asesoría de inglés,Cerrada,2025-02-21,2025-03-23,Ana Torres,Solicitud de asesoría de inglés creada por familiar.
+SUP-0004,S045,Nicolás Flores,9.0,A,Acompañamiento familiar,Pendiente,2025-05-04,2025-05-11,Daniel Herrera,Solicitud de acompañamiento familiar creada por coordinación.
+SUP-0111,S027,Paula Flores,7.0,C,Acompañamiento familiar,Abierta,2025-03-14,2025-03-23,Daniel Herrera,Solicitud de acompañamiento familiar creada por docente.
+SUP-0200,S046,Luisa Ruiz,8.0,A,Asesoría de inglés,En proceso,2025-05-07,2025-06-09,Daniel Herrera,Solicitud de asesoría de inglés creada por coordinación.
+SUP-0043,S056,Jorge Mendoza,7.0,A,Refuerzo de lectura,Cerrada,2025-02-13,2025-03-03,Carlos Pérez,Solicitud de refuerzo de lectura creada por familiar.
+SUP-0007,S018,Daniela Ramírez,9.0,C,Orientación académica,Cerrada,2025-02-21,2025-03-24,Sofía Medina,Solicitud de orientación académica creada por familiar.
+SUP-0012,S011,Daniela Hernández,8.0,B,Asesoría de inglés,Pendiente,2025-04-05,2025-05-08,Ana Torres,Solicitud de asesoría de inglés creada por familiar.
+SUP-0112,S046,Luisa Ruiz,8.0,A,Apoyo psicológico,Cerrada,2025-06-12,2025-07-15,Daniel Herrera,Solicitud de apoyo psicológico creada por coordinación.
+SUP-0169,S004,Sebastián Rodríguez,6.0,A,Refuerzo de lectura,Cerrada,2025-05-25,2025-05-28,Pedro Castillo,Solicitud de refuerzo de lectura creada por docente.
+SUP-0165,S052,Sofía Torres,9.0,C,Tutoría de matemáticas,Abierta,2025-04-27,2025-05-13,Jorge Ramírez,Solicitud de tutoría de matemáticas creada por coordinación.
+SUP-0156,S043,Nicolás Pérez,7.0,B,Acompañamiento familiar,Abierta,2025-03-17,2025-03-21,Carlos Pérez,Solicitud de acompañamiento familiar creada por docente.
+SUP-0185,S014,Pedro Vargas,8.0,C,Asesoría de inglés,Cerrada,2025-04-03,2025-05-03,Sofía Medina,Solicitud de asesoría de inglés creada por familiar.
+SUP-0172,S025,María Sánchez,6.0,B,Acompañamiento familiar,Cerrada,2025-05-30,2025-06-26,Sofía Medina,Solicitud de acompañamiento familiar creada por familiar.
+SUP-0089,S024,Ricardo Sánchez,11.0,B,Asesoría de inglés,Cerrada,2025-05-18,2025-06-10,Ana Torres,Solicitud de asesoría de inglés creada por familiar.
+SUP-0145,S029,Ana Ramírez,7.0,A,Asesoría de inglés,Pendiente,2025-04-11,2025-04-26,Sofía Medina,Solicitud de asesoría de inglés creada por docente.
+SUP-0149,S002,Jorge Sánchez,7.0,C,Refuerzo de lectura,Pendiente,2025-05-25,2025-06-01,Pedro Castillo,Solicitud de refuerzo de lectura creada por familiar.
+SUP-0148,S046,Luisa Ruiz,8.0,A,Acompañamiento familiar,Abierta,2025-06-06,2025-07-01,Carlos Pérez,Solicitud de acompañamiento familiar creada por familiar.
+SUP-0168,S004,Sebastián Rodríguez,6.0,A,Refuerzo de lectura,Pendiente,2025-02-09,2025-03-05,Carlos Pérez,Solicitud de refuerzo de lectura creada por docente.
+SUP-0054,S004,Sebastián Rodríguez,6.0,A,Acompañamiento familiar,Abierta,2025-02-20,2025-02-22,Pedro Castillo,Solicitud de acompañamiento familiar creada por coordinación.
+SUP-0036,S056,Jorge Mendoza,7.0,A,Refuerzo de lectura,Abierta,2025-03-10,2025-03-17,María Rodríguez,Solicitud de refuerzo de lectura creada por docente.
+SUP-0048,S033,Manuel Martínez,6.0,A,Orientación académica,Pendiente,2025-03-24,2025-04-24,Daniel Herrera,Solicitud de orientación académica creada por coordinación.
+SUP-0144,S014,Pedro Vargas,8.0,C,Asesoría de inglés,Pendiente,2025-06-10,2025-06-30,María Rodríguez,Solicitud de asesoría de inglés creada por familiar.
+SUP-0101,S017,Andrés Martínez,7.0,A,Asesoría de inglés,En proceso,2025-04-03,2025-04-22,Camila Díaz,Solicitud de asesoría de inglés creada por docente.
+SUP-0011,S026,Daniela Ramírez,6.0,A,Refuerzo de lectura,En proceso,2025-03-24,2025-05-03,Carlos Pérez,Solicitud de refuerzo de lectura creada por docente.
+SUP-0095,S047,María Sánchez,10.0,A,Apoyo psicológico,Cerrada,2025-04-22,2025-05-14,Camila Díaz,Solicitud de apoyo psicológico creada por familiar.
+SUP-0183,S022,Ricardo Sánchez,7.0,B,Orientación académica,Pendiente,2025-03-14,2025-03-20,Laura Gómez,Solicitud de orientación académica creada por coordinación.
+SUP-0090,S027,Paula Flores,7.0,C,Orientación académica,En proceso,2025-03-31,2025-04-08,Pedro Castillo,Solicitud de orientación académica creada por coordinación.
+SUP-0067,S016,Pedro Rodríguez,11.0,A,Acompañamiento familiar,Cerrada,2025-03-24,2025-04-11,Pedro Castillo,Solicitud de acompañamiento familiar creada por docente.
+SUP-0131,S011,Daniela Hernández,8.0,B,Refuerzo de lectura,Abierta,2025-02-16,2025-03-27,Laura Gómez,Solicitud de refuerzo de lectura creada por coordinación.
+SUP-0085,S008,Paula Ramírez,6.0,A,Tutoría de matemáticas,Cerrada,2025-03-25,2025-04-17,Daniel Herrera,Solicitud de tutoría de matemáticas creada por familiar.
+SUP-0037,S054,Luisa Sánchez,7.0,A,Refuerzo de lectura,En proceso,2025-03-16,2025-04-17,Jorge Ramírez,Solicitud de refuerzo de lectura creada por familiar.
+SUP-0107,S030,Ricardo Vargas,8.0,C,Asesoría de inglés,En proceso,2025-02-26,2025-03-07,Pedro Castillo,Solicitud de asesoría de inglés creada por docente.
+SUP-0088,S054,Luisa Sánchez,7.0,A,Refuerzo de lectura,En proceso,2025-06-02,2025-06-23,Carlos Pérez,Solicitud de refuerzo de lectura creada por coordinación.
+SUP-0118,S008,Paula Ramírez,6.0,A,Apoyo psicológico,En proceso,2025-05-01,2025-05-05,María Rodríguez,Solicitud de apoyo psicológico creada por familiar.
+SUP-0023,S038,Luisa Vargas,8.0,C,Apoyo psicológico,En proceso,2025-05-29,2025-06-03,Sofía Medina,Solicitud de apoyo psicológico creada por familiar.
+SUP-0073,S045,Nicolás Flores,9.0,A,Tutoría de matemáticas,En proceso,2025-05-23,2025-05-24,Jorge Ramírez,Solicitud de tutoría de matemáticas creada por coordinación.
+SUP-0047,S052,Sofía Torres,9.0,C,Tutoría de matemáticas,En proceso,2025-04-21,2025-05-29,Carlos Pérez,Solicitud de tutoría de matemáticas creada por coordinación.
+SUP-0153,S015,Nicolás Ruiz,10.0,A,Refuerzo de lectura,Abierta,2025-04-01,2025-05-02,Daniel Herrera,Solicitud de refuerzo de lectura creada por familiar.
+SUP-0128,S028,Manuel Moreno,11.0,B,Apoyo psicológico,Pendiente,2025-03-19,2025-04-14,Sofía Medina,Solicitud de apoyo psicológico creada por coordinación.
+SUP-0106,S025,María Sánchez,6.0,B,Apoyo psicológico,En proceso,2025-06-14,2025-06-29,Jorge Ramírez,Solicitud de apoyo psicológico creada por coordinación.
+SUP-0059,S039,Valentina Hernández,8.0,B,Orientación académica,En proceso,2025-04-08,2025-04-14,Laura Gómez,Solicitud de orientación académica creada por coordinación.
+SUP-0050,S041,Camila Castro,7.0,C,Apoyo psicológico,En proceso,2025-05-21,2025-05-26,Daniel Herrera,Solicitud de apoyo psicológico creada por familiar.
+SUP-0006,S014,Pedro Vargas,8.0,C,Asesoría de inglés,En proceso,2025-03-14,2025-04-11,Pedro Castillo,Solicitud de asesoría de inglés creada por docente.
+SUP-0062,S044,Carlos Vargas,10.0,A,Apoyo psicológico,Abierta,2025-05-13,2025-06-01,Laura Gómez,Solicitud de apoyo psicológico creada por docente.
+SUP-0194,S005,Sofía Sánchez,10.0,C,Tutoría de matemáticas,Cerrada,2025-03-03,2025-03-12,Jorge Ramírez,Solicitud de tutoría de matemáticas creada por familiar.
+SUP-0098,S006,Juan Vargas,7.0,C,Refuerzo de lectura,En proceso,2025-02-10,2025-03-16,Ana Torres,Solicitud de refuerzo de lectura creada por familiar.
+SUP-0026,S039,Valentina Hernández,8.0,B,Refuerzo de lectura,En proceso,2025-02-12,2025-02-12,Pedro Castillo,Solicitud de refuerzo de lectura creada por coordinación.
+SUP-0076,S054,Luisa Sánchez,7.0,A,Tutoría de matemáticas,Cerrada,2025-05-04,2025-06-03,María Rodríguez,Solicitud de tutoría de matemáticas creada por familiar.
+SUP-0053,S010,Sofía Flores,6.0,A,Tutoría de matemáticas,En proceso,2025-03-05,2025-03-24,María Rodríguez,Solicitud de tutoría de matemáticas creada por familiar.
+SUP-0078,S032,Felipe Sánchez,7.0,C,Orientación académica,En proceso,2025-02-26,2025-03-24,Jorge Ramírez,Solicitud de orientación académica creada por familiar.
+SUP-0197,S004,Sebastián Rodríguez,6.0,A,Acompañamiento familiar,Pendiente,2025-04-13,2025-04-21,Daniel Herrera,Solicitud de acompañamiento familiar creada por docente.
+SUP-0171,S007,Ricardo Muñoz,7.0,B,Acompañamiento familiar,Cerrada,2025-05-17,2025-05-31,Laura Gómez,Solicitud de acompañamiento familiar creada por coordinación.
+SUP-0152,S044,Carlos Vargas,10.0,A,Apoyo psicológico,Cerrada,2025-05-03,2025-05-15,María Rodríguez,Solicitud de apoyo psicológico creada por familiar.
+SUP-0134,S033,Manuel Martínez,6.0,A,Apoyo psicológico,En proceso,2025-06-10,2025-07-04,Sofía Medina,Solicitud de apoyo psicológico creada por coordinación.
+SUP-0033,S013,Sara Vargas,6.0,B,Tutoría de matemáticas,Abierta,2025-03-11,2025-03-14,Daniel Herrera,Solicitud de tutoría de matemáticas creada por coordinación.
+SUP-0013,S044,Carlos Vargas,10.0,A,Orientación académica,En proceso,2025-05-17,2025-06-06,Ana Torres,Solicitud de orientación académica creada por coordinación.
+SUP-0015,S026,Daniela Ramírez,6.0,A,Tutoría de matemáticas,Abierta,2025-05-08,2025-06-13,Laura Gómez,Solicitud de tutoría de matemáticas creada por familiar.
+SUP-0052,S019,Felipe González,8.0,B,Apoyo psicológico,Pendiente,2025-05-31,2025-06-27,Daniel Herrera,Solicitud de apoyo psicológico creada por coordinación.

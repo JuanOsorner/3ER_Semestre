@@ -1,0 +1,201 @@
+﻿record_id,period,date,student_id,student_name,grade_level,section,subject,teacher_name,category,comment_text
+CMT-0088,2025-02,2025-06-08,S020,Sofía Ramírez,11.0,C,Lengua,Carlos Pérez,Asistencia,Observación asistencia: presenta retrasos frecuentes.
+CMT-0123,2025-02,2025-05-01,S008,Paula Ramírez,6.0,A,Ciencias,Ana Torres,Asistencia,Observación asistencia: presenta retrasos frecuentes.
+CMT-0040,2025-02,2025-05-28,S014,Pedro Vargas,8.0,C,Educación Física,Pedro Castillo,Comportamiento,Observación comportamiento: se distrae en clase.
+CMT-0139,2025-02,2025-03-04,S015,Nicolás Ruiz,10.0,A,Educación Física,Pedro Castillo,Asistencia,Observación asistencia: presenta retrasos frecuentes.
+CMT-0101,2025-02,2025-02-23,S047,María Sánchez,10.0,A,Educación Física,Pedro Castillo,Rendimiento,Observación rendimiento: requiere apoyo adicional.
+CMT-0076,2025-02,2025-02-06,S010,Sofía Flores,6.0,A,Historia,Jorge Ramírez,Recomendación,Observación recomendación: realizar lecturas guiadas.
+CMT-0058,2025-02,2025-02-04,S032,Felipe Sánchez,7.0,C,Historia,Jorge Ramírez,Asistencia,Observación asistencia: mantiene regularidad de asistencia.
+CMT-0081,2025-02,2025-03-16,S020,Sofía Ramírez,11.0,C,,María Rodríguez,Rendimiento,Observación rendimiento: debe reforzar contenidos.
+CMT-0111,2025-02,2025-06-02,S037,Ricardo García,11.0,C,Educación Física,Pedro Castillo,Comportamiento,Observación comportamiento: participa activamente.
+CMT-0131,2025-02,2025-03-25,S049,Ana López,11.0,B,Lengua,Carlos Pérez,Asistencia,Observación asistencia: mantiene regularidad de asistencia.
+CMT-0186,2025-02,2025-04-23,S010,Sofía Flores,6.0,A,Inglés,María Rodríguez,General,Observación general: seguir plan de estudio.
+CMT-0026,2025-02,2025-04-24,S008,Paula Ramírez,6.0,A,,Jorge Ramírez,Recomendación,Observación recomendación: asistir a tutorías.
+CMT-0199,2025-02,2025-05-16,S012,Nicolás Ramírez,6.0,C,Historia,Jorge Ramírez,Comportamiento,Observación comportamiento: se distrae en clase.
+CMT-0053,2025-02,2025-05-30,S032,Felipe Sánchez,7.0,C,Historia,Jorge Ramírez,Recomendación,Observación recomendación: practicar ejercicios adicionales.
+CMT-0083,2025-02,2025-03-14,S023,Daniela Ramírez,11.0,C,Inglés,María Rodríguez,General,Observación general: mantener comunicación con familiares.
+CMT-0150,2025-02,2025-06-05,S023,Daniela Ramírez,11.0,C,Tecnología,Daniel Herrera,Recomendación,Observación recomendación: practicar ejercicios adicionales.
+CMT-0184,2025-02,2025-05-23,S043,Nicolás Pérez,7.0,B,Tecnología,Daniel Herrera,Comportamiento,Observación comportamiento: participa activamente.
+CMT-0153,2025-02,2025-02-07,S007,Ricardo Muñoz,7.0,B,Matemáticas,Laura Gómez,Asistencia,Observación asistencia: presenta retrasos frecuentes.
+CMT-0025,2025-02,2025-05-14,S052,Sofía Torres,9.0,C,Historia,Jorge Ramírez,General,Observación general: seguir plan de estudio.
+CMT-0095,2025-02,2025-05-12,S055,Valentina García,10.0,C,Tecnología,Daniel Herrera,Asistencia,Observación asistencia: mantiene regularidad de asistencia.
+CMT-0175,2025-02,2025-05-23,S011,Daniela Hernández,8.0,B,,Jorge Ramírez,Comportamiento,Observación comportamiento: se distrae en clase.
+CMT-0049,2025-02,2025-02-16,S013,Sara Vargas,6.0,B,Arte,Sofía Medina,Rendimiento,Observación rendimiento: muestra avances significativos.
+CMT-0063,2025-02,2025-04-17,S025,María Sánchez,6.0,B,Arte,Sofía Medina,Recomendación,Observación recomendación: asistir a tutorías.
+CMT-0097,2025-02,2025-05-21,S059,Jorge Ramírez,11.0,B,Arte,Sofía Medina,General,Observación general: mantener comunicación con familiares.
+CMT-0065,2025-02,2025-05-05,S040,Carlos Rojas,6.0,C,Arte,Sofía Medina,Asistencia,Observación asistencia: mantiene regularidad de asistencia.
+CMT-0001,2025-02,2025-02-18,S017,Andrés Martínez,7.0,A,Inglés,María Rodríguez,Rendimiento,Observación rendimiento: debe reforzar contenidos.
+CMT-0180,2025-02,2025-04-18,S023,Daniela Ramírez,11.0,C,Lengua,Carlos Pérez,Comportamiento,Observación comportamiento: participa activamente.
+CMT-0077,2025-02,2025-04-30,S027,Paula Flores,7.0,C,Música,Camila Díaz,Rendimiento,Observación rendimiento: debe reforzar contenidos.
+CMT-0167,2025-02,2025-05-03,S025,María Sánchez,6.0,B,Lengua,Carlos Pérez,General,Observación general: seguir plan de estudio.
+CMT-0038,2025-02,2025-06-02,S004,Sebastián Rodríguez,6.0,A,Historia,Jorge Ramírez,Asistencia,Observación asistencia: ha mejorado su puntualidad.
+CMT-0031,2025-02,2025-02-23,S006,Juan Vargas,7.0,C,Matemáticas,Laura Gómez,Asistencia,Observación asistencia: ha mejorado su puntualidad.
+CMT-0135,2025-02,2025-02-02,S014,Pedro Vargas,8.0,C,Historia,Jorge Ramírez,Comportamiento,Observación comportamiento: respeta normas.
+CMT-0138,2025-02,2025-03-27,S054,Luisa Sánchez,7.0,A,Arte,Sofía Medina,General,Observación general: seguir plan de estudio.
+CMT-0102,2025-02,2025-04-27,S014,Pedro Vargas,8.0,C,Inglés,María Rodríguez,General,Observación general: revisar tareas semanalmente.
+CMT-0115,2025-02,2025-04-16,S041,Camila Castro,7.0,C,Arte,Sofía Medina,Asistencia,Observación asistencia: presenta retrasos frecuentes.
+CMT-0103,2025-02,2025-02-02,S060,Sofía Vargas,7.0,C,,Pedro Castillo,General,Observación general: mantener comunicación con familiares.
+CMT-0087,2025-02,2025-03-14,S023,Daniela Ramírez,11.0,C,Ciencias,Ana Torres,Comportamiento,Observación comportamiento: se distrae en clase.
+CMT-0127,2025-02,2025-03-01,S009,Sebastián Flores,8.0,A,Lengua,Carlos Pérez,General,Observación general: revisar tareas semanalmente.
+CMT-0192,2025-02,2025-02-11,S043,Nicolás Pérez,7.0,B,Música,Camila Díaz,Rendimiento,Observación rendimiento: requiere apoyo adicional.
+CMT-0052,2025-02,2025-05-17,S037,Ricardo García,11.0,C,Música,Camila Díaz,Rendimiento,Observación rendimiento: muestra avances significativos.
+CMT-0178,2025-02,2025-04-28,S046,Luisa Ruiz,8.0,A,,María Rodríguez,Asistencia,Observación asistencia: mantiene regularidad de asistencia.
+CMT-0016,2025-02,2025-05-11,S002,Jorge Sánchez,7.0,C,,Carlos Pérez,Rendimiento,Observación rendimiento: debe reforzar contenidos.
+CMT-0020,2025-02,2025-03-09,S060,Sofía Vargas,7.0,C,Lengua,Carlos Pérez,Asistencia,Observación asistencia: mantiene regularidad de asistencia.
+CMT-0183,2025-02,2025-06-08,S041,Camila Castro,7.0,C,Música,Camila Díaz,Rendimiento,Observación rendimiento: requiere apoyo adicional.
+CMT-0152,2025-02,2025-03-07,S032,Felipe Sánchez,7.0,C,Tecnología,Daniel Herrera,Rendimiento,Observación rendimiento: requiere apoyo adicional.
+CMT-0198,2025-02,2025-03-09,S052,Sofía Torres,9.0,C,Historia,Jorge Ramírez,General,Observación general: mantener comunicación con familiares.
+CMT-0122,2025-02,2025-05-29,S046,Luisa Ruiz,8.0,A,Música,Camila Díaz,Asistencia,Observación asistencia: presenta retrasos frecuentes.
+CMT-0080,2025-02,2025-05-25,S038,Luisa Vargas,8.0,C,Arte,Sofía Medina,Comportamiento,Observación comportamiento: se distrae en clase.
+CMT-0069,2025-02,2025-03-26,S008,Paula Ramírez,6.0,A,Tecnología,Daniel Herrera,Recomendación,Observación recomendación: realizar lecturas guiadas.
+CMT-0004,2025-02,2025-02-09,S059,Jorge Ramírez,11.0,B,Tecnología,Daniel Herrera,Comportamiento,Observación comportamiento: respeta normas.
+CMT-0046,2025-02,2025-05-23,S031,Paula Muñoz,10.0,B,,Ana Torres,General,Observación general: mantener comunicación con familiares.
+CMT-0124,2025-02,2025-06-14,S045,Nicolás Flores,9.0,A,Arte,Sofía Medina,Rendimiento,Observación rendimiento: debe reforzar contenidos.
+CMT-0194,2025-02,2025-02-24,S056,Jorge Mendoza,7.0,A,Lengua,Carlos Pérez,General,Observación general: seguir plan de estudio.
+CMT-0035,2025-02,2025-04-02,S023,Daniela Ramírez,11.0,C,Educación Física,Pedro Castillo,Asistencia,Observación asistencia: mantiene regularidad de asistencia.
+CMT-0066,2025-02,2025-02-11,S008,Paula Ramírez,6.0,A,Educación Física,Pedro Castillo,Comportamiento,Observación comportamiento: se distrae en clase.
+CMT-0021,2025-02,2025-02-12,S042,Luisa Torres,11.0,C,Matemáticas,Laura Gómez,General,Observación general: revisar tareas semanalmente.
+CMT-0082,2025-02,2025-02-13,S015,Nicolás Ruiz,10.0,A,Tecnología,Daniel Herrera,Comportamiento,Observación comportamiento: se distrae en clase.
+CMT-0161,2025-02,2025-06-06,S020,Sofía Ramírez,11.0,C,Educación Física,Pedro Castillo,General,Observación general: mantener comunicación con familiares.
+CMT-0165,2025-02,2025-02-12,S021,Pedro Cortés,11.0,A,Matemáticas,Laura Gómez,Asistencia,Observación asistencia: mantiene regularidad de asistencia.
+CMT-0093,2025-02,2025-03-22,S023,Daniela Ramírez,11.0,C,Lengua,Carlos Pérez,Comportamiento,Observación comportamiento: respeta normas.
+CMT-0018,2025-02,2025-02-11,S003,Luisa Vargas,6.0,C,Arte,Sofía Medina,Asistencia,Observación asistencia: presenta retrasos frecuentes.
+CMT-0011,2025-02,2025-04-29,S004,Sebastián Rodríguez,6.0,A,Lengua,Carlos Pérez,Comportamiento,Observación comportamiento: participa activamente.
+CMT-0033,2025-02,2025-03-17,S034,Ana González,11.0,B,Tecnología,Daniel Herrera,General,Observación general: mantener comunicación con familiares.
+CMT-0034,2025-02,2025-02-23,S039,Valentina Hernández,8.0,B,Ciencias,Ana Torres,General,Observación general: revisar tareas semanalmente.
+CMT-0106,2025-02,2025-06-07,S053,Felipe Rojas,10.0,B,Inglés,María Rodríguez,Recomendación,Observación recomendación: practicar ejercicios adicionales.
+CMT-0114,2025-02,2025-05-04,S023,Daniela Ramírez,11.0,C,Ciencias,Ana Torres,Asistencia,Observación asistencia: presenta retrasos frecuentes.
+CMT-0104,2025-02,2025-05-30,S041,Camila Castro,7.0,C,Inglés,María Rodríguez,General,Observación general: mantener comunicación con familiares.
+CMT-0039,2025-02,2025-05-05,S012,Nicolás Ramírez,6.0,C,Ciencias,Ana Torres,Asistencia,Observación asistencia: ha mejorado su puntualidad.
+CMT-0079,2025-02,2025-04-27,S056,Jorge Mendoza,7.0,A,Historia,Jorge Ramírez,Recomendación,Observación recomendación: realizar lecturas guiadas.
+CMT-0174,2025-02,2025-06-09,S007,Ricardo Muñoz,7.0,B,Historia,Jorge Ramírez,Comportamiento,Observación comportamiento: se distrae en clase.
+CMT-0064,2025-02,2025-03-26,S049,Ana López,11.0,B,Inglés,María Rodríguez,Recomendación,Observación recomendación: realizar lecturas guiadas.
+CMT-0182,2025-02,2025-03-19,S017,Andrés Martínez,7.0,A,,Laura Gómez,Recomendación,Observación recomendación: practicar ejercicios adicionales.
+CMT-0017,2025-02,2025-05-27,S051,Nicolás Muñoz,7.0,C,Música,Camila Díaz,Comportamiento,Observación comportamiento: se distrae en clase.
+CMT-0074,2025-02,2025-02-20,S006,Juan Vargas,7.0,C,Educación Física,Pedro Castillo,Rendimiento,Observación rendimiento: debe reforzar contenidos.
+CMT-0059,2025-02,2025-04-03,S014,Pedro Vargas,8.0,C,Ciencias,Ana Torres,Comportamiento,Observación comportamiento: se distrae en clase.
+CMT-0071,2025-02,2025-05-27,S004,Sebastián Rodríguez,6.0,A,Lengua,Carlos Pérez,Comportamiento,Observación comportamiento: se distrae en clase.
+CMT-0200,2025-02,2025-05-07,S056,Jorge Mendoza,7.0,A,,Carlos Pérez,Asistencia,Observación asistencia: presenta retrasos frecuentes.
+CMT-0158,2025-02,2025-04-22,S057,Pedro Rodríguez,7.0,A,Lengua,Carlos Pérez,General,Observación general: seguir plan de estudio.
+CMT-0147,2025-02,2025-03-16,S045,Nicolás Flores,9.0,A,,Carlos Pérez,Asistencia,Observación asistencia: mantiene regularidad de asistencia.
+CMT-0047,2025-02,2025-05-11,S014,Pedro Vargas,8.0,C,,Sofía Medina,General,Observación general: mantener comunicación con familiares.
+CMT-0141,2025-02,2025-06-07,S036,Nicolás Rojas,10.0,B,Matemáticas,Laura Gómez,Asistencia,Observación asistencia: presenta retrasos frecuentes.
+CMT-0008,2025-02,2025-05-15,S046,Luisa Ruiz,8.0,A,Tecnología,Daniel Herrera,General,Observación general: seguir plan de estudio.
+CMT-0120,2025-02,2025-03-28,S027,Paula Flores,7.0,C,Arte,Sofía Medina,Rendimiento,Observación rendimiento: muestra avances significativos.
+CMT-0072,2025-02,2025-04-16,S033,Manuel Martínez,6.0,A,Música,Camila Díaz,Asistencia,Observación asistencia: presenta retrasos frecuentes.
+CMT-0030,2025-02,2025-02-05,S007,Ricardo Muñoz,7.0,B,,Daniel Herrera,General,Observación general: mantener comunicación con familiares.
+CMT-0132,2025-02,2025-03-10,S012,Nicolás Ramírez,6.0,C,Arte,Sofía Medina,Asistencia,Observación asistencia: ha mejorado su puntualidad.
+CMT-0029,2025-02,2025-02-11,S036,Nicolás Rojas,10.0,B,Ciencias,Ana Torres,General,Observación general: mantener comunicación con familiares.
+CMT-0073,2025-02,2025-05-29,S040,Carlos Rojas,6.0,C,Arte,Sofía Medina,Asistencia,Observación asistencia: ha mejorado su puntualidad.
+CMT-0197,2025-02,2025-04-26,S016,Pedro Rodríguez,11.0,A,,Pedro Castillo,Asistencia,Observación asistencia: presenta retrasos frecuentes.
+CMT-0151,2025-02,2025-03-04,S018,Daniela Ramírez,9.0,C,Ciencias,Ana Torres,General,Observación general: mantener comunicación con familiares.
+CMT-0068,2025-02,2025-04-03,S046,Luisa Ruiz,8.0,A,Historia,Jorge Ramírez,Rendimiento,Observación rendimiento: debe reforzar contenidos.
+CMT-0177,2025-02,2025-03-30,S004,Sebastián Rodríguez,6.0,A,Inglés,María Rodríguez,Recomendación,Observación recomendación: practicar ejercicios adicionales.
+CMT-0148,2025-02,2025-05-15,S024,Ricardo Sánchez,11.0,B,Historia,Jorge Ramírez,Comportamiento,Observación comportamiento: respeta normas.
+CMT-0154,2025-02,2025-04-19,S025,María Sánchez,6.0,B,,Carlos Pérez,Comportamiento,Observación comportamiento: respeta normas.
+CMT-0002,2025-02,2025-03-18,S060,Sofía Vargas,7.0,C,Historia,Jorge Ramírez,Recomendación,Observación recomendación: practicar ejercicios adicionales.
+CMT-0179,2025-02,2025-05-21,S005,Sofía Sánchez,10.0,C,,Jorge Ramírez,Recomendación,Observación recomendación: practicar ejercicios adicionales.
+CMT-0156,2025-02,2025-04-08,S019,Felipe González,8.0,B,Tecnología,Daniel Herrera,General,Observación general: revisar tareas semanalmente.
+CMT-0142,2025-02,2025-04-21,S025,María Sánchez,6.0,B,Inglés,María Rodríguez,General,Observación general: revisar tareas semanalmente.
+CMT-0188,2025-02,2025-04-03,S017,Andrés Martínez,7.0,A,,Carlos Pérez,Rendimiento,Observación rendimiento: debe reforzar contenidos.
+CMT-0173,2025-02,2025-02-26,S037,Ricardo García,11.0,C,Educación Física,Pedro Castillo,Comportamiento,Observación comportamiento: participa activamente.
+CMT-0181,2025-02,2025-05-18,S043,Nicolás Pérez,7.0,B,Música,Camila Díaz,Comportamiento,Observación comportamiento: respeta normas.
+CMT-0160,2025-02,2025-05-22,S043,Nicolás Pérez,7.0,B,Inglés,María Rodríguez,Rendimiento,Observación rendimiento: debe reforzar contenidos.
+CMT-0045,2025-02,2025-03-29,S048,Pedro Guerrero,6.0,C,Educación Física,Pedro Castillo,Rendimiento,Observación rendimiento: debe reforzar contenidos.
+CMT-0075,2025-02,2025-03-10,S011,Daniela Hernández,8.0,B,Inglés,María Rodríguez,Asistencia,Observación asistencia: mantiene regularidad de asistencia.
+CMT-0022,2025-02,2025-02-13,S045,Nicolás Flores,9.0,A,Ciencias,Ana Torres,Asistencia,Observación asistencia: ha mejorado su puntualidad.
+CMT-0042,2025-02,2025-04-02,S032,Felipe Sánchez,7.0,C,Música,Camila Díaz,Asistencia,Observación asistencia: ha mejorado su puntualidad.
+CMT-0078,2025-02,2025-02-17,S029,Ana Ramírez,7.0,A,Matemáticas,Laura Gómez,Comportamiento,Observación comportamiento: respeta normas.
+CMT-0145,2025-02,2025-05-24,S001,Luisa García,11.0,B,Tecnología,Daniel Herrera,Asistencia,Observación asistencia: presenta retrasos frecuentes.
+CMT-0099,2025-02,2025-03-28,S020,Sofía Ramírez,11.0,C,Tecnología,Daniel Herrera,Recomendación,Observación recomendación: asistir a tutorías.
+CMT-0054,2025-02,2025-04-25,S001,Luisa García,11.0,B,Educación Física,Pedro Castillo,Rendimiento,Observación rendimiento: muestra avances significativos.
+CMT-0070,2025-02,2025-05-20,S021,Pedro Cortés,11.0,A,Arte,Sofía Medina,Comportamiento,Observación comportamiento: participa activamente.
+CMT-0089,2025-02,2025-06-10,S030,Ricardo Vargas,8.0,C,Arte,Sofía Medina,Rendimiento,Observación rendimiento: muestra avances significativos.
+CMT-0189,2025-02,2025-04-21,S010,Sofía Flores,6.0,A,Historia,Jorge Ramírez,Asistencia,Observación asistencia: ha mejorado su puntualidad.
+CMT-0136,2025-02,2025-06-02,S060,Sofía Vargas,7.0,C,Historia,Jorge Ramírez,Recomendación,Observación recomendación: realizar lecturas guiadas.
+CMT-0051,2025-02,2025-03-13,S049,Ana López,11.0,B,Arte,Sofía Medina,Rendimiento,Observación rendimiento: debe reforzar contenidos.
+CMT-0037,2025-02,2025-03-26,S033,Manuel Martínez,6.0,A,Historia,Jorge Ramírez,General,Observación general: revisar tareas semanalmente.
+CMT-0096,2025-02,2025-06-11,S032,Felipe Sánchez,7.0,C,Arte,Sofía Medina,Recomendación,Observación recomendación: realizar lecturas guiadas.
+CMT-0014,2025-02,2025-05-03,S045,Nicolás Flores,9.0,A,Educación Física,Pedro Castillo,Asistencia,Observación asistencia: mantiene regularidad de asistencia.
+CMT-0015,2025-02,2025-02-10,S006,Juan Vargas,7.0,C,Tecnología,Daniel Herrera,Rendimiento,Observación rendimiento: muestra avances significativos.
+CMT-0149,2025-02,2025-04-11,S015,Nicolás Ruiz,10.0,A,Educación Física,Pedro Castillo,General,Observación general: seguir plan de estudio.
+CMT-0170,2025-02,2025-02-10,S011,Daniela Hernández,8.0,B,Matemáticas,Laura Gómez,Recomendación,Observación recomendación: practicar ejercicios adicionales.
+CMT-0032,2025-02,2025-03-09,S027,Paula Flores,7.0,C,Tecnología,Daniel Herrera,Rendimiento,Observación rendimiento: muestra avances significativos.
+CMT-0129,2025-02,2025-06-01,S003,Luisa Vargas,6.0,C,Música,Camila Díaz,Recomendación,Observación recomendación: asistir a tutorías.
+CMT-0044,2025-02,2025-02-26,S015,Nicolás Ruiz,10.0,A,Lengua,Carlos Pérez,Comportamiento,Observación comportamiento: respeta normas.
+CMT-0119,2025-02,2025-05-07,S001,Luisa García,11.0,B,Ciencias,Ana Torres,Recomendación,Observación recomendación: practicar ejercicios adicionales.
+CMT-0140,2025-02,2025-05-04,S008,Paula Ramírez,6.0,A,Música,Camila Díaz,Rendimiento,Observación rendimiento: debe reforzar contenidos.
+CMT-0144,2025-02,2025-05-06,S055,Valentina García,10.0,C,Lengua,Carlos Pérez,General,Observación general: revisar tareas semanalmente.
+CMT-0110,2025-02,2025-05-04,S032,Felipe Sánchez,7.0,C,Lengua,Carlos Pérez,Recomendación,Observación recomendación: realizar lecturas guiadas.
+CMT-0196,2025-02,2025-06-08,S034,Ana González,11.0,B,,Carlos Pérez,Recomendación,Observación recomendación: practicar ejercicios adicionales.
+CMT-0163,2025-02,2025-05-12,S055,Valentina García,10.0,C,Ciencias,Ana Torres,Recomendación,Observación recomendación: asistir a tutorías.
+CMT-0195,2025-02,2025-06-09,S054,Luisa Sánchez,7.0,A,Ciencias,Ana Torres,Rendimiento,Observación rendimiento: muestra avances significativos.
+CMT-0100,2025-02,2025-03-14,S048,Pedro Guerrero,6.0,C,Educación Física,Pedro Castillo,General,Observación general: seguir plan de estudio.
+CMT-0086,2025-02,2025-02-09,S017,Andrés Martínez,7.0,A,Arte,Sofía Medina,Rendimiento,Observación rendimiento: muestra avances significativos.
+CMT-0157,2025-02,2025-02-09,S022,Ricardo Sánchez,7.0,B,Música,Camila Díaz,Recomendación,Observación recomendación: asistir a tutorías.
+CMT-0172,2025-02,2025-04-23,S002,Jorge Sánchez,7.0,C,Tecnología,Daniel Herrera,Recomendación,Observación recomendación: asistir a tutorías.
+CMT-0005,2025-02,2025-02-05,S005,Sofía Sánchez,10.0,C,,Daniel Herrera,Comportamiento,Observación comportamiento: se distrae en clase.
+CMT-0164,2025-02,2025-05-02,S032,Felipe Sánchez,7.0,C,,María Rodríguez,General,Observación general: revisar tareas semanalmente.
+CMT-0060,2025-02,2025-05-29,S002,Jorge Sánchez,7.0,C,Tecnología,Daniel Herrera,Comportamiento,Observación comportamiento: respeta normas.
+CMT-0009,2025-02,2025-06-04,S035,Nicolás Martínez,9.0,B,Historia,Jorge Ramírez,Asistencia,Observación asistencia: presenta retrasos frecuentes.
+CMT-0109,2025-02,2025-03-03,S012,Nicolás Ramírez,6.0,C,Tecnología,Daniel Herrera,Rendimiento,Observación rendimiento: muestra avances significativos.
+CMT-0019,2025-02,2025-03-11,S008,Paula Ramírez,6.0,A,Historia,Jorge Ramírez,Recomendación,Observación recomendación: practicar ejercicios adicionales.
+CMT-0143,2025-02,2025-05-21,S015,Nicolás Ruiz,10.0,A,Música,Camila Díaz,General,Observación general: seguir plan de estudio.
+CMT-0094,2025-02,2025-02-22,S015,Nicolás Ruiz,10.0,A,Inglés,María Rodríguez,Rendimiento,Observación rendimiento: muestra avances significativos.
+CMT-0116,2025-02,2025-03-19,S041,Camila Castro,7.0,C,Lengua,Carlos Pérez,Recomendación,Observación recomendación: asistir a tutorías.
+CMT-0133,2025-02,2025-06-09,S038,Luisa Vargas,8.0,C,Arte,Sofía Medina,Comportamiento,Observación comportamiento: respeta normas.
+CMT-0146,2025-02,2025-05-13,S043,Nicolás Pérez,7.0,B,Lengua,Carlos Pérez,Asistencia,Observación asistencia: ha mejorado su puntualidad.
+CMT-0003,2025-02,2025-03-28,S007,Ricardo Muñoz,7.0,B,Ciencias,Ana Torres,Recomendación,Observación recomendación: practicar ejercicios adicionales.
+CMT-0162,2025-02,2025-06-02,S044,Carlos Vargas,10.0,A,Música,Camila Díaz,Recomendación,Observación recomendación: practicar ejercicios adicionales.
+CMT-0085,2025-02,2025-03-05,S016,Pedro Rodríguez,11.0,A,Lengua,Carlos Pérez,Asistencia,Observación asistencia: presenta retrasos frecuentes.
+CMT-0121,2025-02,2025-06-15,S033,Manuel Martínez,6.0,A,Historia,Jorge Ramírez,Rendimiento,Observación rendimiento: requiere apoyo adicional.
+CMT-0134,2025-02,2025-02-04,S033,Manuel Martínez,6.0,A,,Camila Díaz,Asistencia,Observación asistencia: ha mejorado su puntualidad.
+CMT-0090,2025-02,2025-03-10,S042,Luisa Torres,11.0,C,Inglés,María Rodríguez,General,Observación general: seguir plan de estudio.
+CMT-0067,2025-02,2025-02-18,S024,Ricardo Sánchez,11.0,B,Ciencias,Ana Torres,Recomendación,Observación recomendación: realizar lecturas guiadas.
+CMT-0055,2025-02,2025-02-02,S038,Luisa Vargas,8.0,C,Historia,Jorge Ramírez,Recomendación,Observación recomendación: asistir a tutorías.
+CMT-0091,2025-02,2025-03-08,S022,Ricardo Sánchez,7.0,B,Lengua,Carlos Pérez,General,Observación general: mantener comunicación con familiares.
+CMT-0187,2025-02,2025-04-15,S041,Camila Castro,7.0,C,Historia,Jorge Ramírez,General,Observación general: seguir plan de estudio.
+CMT-0137,2025-02,2025-02-28,S045,Nicolás Flores,9.0,A,,Ana Torres,Rendimiento,Observación rendimiento: debe reforzar contenidos.
+CMT-0084,2025-02,2025-03-12,S019,Felipe González,8.0,B,Ciencias,Ana Torres,Rendimiento,Observación rendimiento: requiere apoyo adicional.
+CMT-0108,2025-02,2025-04-15,S017,Andrés Martínez,7.0,A,Inglés,María Rodríguez,General,Observación general: mantener comunicación con familiares.
+CMT-0193,2025-02,2025-04-22,S051,Nicolás Muñoz,7.0,C,Matemáticas,Laura Gómez,Asistencia,Observación asistencia: ha mejorado su puntualidad.
+CMT-0092,2025-02,2025-03-29,S008,Paula Ramírez,6.0,A,Inglés,María Rodríguez,Asistencia,Observación asistencia: presenta retrasos frecuentes.
+CMT-0185,2025-02,2025-03-10,S034,Ana González,11.0,B,Historia,Jorge Ramírez,Comportamiento,Observación comportamiento: se distrae en clase.
+CMT-0169,2025-02,2025-03-02,S038,Luisa Vargas,8.0,C,Lengua,Carlos Pérez,Asistencia,Observación asistencia: presenta retrasos frecuentes.
+CMT-0155,2025-02,2025-05-31,S049,Ana López,11.0,B,Lengua,Carlos Pérez,Recomendación,Observación recomendación: practicar ejercicios adicionales.
+CMT-0128,2025-02,2025-03-23,S002,Jorge Sánchez,7.0,C,Tecnología,Daniel Herrera,General,Observación general: mantener comunicación con familiares.
+CMT-0130,2025-02,2025-04-19,S059,Jorge Ramírez,11.0,B,Inglés,María Rodríguez,Asistencia,Observación asistencia: ha mejorado su puntualidad.
+CMT-0062,2025-02,2025-02-01,S051,Nicolás Muñoz,7.0,C,Arte,Sofía Medina,General,Observación general: revisar tareas semanalmente.
+CMT-0176,2025-02,2025-04-15,S032,Felipe Sánchez,7.0,C,Lengua,Carlos Pérez,Recomendación,Observación recomendación: asistir a tutorías.
+CMT-0117,2025-02,2025-04-22,S039,Valentina Hernández,8.0,B,Ciencias,Ana Torres,Recomendación,Observación recomendación: practicar ejercicios adicionales.
+CMT-0168,2025-02,2025-04-02,S023,Daniela Ramírez,11.0,C,Matemáticas,Laura Gómez,Rendimiento,Observación rendimiento: muestra avances significativos.
+CMT-0061,2025-02,2025-05-15,S030,Ricardo Vargas,8.0,C,Tecnología,Daniel Herrera,Rendimiento,Observación rendimiento: requiere apoyo adicional.
+CMT-0048,2025-02,2025-05-03,S009,Sebastián Flores,8.0,A,Tecnología,Daniel Herrera,Rendimiento,Observación rendimiento: requiere apoyo adicional.
+CMT-0159,2025-02,2025-03-18,S029,Ana Ramírez,7.0,A,Tecnología,Daniel Herrera,Asistencia,Observación asistencia: ha mejorado su puntualidad.
+CMT-0190,2025-02,2025-02-10,S032,Felipe Sánchez,7.0,C,Música,Camila Díaz,General,Observación general: seguir plan de estudio.
+CMT-0007,2025-02,2025-02-01,S010,Sofía Flores,6.0,A,Arte,Sofía Medina,General,Observación general: revisar tareas semanalmente.
+CMT-0024,2025-02,2025-03-29,S053,Felipe Rojas,10.0,B,Lengua,Carlos Pérez,Asistencia,Observación asistencia: presenta retrasos frecuentes.
+CMT-0057,2025-02,2025-02-26,S028,Manuel Moreno,11.0,B,Música,Camila Díaz,General,Observación general: seguir plan de estudio.
+CMT-0191,2025-02,2025-04-08,S011,Daniela Hernández,8.0,B,Inglés,María Rodríguez,Rendimiento,Observación rendimiento: muestra avances significativos.
+CMT-0171,2025-02,2025-05-19,S043,Nicolás Pérez,7.0,B,Educación Física,Pedro Castillo,Recomendación,Observación recomendación: realizar lecturas guiadas.
+CMT-0126,2025-02,2025-03-05,S009,Sebastián Flores,8.0,A,Ciencias,Ana Torres,Rendimiento,Observación rendimiento: debe reforzar contenidos.
+CMT-0012,2025-02,2025-03-24,S054,Luisa Sánchez,7.0,A,Tecnología,Daniel Herrera,Comportamiento,Observación comportamiento: participa activamente.
+CMT-0105,2025-02,2025-06-06,S013,Sara Vargas,6.0,B,Ciencias,Ana Torres,General,Observación general: seguir plan de estudio.
+CMT-0098,2025-02,2025-04-30,S025,María Sánchez,6.0,B,Arte,Sofía Medina,Asistencia,Observación asistencia: presenta retrasos frecuentes.
+CMT-0125,2025-02,2025-03-03,S012,Nicolás Ramírez,6.0,C,Inglés,María Rodríguez,Asistencia,Observación asistencia: mantiene regularidad de asistencia.
+CMT-0041,2025-02,2025-03-13,S007,Ricardo Muñoz,7.0,B,Matemáticas,Laura Gómez,Recomendación,Observación recomendación: asistir a tutorías.
+CMT-0050,2025-02,2025-05-19,S009,Sebastián Flores,8.0,A,Lengua,Carlos Pérez,General,Observación general: seguir plan de estudio.
+CMT-0023,2025-02,2025-03-16,S053,Felipe Rojas,10.0,B,Lengua,Carlos Pérez,General,Observación general: revisar tareas semanalmente.
+CMT-0013,2025-02,2025-03-21,S036,Nicolás Rojas,10.0,B,Matemáticas,Laura Gómez,General,Observación general: revisar tareas semanalmente.
+CMT-0107,2025-02,2025-02-01,S048,Pedro Guerrero,6.0,C,Tecnología,Daniel Herrera,Rendimiento,Observación rendimiento: muestra avances significativos.
+CMT-0028,2025-02,2025-03-16,S008,Paula Ramírez,6.0,A,Inglés,María Rodríguez,Rendimiento,Observación rendimiento: debe reforzar contenidos.
+CMT-0113,2025-02,2025-05-30,S038,Luisa Vargas,8.0,C,Matemáticas,Laura Gómez,Rendimiento,Observación rendimiento: debe reforzar contenidos.
+CMT-0006,2025-02,2025-05-11,S010,Sofía Flores,6.0,A,Matemáticas,Laura Gómez,Asistencia,Observación asistencia: mantiene regularidad de asistencia.
+CMT-0036,2025-02,2025-05-04,S008,Paula Ramírez,6.0,A,Música,Camila Díaz,Asistencia,Observación asistencia: mantiene regularidad de asistencia.
+CMT-0056,2025-02,2025-06-10,S003,Luisa Vargas,6.0,C,Matemáticas,Laura Gómez,General,Observación general: revisar tareas semanalmente.
+CMT-0118,2025-02,2025-05-02,S018,Daniela Ramírez,9.0,C,Arte,Sofía Medina,Asistencia,Observación asistencia: mantiene regularidad de asistencia.
+CMT-0027,2025-02,2025-04-27,S049,Ana López,11.0,B,Matemáticas,Laura Gómez,Recomendación,Observación recomendación: asistir a tutorías.
+CMT-0112,2025-02,2025-04-08,S024,Ricardo Sánchez,11.0,B,Música,Camila Díaz,Recomendación,Observación recomendación: asistir a tutorías.
+CMT-0043,2025-02,2025-03-23,S038,Luisa Vargas,8.0,C,,Sofía Medina,Comportamiento,Observación comportamiento: se distrae en clase.
+CMT-0010,2025-02,2025-04-19,S037,Ricardo García,11.0,C,Música,Camila Díaz,Comportamiento,Observación comportamiento: se distrae en clase.
+CMT-0166,2025-02,2025-02-07,S054,Luisa Sánchez,7.0,A,Arte,Sofía Medina,Comportamiento,Observación comportamiento: participa activamente.
