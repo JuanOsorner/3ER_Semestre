@@ -23,61 +23,87 @@ public class FamiliarControlador {
         this.familiarServicio = familiarServicio;
     }
 
-    /**
-     * Endpoint público para que un familiar se registre por su cuenta.
-     */
     @PostMapping("/registro")
     public ResponseEntity<FamiliarDTO> registrarNuevoFamiliar(@Valid @RequestBody RegistroFamiliarDTO registroDTO) {
-        FamiliarDTO familiarCreado = familiarServicio.procesoDeRegistro(registroDTO);
-        return new ResponseEntity<>(familiarCreado, HttpStatus.CREATED);
+        try {
+            FamiliarDTO familiarCreado = familiarServicio.procesoDeRegistro(registroDTO);
+            return new ResponseEntity<>(familiarCreado, HttpStatus.CREATED);
+        } catch (Exception e) {
+            return ResponseEntity.status(500).build();
+        }
     }
 
-    /**
-     * Endpoint para registrar un familiar (posiblemente por un administrador).
-     */
     @PostMapping
     public ResponseEntity<FamiliarDTO> registrarFamiliar(@Valid @RequestBody FamiliarDTO familiarDTO) {
-        FamiliarDTO nuevoFamiliar = familiarServicio.registrarFamiliar(familiarDTO);
-        return new ResponseEntity<>(nuevoFamiliar, HttpStatus.CREATED);
+        try {
+            FamiliarDTO nuevoFamiliar = familiarServicio.registrarFamiliar(familiarDTO);
+            return new ResponseEntity<>(nuevoFamiliar, HttpStatus.CREATED);
+        } catch (Exception e) {
+            return ResponseEntity.status(500).build();
+        }
     }
 
     @GetMapping
     public ResponseEntity<List<FamiliarDTO>> listarFamiliares() {
-        List<FamiliarDTO> familiares = familiarServicio.listarTodos();
-        return ResponseEntity.ok(familiares);
+        try {
+            List<FamiliarDTO> familiares = familiarServicio.listarTodos();
+            return ResponseEntity.ok(familiares);
+        } catch (Exception e) {
+            return ResponseEntity.status(500).build();
+        }
     }
 
     @GetMapping("/{id}")
     public ResponseEntity<FamiliarDTO> obtenerFamiliarPorId(@PathVariable Long id) {
-        FamiliarDTO familiar = familiarServicio.buscarPorId(id);
-        return ResponseEntity.ok(familiar);
+        try {
+            FamiliarDTO familiar = familiarServicio.buscarPorId(id);
+            return ResponseEntity.ok(familiar);
+        } catch (Exception e) {
+            return ResponseEntity.status(500).build();
+        }
     }
 
     @PutMapping("/{id}")
     public ResponseEntity<FamiliarDTO> actualizarFamiliar(@PathVariable Long id, @Valid @RequestBody FamiliarDTO familiarDTO) {
-        FamiliarDTO familiarActualizado = familiarServicio.actualizarFamiliar(id, familiarDTO);
-        return ResponseEntity.ok(familiarActualizado);
+        try {
+            FamiliarDTO familiarActualizado = familiarServicio.actualizarFamiliar(id, familiarDTO);
+            return ResponseEntity.ok(familiarActualizado);
+        } catch (Exception e) {
+            return ResponseEntity.status(500).build();
+        }
     }
 
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> eliminarFamiliar(@PathVariable Long id) {
-        familiarServicio.eliminarFamiliar(id);
-        return ResponseEntity.noContent().build();
+        try {
+            familiarServicio.eliminarFamiliar(id);
+            return ResponseEntity.noContent().build();
+        } catch (Exception e) {
+            return ResponseEntity.status(500).build();
+        }
     }
 
     @GetMapping("/correo/{email}")
     public ResponseEntity<Map<String, Object>> verificarCorreo(@PathVariable String email) {
-        boolean existe = familiarServicio.verificarCorreoExistente(email);
-        String mensaje = existe ? "El correo ya está registrado." : "El correo está disponible.";
-        Map<String, Object> response = new HashMap<>();
-        response.put("existe", existe);
-        response.put("mensaje", mensaje);
-        return ResponseEntity.ok(response);
+        try {
+            boolean existe = familiarServicio.verificarCorreoExistente(email);
+            String mensaje = existe ? "El correo ya está registrado." : "El correo está disponible.";
+            Map<String, Object> response = new HashMap<>();
+            response.put("existe", existe);
+            response.put("mensaje", mensaje);
+            return ResponseEntity.ok(response);
+        } catch (Exception e) {
+            return ResponseEntity.status(500).build();
+        }
     }
 
     @GetMapping("/{id}/estudiantes")
     public ResponseEntity<List<EstudianteAsociadoDTO>> verEstudiantesAsociados(@PathVariable Long id) {
-        List<EstudianteAsociadoDTO> estudiantes = familiarServicio.verEstudiantesAsociados(id);
-        return ResponseEntity.ok(estudiantes);
+        try {
+            List<EstudianteAsociadoDTO> estudiantes = familiarServicio.verEstudiantesAsociados(id);
+            return ResponseEntity.ok(estudiantes);
+        } catch (Exception e) {
+            return ResponseEntity.status(500).build();
+        }
     }
 }

@@ -22,26 +22,46 @@ public class ConsultaEstudianteControlador {
 
     @GetMapping("/perfil") // HU09
     public ResponseEntity<PerfilEstudianteDTO> getPerfil(@PathVariable Long idFamiliar, @PathVariable Long idEstudiante) {
-        return ResponseEntity.ok(consultaServicio.consultarPerfil(idFamiliar, idEstudiante));
+        try {
+            return ResponseEntity.ok(consultaServicio.consultarPerfil(idFamiliar, idEstudiante));
+        } catch (Exception e) {
+            return ResponseEntity.status(500).build();
+        }
     }
 
     @GetMapping("/notas") // HU10
     public ResponseEntity<List<MateriaNotaDTO>> getNotas(@PathVariable Long idFamiliar, @PathVariable Long idEstudiante) {
-        return ResponseEntity.ok(consultaServicio.consultarNotas(idFamiliar, idEstudiante));
+        try {
+            return ResponseEntity.ok(consultaServicio.consultarNotas(idFamiliar, idEstudiante));
+        } catch (Exception e) {
+            return ResponseEntity.status(500).build();
+        }
     }
 
     @GetMapping("/asistencia") // HU11
     public ResponseEntity<AsistenciaDTO> getAsistencia(@PathVariable Long idFamiliar, @PathVariable Long idEstudiante) {
-        return ResponseEntity.ok(consultaServicio.consultarAsistencia(idFamiliar, idEstudiante));
+        try {
+            return ResponseEntity.ok(consultaServicio.consultarAsistencia(idFamiliar, idEstudiante));
+        } catch (Exception e) {
+            return ResponseEntity.status(500).build();
+        }
     }
 
     @GetMapping("/alertas-academicas") // HU12
     public ResponseEntity<List<AlertaAcademicaDTO>> getAlertas(@PathVariable Long idFamiliar, @PathVariable Long idEstudiante) {
-        return ResponseEntity.ok(consultaServicio.consultarAlertas(idFamiliar, idEstudiante));
+        try {
+            return ResponseEntity.ok(consultaServicio.consultarAlertas(idFamiliar, idEstudiante));
+        } catch (Exception e) {
+            return ResponseEntity.status(500).build();
+        }
     }
 
     @GetMapping("/resumen-academico") // HU19
     public ResponseEntity<ResumenAcademicoDTO> getResumen(@PathVariable Long idFamiliar, @PathVariable Long idEstudiante) {
-        return ResponseEntity.ok(consultaServicio.consultarResumen(idFamiliar, idEstudiante));
+        try {
+            return ResponseEntity.ok(consultaServicio.consultarResumen(idFamiliar, idEstudiante));
+        } catch (Exception e) {
+            return ResponseEntity.status(500).build();
+        }
     }
 }

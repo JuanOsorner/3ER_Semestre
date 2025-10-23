@@ -23,27 +23,42 @@ public class VinculoControlador {
 
     @PostMapping
     public ResponseEntity<VinculoFamiliarEstudiante> crearVinculo(@Valid @RequestBody VinculoFamiliarEstudianteDTO vinculoDTO) {
-        VinculoFamiliarEstudiante nuevoVinculo = vinculoServicio.crearVinculo(vinculoDTO);
-        return new ResponseEntity<>(nuevoVinculo, HttpStatus.CREATED);
+        try {
+            VinculoFamiliarEstudiante nuevoVinculo = vinculoServicio.crearVinculo(vinculoDTO);
+            return new ResponseEntity<>(nuevoVinculo, HttpStatus.CREATED);
+        } catch (Exception e) {
+            return ResponseEntity.status(500).build();
+        }
     }
 
     @GetMapping("/estudiante/{id}")
     public ResponseEntity<List<VinculoFamiliarEstudiante>> verVinculosPorEstudiante(@PathVariable Long id) {
-        List<VinculoFamiliarEstudiante> vinculos = vinculoServicio.verVinculosPorEstudiante(id);
-        return ResponseEntity.ok(vinculos);
+        try {
+            List<VinculoFamiliarEstudiante> vinculos = vinculoServicio.verVinculosPorEstudiante(id);
+            return ResponseEntity.ok(vinculos);
+        } catch (Exception e) {
+            return ResponseEntity.status(500).build();
+        }
     }
 
     @DeleteMapping("/{id}")
     public ResponseEntity<?> eliminarVinculo(@PathVariable Long id) {
-        vinculoServicio.eliminarVinculo(id);
-        // Creamos una respuesta con un mensaje de éxito
-        java.util.Map<String, String> response = new java.util.HashMap<>();
-        response.put("mensaje", "Vínculo eliminado exitosamente.");
-        return ResponseEntity.ok(response);
+        try {
+            vinculoServicio.eliminarVinculo(id);
+            java.util.Map<String, String> response = new java.util.HashMap<>();
+            response.put("mensaje", "Vínculo eliminado exitosamente.");
+            return ResponseEntity.ok(response);
+        } catch (Exception e) {
+            return ResponseEntity.status(500).build();
+        }
     }
 
     @GetMapping
     public ResponseEntity<List<VinculoDetalleDTO>> listarTodos() {
-        return ResponseEntity.ok(vinculoServicio.listarTodosLosVinculos());
+        try {
+            return ResponseEntity.ok(vinculoServicio.listarTodosLosVinculos());
+        } catch (Exception e) {
+            return ResponseEntity.status(500).build();
+        }
     }
 }

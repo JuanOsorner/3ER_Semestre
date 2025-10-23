@@ -2,7 +2,6 @@ package com.example.familia_api.servicios;
 
 import com.example.familia_api.modelos.dto.*;
 import com.example.familia_api.repositorios.IVinculoFamiliarEstudianteRepositorio;
-import org.springframework.security.access.AccessDeniedException;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -26,7 +25,8 @@ public class ConsultaEstudianteServicio {
                 .anyMatch(vinculo -> vinculo.getEstudiante().getId().equals(idEstudiante) && vinculo.isAutorizado());
 
         if (!esValido) {
-            throw new AccessDeniedException("El familiar no tiene un vínculo autorizado con este estudiante.");
+            // Reemplazamos AccessDeniedException por una excepción estándar de Java
+            throw new IllegalStateException("El familiar no tiene un vínculo autorizado con este estudiante.");
         }
     }
 

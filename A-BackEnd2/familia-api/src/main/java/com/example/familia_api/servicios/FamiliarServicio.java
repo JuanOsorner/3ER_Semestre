@@ -13,7 +13,6 @@ import com.example.familia_api.repositorios.IFamiliarRepositorio;
 import com.example.familia_api.repositorios.IUsuarioRepositorio;
 import com.example.familia_api.repositorios.IVinculoFamiliarEstudianteRepositorio;
 import jakarta.persistence.EntityNotFoundException;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -27,43 +26,31 @@ public class FamiliarServicio {
     private final IVinculoFamiliarEstudianteRepositorio vinculoRepositorio;
     private final IVinculoMapa vinculoMapa;
     private final IUsuarioRepositorio usuarioRepositorio;
-    private final PasswordEncoder passwordEncoder;
 
-    // CONSTRUCTOR ACTUALIZADO: Acepta todas las dependencias necesarias
     public FamiliarServicio(IFamiliarRepositorio familiarRepositorio,
                             IFamiliarMapa familiarMapa,
                             IVinculoFamiliarEstudianteRepositorio vinculoRepositorio,
                             IVinculoMapa vinculoMapa,
-                            IUsuarioRepositorio usuarioRepositorio,
-                            PasswordEncoder passwordEncoder) {
+                            IUsuarioRepositorio usuarioRepositorio) {
         this.familiarRepositorio = familiarRepositorio;
         this.familiarMapa = familiarMapa;
         this.vinculoRepositorio = vinculoRepositorio;
         this.vinculoMapa = vinculoMapa;
         this.usuarioRepositorio = usuarioRepositorio;
-        this.passwordEncoder = passwordEncoder;
     }
 
-    /**
-     * Procesa el registro de un nuevo familiar y su cuenta de usuario.
-     * @param registroDTO DTO con los datos de registro.
-     * @return El DTO del familiar creado.
-     */
     @Transactional
     public FamiliarDTO procesoDeRegistro(RegistroFamiliarDTO registroDTO) {
-        // 1. Validar que el correo no exista
         if (familiarRepositorio.findByCorreo(registroDTO.getCorreo()).isPresent()) {
             throw new IllegalArgumentException("El correo electrónico ya está en uso.");
         }
 
-        // 2. Crear y guardar la entidad Usuario
         Usuario nuevoUsuario = new Usuario();
         nuevoUsuario.setCorreo(registroDTO.getCorreo());
-        nuevoUsuario.setPassword(passwordEncoder.encode(registroDTO.getPassword()));
+        nuevoUsuario.setPassword(registroDTO.getPassword()); // Contraseña en texto plano
         nuevoUsuario.setRol(Rol.FAMILIAR);
         Usuario usuarioGuardado = usuarioRepositorio.save(nuevoUsuario);
 
-        // 3. Crear y guardar la entidad Familiar, vinculada al usuario
         Familiar nuevoFamiliar = new Familiar();
         nuevoFamiliar.setNombre(registroDTO.getNombre());
         nuevoFamiliar.setApellido(registroDTO.getApellido());
@@ -74,7 +61,6 @@ public class FamiliarServicio {
 
         Familiar familiarGuardado = familiarRepositorio.save(nuevoFamiliar);
 
-        // 4. Devolver el DTO del familiar creado
         return familiarMapa.familiarToFamiliarDTO(familiarGuardado);
     }
 
