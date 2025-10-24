@@ -83,6 +83,11 @@ public class FamiliarServicio {
         return familiarMapa.familiarToFamiliarDTO(familiar);
     }
 
+    public Familiar buscarEntidadPorId(Long id) {
+        return familiarRepositorio.findById(id)
+                .orElseThrow(() -> new EntityNotFoundException("Familiar no encontrado con el id: " + id));
+    }
+
     public FamiliarDTO actualizarFamiliar(Long id, FamiliarDTO familiarDTO) {
         Familiar familiarExistente = familiarRepositorio.findById(id)
                 .orElseThrow(() -> new EntityNotFoundException("Familiar no encontrado con el id: " + id));

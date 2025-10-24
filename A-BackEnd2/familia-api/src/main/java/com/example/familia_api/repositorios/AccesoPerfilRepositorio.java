@@ -1,9 +1,9 @@
 package com.example.familia_api.repositorios;
 
-import com.example.familia_api.modelos.Estudiante;
+import com.example.familia_api.modelos.AccesoPerfil;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface IEstudianteRepositorio extends JpaRepository<Estudiante, Long> {
+public interface AccesoPerfilRepositorio extends JpaRepository<AccesoPerfil, Long> {
 }
