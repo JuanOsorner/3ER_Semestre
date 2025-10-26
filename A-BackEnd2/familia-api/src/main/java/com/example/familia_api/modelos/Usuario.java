@@ -32,7 +32,7 @@ public class Usuario {
     private EstadoUsuario estado;
 
     @Enumerated(EnumType.STRING)
-    @Column(nullable = false)
+    @Column(nullable = false) // Añadido: Campo rol directamente en la entidad Usuario
     private Rol rol;
 
     @PrePersist
@@ -41,6 +41,7 @@ public class Usuario {
         if (this.estado == null) {
             this.estado = EstadoUsuario.PENDIENTE;
         }
+        // El rol no se inicializa aquí, debe venir del constructor o ser asignado antes de persistir
     }
 
     // Constructores, Getters y Setters
@@ -48,10 +49,12 @@ public class Usuario {
     public Usuario() {
     }
 
-    public Usuario(String nombre, String correo, String contra) {
+    // Constructor actualizado para incluir rol
+    public Usuario(String nombre, String correo, String contra, Rol rol) {
         this.nombre = nombre;
         this.correo = correo;
         this.contra = contra;
+        this.rol = rol;
     }
 
     public Integer getId() {
@@ -100,5 +103,13 @@ public class Usuario {
 
     public void setEstado(EstadoUsuario estado) {
         this.estado = estado;
+    }
+
+    public Rol getRol() {
+        return rol;
+    }
+
+    public void setRol(Rol rol) {
+        this.rol = rol;
     }
 }

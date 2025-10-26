@@ -1,6 +1,7 @@
 package com.example.familia_api.controladores;
 
 import com.example.familia_api.modelos.Usuario;
+import com.example.familia_api.modelos.dto.LoginRequestDTO;
 import com.example.familia_api.servicios.UsuarioServicio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -49,6 +50,19 @@ public class UsuarioControlador {
         } catch (Exception error) {
             return ResponseEntity
                     .status(HttpStatus.BAD_REQUEST)
+                    .body(error.getMessage());
+        }
+    }
+
+    @PostMapping("/login")
+    public ResponseEntity<?> loginUsuario(@RequestBody LoginRequestDTO loginRequest) {
+        try {
+            return ResponseEntity
+                    .status(HttpStatus.OK)
+                    .body(usuarioServicio.loginUsuario(loginRequest.getCorreo(), loginRequest.getContra()));
+        } catch (Exception error) {
+            return ResponseEntity
+                    .status(HttpStatus.UNAUTHORIZED) // 401 para credenciales inválidas
                     .body(error.getMessage());
         }
     }

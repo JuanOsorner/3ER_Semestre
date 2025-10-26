@@ -1,6 +1,6 @@
 package com.example.familia_api.controladores;
 
-import com.example.familia_api.modelos.Familiar;
+import com.example.familia_api.modelos.dto.FamiliarDetalleDTO;
 import com.example.familia_api.servicios.FamiliarServicio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -14,12 +14,12 @@ public class FamiliarControlador {
     @Autowired
     private FamiliarServicio familiarServicio;
 
-    @PostMapping
-    public ResponseEntity<?> guardarFamiliar(@RequestBody Familiar datos) {
+    @PostMapping("/detalles") // Nuevo endpoint para guardar/actualizar detalles
+    public ResponseEntity<?> guardarFamiliarDetalle(@RequestBody FamiliarDetalleDTO detalleDTO) {
         try {
             return ResponseEntity
                     .status(HttpStatus.CREATED)
-                    .body(familiarServicio.guardarFamiliar(datos));
+                    .body(familiarServicio.guardarFamiliarDetalle(detalleDTO));
         } catch (Exception error) {
             return ResponseEntity
                     .status(HttpStatus.BAD_REQUEST)

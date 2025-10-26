@@ -4,22 +4,24 @@ import com.example.familia_api.modelos.Usuario;
 import com.example.familia_api.modelos.dto.UsuarioDTO;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
+import org.mapstruct.ReportingPolicy;
 
 import java.util.List;
 
-@Mapper(componentModel = "spring")
+@Mapper(componentModel = "spring", unmappedTargetPolicy = ReportingPolicy.IGNORE)
 public interface IMapaUsuario {
 
     @Mapping(target = "id", source = "id")
     @Mapping(target = "nombre", source = "nombre")
     @Mapping(target = "correo", source = "correo")
     @Mapping(target = "estado", source = "estado")
-    @Mapping(target = "rol", ignore = true) // Corregido: El rol se asigna en los mappers de subclase (Estudiante/Familiar)
+    @Mapping(target = "rol", source = "rol") // Corregido: Mapear el rol directamente
     UsuarioDTO toDto(Usuario usuario);
 
     @Mapping(target = "id", ignore = true)
     @Mapping(target = "contra", ignore = true)
     @Mapping(target = "fechaCreacion", ignore = true)
+    @Mapping(target = "rol", source = "rol") // Corregido: Mapear el rol del DTO a la entidad
     Usuario toEntity(UsuarioDTO dto);
 
     List<UsuarioDTO> toDtoList(List<Usuario> usuarios);
