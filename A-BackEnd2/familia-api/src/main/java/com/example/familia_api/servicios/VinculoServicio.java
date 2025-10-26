@@ -2,14 +2,13 @@ package com.example.familia_api.servicios;
 
 import com.example.familia_api.modelos.Estudiante;
 import com.example.familia_api.modelos.Familiar;
-import com.example.familia_api.modelos.VinculoFamiliarEstudiante;
-import com.example.familia_api.modelos.dto.VinculoDetalleDTO;
-import com.example.familia_api.modelos.dto.VinculoFamiliarEstudianteDTO;
-import com.example.familia_api.modelos.mapas.IVinculoMapa;
+import com.example.familia_api.modelos.Vinculo;
+import com.example.familia_api.modelos.dto.VinculoDTO;
+import com.example.familia_api.modelos.mapas.IMapaVinculo;
 import com.example.familia_api.repositorios.IEstudianteRepositorio;
 import com.example.familia_api.repositorios.IFamiliarRepositorio;
-import com.example.familia_api.repositorios.IVinculoFamiliarEstudianteRepositorio;
-import jakarta.persistence.EntityNotFoundException;
+import com.example.familia_api.repositorios.IVinculoRepositorio;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -17,51 +16,40 @@ import java.util.List;
 @Service
 public class VinculoServicio {
 
-    private final IVinculoFamiliarEstudianteRepositorio vinculoRepositorio;
-    private final IFamiliarRepositorio familiarRepositorio;
-    private final IEstudianteRepositorio estudianteRepositorio;
+    @Autowired
+    private IVinculoRepositorio vinculoRepositorio;
 
-    private final IVinculoMapa vinculoMapa;
+    @Autowired
+    private IEstudianteRepositorio estudianteRepositorio;
 
-    public VinculoServicio(IVinculoFamiliarEstudianteRepositorio vinculoRepositorio, IFamiliarRepositorio familiarRepositorio, IEstudianteRepositorio estudianteRepositorio, IVinculoMapa vinculoMapa) {
-        this.vinculoRepositorio = vinculoRepositorio;
-        this.familiarRepositorio = familiarRepositorio;
-        this.estudianteRepositorio = estudianteRepositorio;
-        this.vinculoMapa = vinculoMapa;
-    }
+    @Autowired
+    private IFamiliarRepositorio familiarRepositorio;
 
-    public VinculoFamiliarEstudiante crearVinculo(VinculoFamiliarEstudianteDTO dto) {
-        // Validar existencia de familiar y estudiante antes de vincular
-        Familiar familiar = familiarRepositorio.findById(dto.getIdFamiliar())
-                .orElseThrow(() -> new EntityNotFoundException("Familiar no encontrado con id: " + dto.getIdFamiliar()));
+    @Autowired
+    private IMapaVinculo mapaVinculo;
 
-        Estudiante estudiante = estudianteRepositorio.findById(dto.getIdEstudiante())
-                .orElseThrow(() -> new EntityNotFoundException("Estudiante no encontrado con id: " + dto.getIdEstudiante()));
+    public VinculoDTO crearVinculo(VinculoDTO vinculoDTO) throws Exception {
+        try {
+            Estudiante estudiante = estudianteRepositorio.findById(vinculoDTO.getEstudianteId())
+                    .orElseThrow(() -> new Exception("Estudiante no encontrado"));
 
-        VinculoFamiliarEstudiante nuevoVinculo = new VinculoFamiliarEstudiante();
-        nuevoVinculo.setFamiliar(familiar);
-        nuevoVinculo.setEstudiante(estudiante);
-        nuevoVinculo.setAutorizado(dto.getAutorizado());
+            Familiar familiar = familiarRepositorio.findById(vinculoDTO.getFamiliarId())
+                    .orElseThrow(() -> new Exception("Familiar no encontrado"));
 
-        return vinculoRepositorio.save(nuevoVinculo);
-    }
+            Vinculo vinculo = new Vinculo(estudiante, familiar, vinculoDTO.getParentesco());
+            vinculoRepositorio.save(vinculo);
 
-    public List<VinculoFamiliarEstudiante> verVinculosPorEstudiante(Long idEstudiante) {
-        if (!estudianteRepositorio.existsById(idEstudiante)) {
-            throw new EntityNotFoundException("Estudiante no encontrado con id: " + idEstudiante);
+            return mapaVinculo.toDto(vinculo);
+        } catch (Exception error) {
+            throw new Exception("Error al crear el vínculo: " + error.getMessage());
         }
-        return vinculoRepositorio.findByEstudianteId(idEstudiante);
     }
 
-    public void eliminarVinculo(Long idVinculo) {
-        if (!vinculoRepositorio.existsById(idVinculo)) {
-            throw new EntityNotFoundException("Vínculo no encontrado con id: " + idVinculo);
+    public List<VinculoDTO> listarVinculos() throws Exception {
+        try {
+            return mapaVinculo.toDtoList(vinculoRepositorio.findAll());
+        } catch (Exception error) {
+            throw new Exception("Error al listar los vínculos: " + error.getMessage());
         }
-        vinculoRepositorio.deleteById(idVinculo);
-    }
-
-    public List<VinculoDetalleDTO> listarTodosLosVinculos() {
-        List<VinculoFamiliarEstudiante> vinculos = vinculoRepositorio.findAll();
-        return vinculoMapa.toVinculoDetalleDTOList(vinculos);
     }
 }

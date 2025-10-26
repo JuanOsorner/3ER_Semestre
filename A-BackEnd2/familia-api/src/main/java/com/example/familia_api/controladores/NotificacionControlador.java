@@ -1,25 +1,29 @@
 package com.example.familia_api.controladores;
 
-import com.example.familia_api.modelos.dto.VinculoDTO;
-import com.example.familia_api.servicios.VinculoServicio;
+import com.example.familia_api.servicios.NotificacionServicio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Map;
+
 @RestController
-@RequestMapping("/vinculos")
-public class VinculoControlador {
+@RequestMapping("/notificaciones")
+public class NotificacionControlador {
 
     @Autowired
-    private VinculoServicio vinculoServicio;
+    private NotificacionServicio notificacionServicio;
 
     @PostMapping
-    public ResponseEntity<?> crearVinculo(@RequestBody VinculoDTO vinculoDTO) {
+    public ResponseEntity<?> crearNotificacion(@RequestBody Map<String, Object> requestBody) {
         try {
+            Integer familiarId = (Integer) requestBody.get("familiarId");
+            String mensaje = (String) requestBody.get("mensaje");
+
             return ResponseEntity
                     .status(HttpStatus.CREATED)
-                    .body(vinculoServicio.crearVinculo(vinculoDTO));
+                    .body(notificacionServicio.crearNotificacion(familiarId, mensaje));
         } catch (Exception error) {
             return ResponseEntity
                     .status(HttpStatus.BAD_REQUEST)
@@ -27,12 +31,12 @@ public class VinculoControlador {
         }
     }
 
-    @GetMapping
-    public ResponseEntity<?> listarVinculos() {
+    @GetMapping("/familiar/{familiarId}")
+    public ResponseEntity<?> buscarNotificacionesPorFamiliar(@PathVariable Integer familiarId) {
         try {
             return ResponseEntity
                     .status(HttpStatus.OK)
-                    .body(vinculoServicio.listarVinculos());
+                    .body(notificacionServicio.buscarNotificacionesPorFamiliar(familiarId));
         } catch (Exception error) {
             return ResponseEntity
                     .status(HttpStatus.BAD_REQUEST)

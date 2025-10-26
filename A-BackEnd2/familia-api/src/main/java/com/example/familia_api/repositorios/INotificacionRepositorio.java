@@ -1,19 +1,18 @@
 package com.example.familia_api.repositorios;
 
-import com.example.familia_api.modelos.Estudiante;
+import com.example.familia_api.modelos.Notificacion;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import java.math.BigDecimal;
 import java.util.List;
 
 @Repository
-public interface IEstudianteRepositorio extends JpaRepository<Estudiante, Integer> {
+public interface INotificacionRepositorio extends JpaRepository<Notificacion, Integer> {
     // Este repositorio extiende JpaRepository, lo que automáticamente proporciona
-    // métodos CRUD básicos (save, findById, findAll, delete, etc.) para la entidad Estudiante.
+    // métodos CRUD básicos (save, findById, findAll, delete, etc.) para la entidad Notificacion.
     // No es necesario declararlos explícitamente aquí.
 
-    // Se añade un método derivado de consulta para buscar Estudiantes por su promedio.
+    // Se añade un método derivado de consulta para buscar Notificaciones por el ID del familiar.
     // Spring Data JPA infiere la consulta SQL a partir del nombre del método (findBy + NombreCampo).
-    List<Estudiante> findByPromedio(BigDecimal promedio);
+    List<Notificacion> findByFamiliarId(Integer familiarId);
 }

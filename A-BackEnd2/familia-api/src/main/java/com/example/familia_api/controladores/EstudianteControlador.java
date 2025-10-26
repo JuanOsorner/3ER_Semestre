@@ -1,25 +1,25 @@
 package com.example.familia_api.controladores;
 
-import com.example.familia_api.modelos.Familiar;
-import com.example.familia_api.servicios.FamiliarServicio;
+import com.example.familia_api.modelos.Estudiante;
+import com.example.familia_api.servicios.EstudianteServicio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/familiares")
-public class FamiliarControlador {
+@RequestMapping("/estudiantes")
+public class EstudianteControlador {
 
     @Autowired
-    private FamiliarServicio familiarServicio;
+    private EstudianteServicio estudianteServicio;
 
     @PostMapping
-    public ResponseEntity<?> guardarFamiliar(@RequestBody Familiar datos) {
+    public ResponseEntity<?> guardarEstudiante(@RequestBody Estudiante datos) {
         try {
             return ResponseEntity
                     .status(HttpStatus.CREATED)
-                    .body(familiarServicio.guardarFamiliar(datos));
+                    .body(estudianteServicio.guardarEstudiante(datos));
         } catch (Exception error) {
             return ResponseEntity
                     .status(HttpStatus.BAD_REQUEST)
@@ -28,11 +28,11 @@ public class FamiliarControlador {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<?> buscarFamiliarPorId(@PathVariable Integer id) {
+    public ResponseEntity<?> buscarEstudiantePorId(@PathVariable Integer id) {
         try {
             return ResponseEntity
                     .status(HttpStatus.OK)
-                    .body(familiarServicio.buscarFamiliarPorId(id));
+                    .body(estudianteServicio.buscarEstudiantePorId(id));
         } catch (Exception error) {
             return ResponseEntity
                     .status(HttpStatus.NOT_FOUND)
@@ -41,11 +41,11 @@ public class FamiliarControlador {
     }
 
     @GetMapping
-    public ResponseEntity<?> buscarTodosLosFamiliares() {
+    public ResponseEntity<?> buscarTodosLosEstudiantes() {
         try {
             return ResponseEntity
                     .status(HttpStatus.OK)
-                    .body(familiarServicio.buscarTodosLosFamiliares());
+                    .body(estudianteServicio.buscarTodosLosEstudiantes());
         } catch (Exception error) {
             return ResponseEntity
                     .status(HttpStatus.BAD_REQUEST)

@@ -1,31 +1,14 @@
-package com.example.familia_api.modelos;
+package com.example.familia_api.modelos.dto;
 
-import jakarta.persistence.*;
 import java.math.BigDecimal;
 
-@Entity
-@Table(name = "Estudiantes")
-@PrimaryKeyJoinColumn(name = "usuario_id")
-public class Estudiante extends Usuario {
+public class EstudianteDTO extends UsuarioDTO {
 
     private String programa;
-
     private Integer semestre;
-
-    @Column(precision = 3, scale = 2)
     private BigDecimal promedio;
 
-    // Constructores, Getters y Setters
-
-    public Estudiante() {
-    }
-
-    public Estudiante(String nombre, String correo, String contra, String programa, Integer semestre, BigDecimal promedio) {
-        super(nombre, correo, contra);
-        this.programa = programa;
-        this.semestre = semestre;
-        this.promedio = promedio;
-    }
+    // Getters y Setters
 
     public String getPrograma() {
         return programa;

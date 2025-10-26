@@ -1,25 +1,30 @@
 package com.example.familia_api.controladores;
 
-import com.example.familia_api.modelos.dto.VinculoDTO;
-import com.example.familia_api.servicios.VinculoServicio;
+import com.example.familia_api.modelos.dto.ConsultaDTO;
+import com.example.familia_api.servicios.ConsultaServicio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Map;
+
 @RestController
-@RequestMapping("/vinculos")
-public class VinculoControlador {
+@RequestMapping("/consultas")
+public class ConsultaControlador {
 
     @Autowired
-    private VinculoServicio vinculoServicio;
+    private ConsultaServicio consultaServicio;
 
     @PostMapping
-    public ResponseEntity<?> crearVinculo(@RequestBody VinculoDTO vinculoDTO) {
+    public ResponseEntity<?> registrarConsulta(@RequestBody Map<String, Object> requestBody) {
         try {
+            Integer vinculoId = (Integer) requestBody.get("vinculoId");
+            String observaciones = (String) requestBody.get("observaciones");
+
             return ResponseEntity
                     .status(HttpStatus.CREATED)
-                    .body(vinculoServicio.crearVinculo(vinculoDTO));
+                    .body(consultaServicio.registrarConsulta(vinculoId, observaciones));
         } catch (Exception error) {
             return ResponseEntity
                     .status(HttpStatus.BAD_REQUEST)
@@ -28,11 +33,11 @@ public class VinculoControlador {
     }
 
     @GetMapping
-    public ResponseEntity<?> listarVinculos() {
+    public ResponseEntity<?> listarConsultas() {
         try {
             return ResponseEntity
                     .status(HttpStatus.OK)
-                    .body(vinculoServicio.listarVinculos());
+                    .body(consultaServicio.listarConsultas());
         } catch (Exception error) {
             return ResponseEntity
                     .status(HttpStatus.BAD_REQUEST)
