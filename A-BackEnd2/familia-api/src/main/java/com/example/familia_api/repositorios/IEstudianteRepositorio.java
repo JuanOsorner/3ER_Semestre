@@ -9,11 +9,6 @@ import java.util.List;
 
 @Repository
 public interface IEstudianteRepositorio extends JpaRepository<Estudiante, Integer> {
-    // Este repositorio extiende JpaRepository, lo que automáticamente proporciona
-    // métodos CRUD básicos (save, findById, findAll, delete, etc.) para la entidad Estudiante.
-    // No es necesario declararlos explícitamente aquí.
-
     // Se añade un método derivado de consulta para buscar Estudiantes por su promedio.
-    // Spring Data JPA infiere la consulta SQL a partir del nombre del método (findBy + NombreCampo).
     List<Estudiante> findByPromedio(BigDecimal promedio);
 }

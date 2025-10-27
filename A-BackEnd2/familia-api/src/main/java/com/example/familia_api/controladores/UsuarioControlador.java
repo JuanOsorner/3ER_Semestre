@@ -54,6 +54,7 @@ public class UsuarioControlador {
         }
     }
 
+    // AQUI ESTAMOS USANDO REQUESTBODY PARA EXTRAER EL VALOR DEL CUERPO DE LA PETICIÓN
     @PostMapping("/login")
     public ResponseEntity<?> loginUsuario(@RequestBody LoginRequestDTO loginRequest) {
         try {
@@ -63,6 +64,46 @@ public class UsuarioControlador {
         } catch (Exception error) {
             return ResponseEntity
                     .status(HttpStatus.UNAUTHORIZED) // 401 para credenciales inválidas
+                    .body(error.getMessage());
+        }
+    }
+    // PATH SIRVE PARA EXTRAER EL VALOR DE LA URL DIRECTAMENTE
+    @GetMapping("/correo/{correo}")
+    public ResponseEntity<?> buscarUsuarioPorCorreo(@PathVariable String correo) {
+        try {
+            return ResponseEntity
+                    .status(HttpStatus.OK)
+                    .body(usuarioServicio.buscarUsuarioPorCorreo(correo));
+        } catch (Exception error) {
+            return ResponseEntity
+                    .status(HttpStatus.NOT_FOUND)
+                    .body(error.getMessage());
+        }
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<?> actualizarUsuario(@PathVariable Integer id, @RequestBody Usuario datosParaActualizar) {
+        try {
+            return ResponseEntity
+                    .status(HttpStatus.OK)
+                    .body(usuarioServicio.actualizarUsuario(id, datosParaActualizar));
+        } catch (Exception error) {
+            return ResponseEntity
+                    .status(HttpStatus.BAD_REQUEST)
+                    .body(error.getMessage());
+        }
+    }
+
+    @DeleteMapping("/correo/{correo}")
+    public ResponseEntity<?> eliminarUsuarioPorCorreo(@PathVariable String correo) {
+        try {
+            usuarioServicio.eliminarUsuarioPorCorreo(correo);
+            return ResponseEntity
+                    .status(HttpStatus.NO_CONTENT) // 204 No Content es estándar para delete exitoso
+                    .build();
+        } catch (Exception error) {
+            return ResponseEntity
+                    .status(HttpStatus.NOT_FOUND)
                     .body(error.getMessage());
         }
     }

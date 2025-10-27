@@ -31,14 +31,13 @@ public class UsuarioServicio {
     @Autowired
     private IMapaFamiliar mapaFamiliar;
 
+    // Estamos usando nuestra dependencia para encriptar contraseñas
     private final BCryptPasswordEncoder passwordEncoder;
 
     public UsuarioServicio() {
         this.passwordEncoder = new BCryptPasswordEncoder();
     }
 
-    // Método auxiliar para mapear la entidad Usuario a su DTO específico
-    // Esto es útil para que los mappers de subclase (Estudiante/Familiar) manejen sus propiedades específicas
     private UsuarioDTO mapUsuarioToDtoWithRole(Usuario usuario) {
         if (usuario instanceof Estudiante) {
             return mapaEstudiante.toDto((Estudiante) usuario);
@@ -101,6 +100,50 @@ public class UsuarioServicio {
 
         } catch (Exception error) {
             throw new Exception("Fallo en la autenticación: " + error.getMessage());
+        }
+    }
+
+    public UsuarioDTO buscarUsuarioPorCorreo(String correo) throws Exception {
+        try {
+            Optional<Usuario> usuarioEncontrado = usuarioRepositorio.findByCorreo(correo);
+            if (usuarioEncontrado.isPresent()) {
+                return mapUsuarioToDtoWithRole(usuarioEncontrado.get());
+            } else {
+                throw new Exception("Usuario no encontrado con el correo: " + correo);
+            }
+        } catch (Exception error) {
+            throw new Exception("Error al buscar el usuario por correo: " + error.getMessage());
+        }
+    }
+
+    public UsuarioDTO actualizarUsuario(Integer id, Usuario datosParaActualizar) throws Exception {
+        try {
+            Optional<Usuario> usuarioOptional = usuarioRepositorio.findById(id);
+            if (usuarioOptional.isEmpty()) {
+                throw new Exception("Usuario no encontrado para actualizar.");
+            }
+            Usuario usuarioExistente = usuarioOptional.get();
+
+            // Actualizar los campos que se permitan. No se actualiza la contraseña aquí.
+            usuarioExistente.setNombre(datosParaActualizar.getNombre());
+            usuarioExistente.setCorreo(datosParaActualizar.getCorreo());
+
+            Usuario usuarioActualizado = usuarioRepositorio.save(usuarioExistente);
+            return mapUsuarioToDtoWithRole(usuarioActualizado);
+        } catch (Exception error) {
+            throw new Exception("Error al actualizar el usuario: " + error.getMessage());
+        }
+    }
+
+    public void eliminarUsuarioPorCorreo(String correo) throws Exception {
+        try {
+            Optional<Usuario> usuarioOptional = usuarioRepositorio.findByCorreo(correo);
+            if (usuarioOptional.isEmpty()) {
+                throw new Exception("Usuario no encontrado para eliminar.");
+            }
+            usuarioRepositorio.delete(usuarioOptional.get());
+        } catch (Exception error) {
+            throw new Exception("Error al eliminar el usuario: " + error.getMessage());
         }
     }
 }

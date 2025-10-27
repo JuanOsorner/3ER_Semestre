@@ -11,17 +11,18 @@ import java.util.List;
 @Mapper(componentModel = "spring", unmappedTargetPolicy = ReportingPolicy.IGNORE)
 public interface IMapaUsuario {
 
+    // Traducción a DTO
     @Mapping(target = "id", source = "id")
     @Mapping(target = "nombre", source = "nombre")
     @Mapping(target = "correo", source = "correo")
     @Mapping(target = "estado", source = "estado")
-    @Mapping(target = "rol", source = "rol") // Corregido: Mapear el rol directamente
+    @Mapping(target = "rol", source = "rol")
     UsuarioDTO toDto(Usuario usuario);
-
+    // Traducción a MODELO
     @Mapping(target = "id", ignore = true)
     @Mapping(target = "contra", ignore = true)
     @Mapping(target = "fechaCreacion", ignore = true)
-    @Mapping(target = "rol", source = "rol") // Corregido: Mapear el rol del DTO a la entidad
+    @Mapping(target = "rol", source = "rol")
     Usuario toEntity(UsuarioDTO dto);
 
     List<UsuarioDTO> toDtoList(List<Usuario> usuarios);

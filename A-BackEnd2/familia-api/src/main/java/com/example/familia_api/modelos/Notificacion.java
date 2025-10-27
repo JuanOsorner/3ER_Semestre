@@ -15,6 +15,7 @@ public class Notificacion {
     @JoinColumn(name = "familiar_id", nullable = false)
     private Familiar familiar;
 
+    // Lob es para cantidades de datos muy grandes como un mensaje
     @Lob
     @Column(nullable = false)
     private String mensaje;
@@ -26,6 +27,7 @@ public class Notificacion {
     @Temporal(TemporalType.TIMESTAMP)
     private LocalDateTime fechaCreacion;
 
+    // Esta notación ejecuta este metodo antes de que se guarde todo en la base de datos
     @PrePersist
     protected void onCreate() {
         this.fechaCreacion = LocalDateTime.now();
