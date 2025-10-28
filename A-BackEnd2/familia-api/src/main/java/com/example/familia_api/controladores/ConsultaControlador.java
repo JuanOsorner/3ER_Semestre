@@ -14,6 +14,7 @@ public class ConsultaControlador {
     @Autowired
     private ConsultaServicio consultaServicio;
 
+    // post recibe del cuerpo de la peticion json por eso requestBody
     @PostMapping
     public ResponseEntity<?> registrarConsulta(@RequestBody ConsultaDTO consultaDTO) {
         try {
@@ -26,7 +27,7 @@ public class ConsultaControlador {
                     .body(error.getMessage());
         }
     }
-
+    // Get recibe de la url, por eso path
     @GetMapping
     public ResponseEntity<?> listarConsultas() {
         try {

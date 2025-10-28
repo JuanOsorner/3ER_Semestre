@@ -21,7 +21,7 @@ public class Consulta {
 
     @Lob
     private String observaciones;
-
+    // Esto es para ejecutar la fecha de manera automatica
     @PrePersist
     protected void onCreate() {
         this.fechaConsulta = LocalDateTime.now();
