@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "vinculoId": 1,
+        "fechaConsulta": "2025-10-18T15:04:39",
+        "observaciones": "El estudiante muestra dificultades en matemáticas. Se recomienda seguimiento."
+    },
+    {
+        "id": 2,
+        "vinculoId": 2,
+        "fechaConsulta": "2025-10-19T15:04:39",
+        "observaciones": "Presenta un comportamiento excelente y participativo en clase."
+    },
+    {
+        "id": 3,
+        "vinculoId": 3,
+        "fechaConsulta": "2025-10-20T15:04:39",
+        "observaciones": "Falta de atención recurrente. Se notificó al familiar para una reunión."
+    },
+    {
+        "id": 4,
+        "vinculoId": 4,
+        "fechaConsulta": "2025-10-21T15:04:39",
+        "observaciones": "Progreso notable en la materia de lenguaje. Ha mejorado su caligrafía."
+    },
+    {
+        "id": 5,
+        "vinculoId": 5,
+        "fechaConsulta": "2025-10-22T15:04:39",
+        "observaciones": "Se reporta un incidente menor en el patio de recreo. Sin consecuencias."
+    },
+    {
+        "id": 6,
+        "vinculoId": 6,
+        "fechaConsulta": "2025-10-23T15:04:39",
+        "observaciones": "El estudiante necesita refuerzo en ciencias sociales. Se asignaron tareas adicionales."
+    },
+    {
+        "id": 7,
+        "vinculoId": 7,
+        "fechaConsulta": "2025-10-24T15:04:39",
+        "observaciones": "Muestra gran talento para las artes plásticas. Se le animó a unirse al taller."
+    },
+    {
+        "id": 8,
+        "vinculoId": 8,
+        "fechaConsulta": "2025-10-25T15:04:39",
+        "observaciones": "Ausencia justificada por cita médica el día de ayer."
+    },
+    {
+        "id": 9,
+        "vinculoId": 9,
+        "fechaConsulta": "2025-10-26T15:04:39",
+        "observaciones": "Dificultades para socializar con sus compañeros. Se trabajará en dinámicas de grupo."
+    },
+    {
+        "id": 10,
+        "vinculoId": 10,
+        "fechaConsulta": "2025-10-27T15:04:39",
+        "observaciones": "Entregó todos los trabajos a tiempo y con excelente presentación."
+    }
+]
