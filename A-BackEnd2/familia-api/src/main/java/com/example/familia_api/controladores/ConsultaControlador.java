@@ -7,8 +7,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Map;
-
 @RestController
 @RequestMapping("/consultas")
 public class ConsultaControlador {
@@ -17,14 +15,11 @@ public class ConsultaControlador {
     private ConsultaServicio consultaServicio;
 
     @PostMapping
-    public ResponseEntity<?> registrarConsulta(@RequestBody Map<String, Object> requestBody) {
+    public ResponseEntity<?> registrarConsulta(@RequestBody ConsultaDTO consultaDTO) {
         try {
-            Integer vinculoId = (Integer) requestBody.get("vinculoId");
-            String observaciones = (String) requestBody.get("observaciones");
-
             return ResponseEntity
                     .status(HttpStatus.CREATED)
-                    .body(consultaServicio.registrarConsulta(vinculoId, observaciones));
+                    .body(consultaServicio.registrarConsulta(consultaDTO.getVinculoId(), consultaDTO.getObservaciones()));
         } catch (Exception error) {
             return ResponseEntity
                     .status(HttpStatus.BAD_REQUEST)
