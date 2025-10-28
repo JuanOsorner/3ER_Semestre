@@ -7,12 +7,12 @@ import org.mapstruct.Mapping;
 
 import java.util.List;
 
-@Mapper(componentModel = "spring")
+@Mapper(componentModel = "spring", uses = {IMapaEstudiante.class, IMapaFamiliar.class})
 public interface IMapaVinculo {
 
     @Mapping(source = "id", target = "id")
-    @Mapping(source = "estudiante.id", target = "estudianteId")
-    @Mapping(source = "familiar.id", target = "familiarId")
+    @Mapping(source = "estudiante", target = "estudiante")
+    @Mapping(source = "familiar", target = "familiar")
     @Mapping(source = "parentesco", target = "parentesco")
     VinculoDTO toDto(Vinculo vinculo);
 

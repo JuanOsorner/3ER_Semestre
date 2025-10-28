@@ -14,7 +14,7 @@ public class EstudianteControlador {
     @Autowired
     private EstudianteServicio estudianteServicio;
 
-    @PostMapping("/detalles") // Nuevo endpoint para guardar/actualizar detalles
+    @PostMapping("/detalles")
     public ResponseEntity<?> guardarEstudianteDetalle(@RequestBody EstudianteDetalleDTO detalleDTO) {
         try {
             return ResponseEntity

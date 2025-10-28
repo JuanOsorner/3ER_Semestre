@@ -8,4 +8,5 @@ import java.util.List;
 
 @Repository
 public interface IConsultaRepositorio extends JpaRepository<Consulta, Integer> {
+    // ya viene con los cuatro metodos por defecto
 }

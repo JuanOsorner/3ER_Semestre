@@ -2,6 +2,7 @@ package com.example.familia_api.servicios;
 
 import com.example.familia_api.modelos.Consulta;
 import com.example.familia_api.modelos.Vinculo;
+import com.example.familia_api.modelos.dto.ConsultaCompletaDTO;
 import com.example.familia_api.modelos.dto.ConsultaDTO;
 import com.example.familia_api.modelos.mapas.IMapaConsulta;
 import com.example.familia_api.repositorios.IConsultaRepositorio;
@@ -13,7 +14,7 @@ import java.util.List;
 
 @Service
 public class ConsultaServicio {
-
+    // Inyectamos automaticamente los repositorios
     @Autowired
     private IConsultaRepositorio consultaRepositorio;
 
@@ -42,6 +43,16 @@ public class ConsultaServicio {
             return mapaConsulta.toDtoList(consultaRepositorio.findAll());
         } catch (Exception error) {
             throw new Exception("Error al listar las consultas: " + error.getMessage());
+        }
+    }
+
+    public ConsultaCompletaDTO obtenerConsultaCompleta(Integer id) throws Exception {
+        try {
+            Consulta consulta = consultaRepositorio.findById(id)
+                    .orElseThrow(() -> new Exception("Consulta no encontrada"));
+            return mapaConsulta.toCompletaDto(consulta);
+        } catch (Exception error) {
+            throw new Exception("Error al obtener la consulta: " + error.getMessage());
         }
     }
 }

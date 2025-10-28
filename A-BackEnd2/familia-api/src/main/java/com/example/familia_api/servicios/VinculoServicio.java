@@ -30,10 +30,10 @@ public class VinculoServicio {
 
     public VinculoDTO crearVinculo(VinculoDTO vinculoDTO) throws Exception {
         try {
-            Estudiante estudiante = estudianteRepositorio.findById(vinculoDTO.getEstudianteId())
+            Estudiante estudiante = estudianteRepositorio.findById(vinculoDTO.getEstudiante().getId())
                     .orElseThrow(() -> new Exception("Estudiante no encontrado"));
 
-            Familiar familiar = familiarRepositorio.findById(vinculoDTO.getFamiliarId())
+            Familiar familiar = familiarRepositorio.findById(vinculoDTO.getFamiliar().getId())
                     .orElseThrow(() -> new Exception("Familiar no encontrado"));
 
             Vinculo vinculo = new Vinculo(estudiante, familiar, vinculoDTO.getParentesco());

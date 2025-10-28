@@ -44,4 +44,17 @@ public class ConsultaControlador {
                     .body(error.getMessage());
         }
     }
+
+    @GetMapping("/{id}/completa")
+    public ResponseEntity<?> obtenerConsultaCompleta(@PathVariable Integer id) {
+        try {
+            return ResponseEntity
+                    .status(HttpStatus.OK)
+                    .body(consultaServicio.obtenerConsultaCompleta(id));
+        } catch (Exception error) {
+            return ResponseEntity
+                    .status(HttpStatus.NOT_FOUND)
+                    .body(error.getMessage());
+        }
+    }
 }

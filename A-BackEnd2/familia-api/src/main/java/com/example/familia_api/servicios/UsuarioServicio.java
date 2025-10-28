@@ -16,6 +16,9 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+// AQUI LLAMAMOS A NUESTRO REPOSITORIO PARA QUE HAGA EL TRABAJO DE IR A LA COCINA, EL CHEF HACE LA COMIDA
+// LA RETORNA A LOS CONTROLLADORES
+
 @Service
 public class UsuarioServicio {
 

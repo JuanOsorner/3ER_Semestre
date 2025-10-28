@@ -3,8 +3,8 @@ package com.example.familia_api.modelos.dto;
 public class VinculoDTO {
 
     private Integer id;
-    private Integer estudianteId;
-    private Integer familiarId;
+    private EstudianteDTO estudiante;
+    private FamiliarDTO familiar;
     private String parentesco;
 
     // Getters y Setters
@@ -17,20 +17,20 @@ public class VinculoDTO {
         this.id = id;
     }
 
-    public Integer getEstudianteId() {
-        return estudianteId;
+    public EstudianteDTO getEstudiante() {
+        return estudiante;
     }
 
-    public void setEstudianteId(Integer estudianteId) {
-        this.estudianteId = estudianteId;
+    public void setEstudiante(EstudianteDTO estudiante) {
+        this.estudiante = estudiante;
     }
 
-    public Integer getFamiliarId() {
-        return familiarId;
+    public FamiliarDTO getFamiliar() {
+        return familiar;
     }
 
-    public void setFamiliarId(Integer familiarId) {
-        this.familiarId = familiarId;
+    public void setFamiliar(FamiliarDTO familiar) {
+        this.familiar = familiar;
     }
 
     public String getParentesco() {

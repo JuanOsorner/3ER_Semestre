@@ -1,6 +1,7 @@
 package com.example.familia_api.modelos.mapas;
 
 import com.example.familia_api.modelos.Consulta;
+import com.example.familia_api.modelos.dto.ConsultaCompletaDTO;
 import com.example.familia_api.modelos.dto.ConsultaDTO;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
@@ -21,4 +22,10 @@ public interface IMapaConsulta {
     Consulta toEntity(ConsultaDTO dto);
 
     List<ConsultaDTO> toDtoList(List<Consulta> consultas);
+
+    @Mapping(source = "id", target = "id")
+    @Mapping(source = "vinculo", target = "vinculo")
+    @Mapping(source = "fechaConsulta", target = "fechaConsulta")
+    @Mapping(source = "observaciones", target = "observaciones")
+    ConsultaCompletaDTO toCompletaDto(Consulta consulta);
 }

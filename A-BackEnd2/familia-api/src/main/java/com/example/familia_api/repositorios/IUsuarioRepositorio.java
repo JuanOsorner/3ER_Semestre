@@ -9,6 +9,6 @@ import java.util.Optional;
 @Repository
 public interface IUsuarioRepositorio extends JpaRepository<Usuario, Integer> {
 
-    // Se añade un método derivado de consulta para buscar un Usuario por su correo.
+    // Una sola consulta derivadad
     Optional<Usuario> findByCorreo(String correo);
 }
