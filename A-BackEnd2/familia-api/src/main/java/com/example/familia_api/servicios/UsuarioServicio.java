@@ -149,4 +149,16 @@ public class UsuarioServicio {
             throw new Exception("Error al eliminar el usuario: " + error.getMessage());
         }
     }
+
+    public void eliminarUsuarioPorId(Integer id) throws Exception {
+        try {
+            Optional<Usuario> usuarioOptional = usuarioRepositorio.findById(id);
+            if (usuarioOptional.isEmpty()) {
+                throw new Exception("Usuario no encontrado para eliminar.");
+            }
+            usuarioRepositorio.deleteById(id);
+        } catch (Exception error) {
+            throw new Exception("Error al eliminar el usuario: " + error.getMessage());
+        }
+    }
 }

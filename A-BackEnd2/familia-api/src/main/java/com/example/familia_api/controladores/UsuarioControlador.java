@@ -45,6 +45,7 @@ public class UsuarioControlador {
 
     @GetMapping
     public ResponseEntity<?> buscarTodosLosUsuarios() {
+        // Devolvemos en el body todos los usuarios que encontramos
         try {
             return ResponseEntity
                     .status(HttpStatus.OK)
@@ -57,6 +58,7 @@ public class UsuarioControlador {
     }
 
     // AQUI ESTAMOS USANDO REQUESTBODY PARA EXTRAER EL VALOR DEL CUERPO DE LA PETICIÓN
+    // Estamos tomando un DTO para no exponer la estructura de la base de datos
     @PostMapping("/login")
     public ResponseEntity<?> loginUsuario(@RequestBody LoginRequestDTO loginRequest) {
         try {
@@ -96,6 +98,7 @@ public class UsuarioControlador {
         }
     }
 
+    // Por el momento no lo vamos a usar
     @DeleteMapping("/correo/{correo}")
     public ResponseEntity<?> eliminarUsuarioPorCorreo(@PathVariable String correo) {
         try {
@@ -107,6 +110,21 @@ public class UsuarioControlador {
             return ResponseEntity
                     .status(HttpStatus.NOT_FOUND)
                     .body(error.getMessage());
+        }
+    }
+
+    // Este es el endpoint que se consume victor
+    @DeleteMapping("/{id}")
+    public ResponseEntity<?> eliminarUsuarioPorId(@PathVariable Integer id){ // Corregido @pathVariable a @PathVariable
+        try{
+            usuarioServicio.eliminarUsuarioPorId(id);
+            return ResponseEntity
+                    .status(HttpStatus.NO_CONTENT)
+                    .build(); // Usar .build() para 204 No Content
+        }catch (Exception error){
+            return ResponseEntity
+                    .status(HttpStatus.NOT_FOUND)
+                    .body("Error al eliminar el usuario: \n\n"+error.getMessage());
         }
     }
 }
