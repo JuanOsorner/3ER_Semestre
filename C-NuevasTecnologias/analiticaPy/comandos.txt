@@ -6,6 +6,8 @@
 
 2. Instalamos nuestras librerias que vamos a usar para este proyecto:
 
+        PRIMERO APLICAMOS 3.
+
         pip install requests pandas matplotlib seaborn
 
 3. Como correr el entorno
