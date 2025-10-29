@@ -8,7 +8,7 @@ import org.mapstruct.Mapping;
 
 import java.util.List;
 
-@Mapper(componentModel = "spring")
+@Mapper(componentModel = "spring", uses = IMapaVinculo.class)
 public interface IMapaConsulta {
 
     @Mapping(source = "id", target = "id")
@@ -28,4 +28,6 @@ public interface IMapaConsulta {
     @Mapping(source = "fechaConsulta", target = "fechaConsulta")
     @Mapping(source = "observaciones", target = "observaciones")
     ConsultaCompletaDTO toCompletaDto(Consulta consulta);
+
+    List<ConsultaCompletaDTO> toCompletaDtoList(List<Consulta> consultas);
 }

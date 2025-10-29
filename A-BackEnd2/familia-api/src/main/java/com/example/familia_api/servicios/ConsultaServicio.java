@@ -2,6 +2,8 @@ package com.example.familia_api.servicios;
 
 import com.example.familia_api.modelos.Consulta;
 import com.example.familia_api.modelos.Vinculo;
+import com.example.familia_api.modelos.dto.AccesoEstudianteDTO;
+import com.example.familia_api.modelos.dto.AccesoHoraDTO;
 import com.example.familia_api.modelos.dto.ConsultaCompletaDTO;
 import com.example.familia_api.modelos.dto.ConsultaDTO;
 import com.example.familia_api.modelos.mapas.IMapaConsulta;
@@ -53,6 +55,30 @@ public class ConsultaServicio {
             return mapaConsulta.toCompletaDto(consulta);
         } catch (Exception error) {
             throw new Exception("Error al obtener la consulta: " + error.getMessage());
+        }
+    }
+
+    public List<ConsultaCompletaDTO> listarConsultasCompletas() throws Exception {
+        try {
+            return mapaConsulta.toCompletaDtoList(consultaRepositorio.findAllCompleta());
+        } catch (Exception error) {
+            throw new Exception("Error al listar las consultas completas: " + error.getMessage());
+        }
+    }
+
+    public List<AccesoEstudianteDTO> obtenerAccesosPorEstudiante() throws Exception {
+        try {
+            return consultaRepositorio.countConsultasByEstudiante();
+        } catch (Exception error) {
+            throw new Exception("Error al obtener accesos por estudiante: " + error.getMessage());
+        }
+    }
+
+    public List<AccesoHoraDTO> obtenerAccesosPorHora() throws Exception {
+        try {
+            return consultaRepositorio.countConsultasByHora();
+        } catch (Exception error) {
+            throw new Exception("Error al obtener accesos por hora: " + error.getMessage());
         }
     }
 }

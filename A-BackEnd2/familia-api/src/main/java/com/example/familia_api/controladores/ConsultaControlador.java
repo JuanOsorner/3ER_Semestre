@@ -7,6 +7,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Map;
+
 @RestController
 @RequestMapping("/consultas")
 public class ConsultaControlador {
@@ -14,20 +16,22 @@ public class ConsultaControlador {
     @Autowired
     private ConsultaServicio consultaServicio;
 
-    // post recibe del cuerpo de la peticion json por eso requestBody
     @PostMapping
-    public ResponseEntity<?> registrarConsulta(@RequestBody ConsultaDTO consultaDTO) {
+    public ResponseEntity<?> registrarConsulta(@RequestBody Map<String, Object> requestBody) {
         try {
+            Integer vinculoId = (Integer) requestBody.get("vinculoId");
+            String observaciones = (String) requestBody.get("observaciones");
+
             return ResponseEntity
                     .status(HttpStatus.CREATED)
-                    .body(consultaServicio.registrarConsulta(consultaDTO.getVinculoId(), consultaDTO.getObservaciones()));
+                    .body(consultaServicio.registrarConsulta(vinculoId, observaciones));
         } catch (Exception error) {
             return ResponseEntity
                     .status(HttpStatus.BAD_REQUEST)
                     .body(error.getMessage());
         }
     }
-    // Get recibe de la url, por eso path
+
     @GetMapping
     public ResponseEntity<?> listarConsultas() {
         try {
@@ -50,6 +54,45 @@ public class ConsultaControlador {
         } catch (Exception error) {
             return ResponseEntity
                     .status(HttpStatus.NOT_FOUND)
+                    .body(error.getMessage());
+        }
+    }
+
+    @GetMapping("/completas")
+    public ResponseEntity<?> listarConsultasCompletas() {
+        try {
+            return ResponseEntity
+                    .status(HttpStatus.OK)
+                    .body(consultaServicio.listarConsultasCompletas());
+        } catch (Exception error) {
+            return ResponseEntity
+                    .status(HttpStatus.BAD_REQUEST)
+                    .body(error.getMessage());
+        }
+    }
+
+    @GetMapping("/analiticas/accesos-por-estudiante")
+    public ResponseEntity<?> obtenerAccesosPorEstudiante() {
+        try {
+            return ResponseEntity
+                    .status(HttpStatus.OK)
+                    .body(consultaServicio.obtenerAccesosPorEstudiante());
+        } catch (Exception error) {
+            return ResponseEntity
+                    .status(HttpStatus.BAD_REQUEST)
+                    .body(error.getMessage());
+        }
+    }
+
+    @GetMapping("/analiticas/accesos-por-hora")
+    public ResponseEntity<?> obtenerAccesosPorHora() {
+        try {
+            return ResponseEntity
+                    .status(HttpStatus.OK)
+                    .body(consultaServicio.obtenerAccesosPorHora());
+        } catch (Exception error) {
+            return ResponseEntity
+                    .status(HttpStatus.BAD_REQUEST)
                     .body(error.getMessage());
         }
     }
